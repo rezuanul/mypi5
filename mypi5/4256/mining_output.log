@@ -1,0 +1,131 @@
+INFO [12-13|19:48:22.950] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|19:48:22.954] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|19:48:22.963] Set global gas cap                       cap=50,000,000
+INFO [12-13|19:48:22.969] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|19:48:22.970] Using leveldb as the backing database 
+INFO [12-13|19:48:22.970] Allocated cache and file handles         database=/home/raspberry-node/.testchain44/geth/chaindata cache=512.00MiB handles=524,288
+INFO [12-13|19:48:23.013] Using LevelDB as the backing database 
+INFO [12-13|19:48:23.014] Opened ancient database                  database=/home/raspberry-node/.testchain44/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|19:48:23.016] Disk storage enabled for ethash caches   dir=/home/raspberry-node/.testchain44/geth/ethash count=3
+INFO [12-13|19:48:23.016] Disk storage enabled for ethash DAGs     dir=/home/raspberry-node/.ethash count=2
+INFO [12-13|19:48:23.016] Initialising Ethereum protocol           network=42 dbversion=<nil>
+INFO [12-13|19:48:23.017]  
+INFO [12-13|19:48:23.018] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|19:48:23.018] Chain ID:  4255 (unknown) 
+INFO [12-13|19:48:23.018] Consensus: Ethash (proof-of-work) 
+INFO [12-13|19:48:23.018]  
+INFO [12-13|19:48:23.018] Pre-Merge hard forks (block based): 
+INFO [12-13|19:48:23.018]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|19:48:23.018]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|19:48:23.018]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|19:48:23.019]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|19:48:23.019]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|19:48:23.019]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|19:48:23.019]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|19:48:23.019]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|19:48:23.019]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|19:48:23.019]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|19:48:23.019]  
+INFO [12-13|19:48:23.019] The Merge is not yet available for this network! 
+INFO [12-13|19:48:23.019]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|19:48:23.019]  
+INFO [12-13|19:48:23.019] Post-Merge hard forks (timestamp based): 
+INFO [12-13|19:48:23.019]  
+INFO [12-13|19:48:23.019] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|19:48:23.019]  
+INFO [12-13|19:48:23.020] Loaded most recent local block           number=0 hash=15e889..fbdc3a td=30 age=54y8mo3w
+WARN [12-13|19:48:23.020] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [12-13|19:48:23.021] Rebuilding state snapshot 
+INFO [12-13|19:48:23.021] Resuming state snapshot generation       root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="613.491µs"
+INFO [12-13|19:48:23.022] Generated state snapshot                 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.189ms
+INFO [12-13|19:48:23.022] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|19:48:23.023] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|19:48:23.023] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [12-13|19:48:23.023] Engine API enabled                       protocol=eth
+WARN [12-13|19:48:23.023] Engine API started but chain not configured for merge yet 
+INFO [12-13|19:48:23.024] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+INFO [12-13|19:48:23.057] New local node record                    seq=1,702,493,303,056 id=45e168888c22b094 ip=127.0.0.1 udp=0 tcp=4242
+INFO [12-13|19:48:23.058] Started P2P networking                   self="enode://d1e29ad841e771f889cd0fdf4cb2e5e76ade1b40bf7f21be353a15c06e9e90428d018eb559c978b6528de757da6339b57cef360f6633e5caec3451db41277b3a@127.0.0.1:4242?discport=0"
+INFO [12-13|19:48:23.059] IPC endpoint opened                      url=/home/raspberry-node/.testchain44/geth.ipc
+INFO [12-13|19:48:23.060] Generated JWT secret                     path=/home/raspberry-node/.testchain44/geth/jwtsecret
+INFO [12-13|19:48:23.062] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|19:48:23.062] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+coinbase: 0x87270ce1598e289dabfb574e146174467562f147
+at block: 0 (Thu Jan 01 1970 01:00:00 GMT+0100 (CET))
+ datadir: /home/raspberry-node/.testchain44
+ modules: admin:1.0 debug:1.0 engine:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+To exit, press ctrl-d or type exit
+> INFO [12-13|19:48:43.980] Looking for peers                        peercount=1 tried=0 static=0
+INFO [12-13|19:48:56.671] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:49:31.672] Looking for peers                        peercount=2 tried=1 static=1
+INFO [12-13|19:49:41.720] Looking for peers                        peercount=2 tried=0 static=2
+INFO [12-13|19:49:43.389] Block synchronisation started 
+INFO [12-13|19:49:45.780] Imported new chain segment               number=10 hash=cc683e..315e8c blocks=10 txs=0 mgas=0.000 elapsed=34.074ms    mgasps=0.000 dirty=3.29KiB
+INFO [12-13|19:49:45.781] Syncing: chain download in progress      synced=+Inf% chain=18.00B headers=10@6.00B bodies=10@6.00B receipts=10@6.00B eta=-35.977ms
+WARN [12-13|19:49:45.782] Synchronisation failed, retrying         err="sync cancelled"
+WARN [12-13|19:49:46.592] Snap syncing, discarded propagated block number=11 hash=48e3a4..acb904
+WARN [12-13|19:49:53.412] Snap syncing, discarded propagated block number=10 hash=63ba01..0f6eb3
+WARN [12-13|19:49:54.008] Snap syncing, discarded propagated block number=10 hash=63ba01..0f6eb3
+INFO [12-13|19:49:55.852] Syncing: state download in progress      synced=20.64% state=194.00B accounts=1@194.00B slots=0@0.00B codes=0@0.00B eta=46.888s
+INFO [12-13|19:49:55.905] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=18@6.00B bodies=10@6.00B receipts=10@6.00B eta=0s
+INFO [12-13|19:49:55.906] Syncing: state download in progress      synced=56.40%  state=194.00B accounts=1@194.00B slots=0@0.00B codes=0@0.00B eta=9.469s
+WARN [12-13|19:49:55.906] Unexpected account range packet          peer=a51566e3 reqid=4,198,799,455,154,109,024
+WARN [12-13|19:49:55.912] Unexpected account range packet          peer=dbf2b7bd reqid=2,873,808,762,148,505,086
+INFO [12-13|19:49:55.947] Syncing: state download in progress      synced=100.00% state=582.00B accounts=3@582.00B slots=0@0.00B codes=0@0.00B eta=-326ns
+INFO [12-13|19:49:55.975] Syncing: state healing in progress       accounts=3@138.00B slots=0@0.00B codes=0@0.00B nodes=4@460.00B pending=0
+INFO [12-13|19:49:55.976] Rebuilding state snapshot 
+INFO [12-13|19:49:55.977] Committed new head block                 number=10 hash=cc683e..315e8c
+INFO [12-13|19:49:55.977] Resuming state snapshot generation       root=70f9ba..46f9ec accounts=0         slots=0       storage=0.00B dangling=0 elapsed="933.818µs"
+INFO [12-13|19:49:55.982] Generated state snapshot                 accounts=3         slots=0       storage=141.00B dangling=0 elapsed=5.706ms
+INFO [12-13|19:49:56.002] Imported new chain segment               number=18 hash=a31f92..3c0c9b blocks=8  txs=0 mgas=0.000 elapsed=24.805ms    mgasps=0.000 dirty=7.08KiB
+WARN [12-13|19:49:57.748] Snap syncing, discarded propagated block number=19 hash=1b8315..e13f69
+INFO [12-13|19:49:58.887] Imported new chain segment               number=20 hash=cf14dd..fe6f38 blocks=2  txs=0 mgas=0.000 elapsed=9.389ms     mgasps=0.000 dirty=8.02KiB
+INFO [12-13|19:49:58.888] Syncing: chain download in progress      synced=200.00% chain=18.00B headers=20@6.00B bodies=20@6.00B receipts=20@6.00B eta=-6.571s
+INFO [12-13|19:49:58.889] Snap sync complete, auto disabling 
+INFO [12-13|19:50:00.964] Imported new chain segment               number=21 hash=74cc9a..707279 blocks=1  txs=0 mgas=0.000 elapsed=15.113ms    mgasps=0.000 dirty=8.50KiB
+INFO [12-13|19:50:02.128] Imported new chain segment               number=22 hash=d1626d..613398 blocks=1  txs=0 mgas=0.000 elapsed=15.134ms    mgasps=0.000 dirty=8.97KiB
+INFO [12-13|19:50:02.158] Imported new chain segment               number=23 hash=9b7efc..093a8a blocks=1  txs=0 mgas=0.000 elapsed=15.827ms    mgasps=0.000 dirty=9.44KiB
+INFO [12-13|19:50:03.760] Imported new chain segment               number=24 hash=da8c88..8c8160 blocks=1  txs=0 mgas=0.000 elapsed=15.340ms    mgasps=0.000 dirty=9.92KiB
+INFO [12-13|19:50:04.113] Imported new chain segment               number=25 hash=4e00c2..fbc397 blocks=1  txs=0 mgas=0.000 elapsed=16.053ms    mgasps=0.000 dirty=10.39KiB
+INFO [12-13|19:50:06.867] Imported new chain segment               number=26 hash=e2156b..2c7a50 blocks=1  txs=0 mgas=0.000 elapsed=14.830ms    mgasps=0.000 dirty=10.87KiB
+INFO [12-13|19:50:08.763] Imported new chain segment               number=27 hash=756ecf..937245 blocks=1  txs=0 mgas=0.000 elapsed=15.350ms    mgasps=0.000 dirty=11.34KiB
+INFO [12-13|19:50:10.123] Imported new chain segment               number=28 hash=40373e..ce4077 blocks=1  txs=0 mgas=0.000 elapsed=16.512ms    mgasps=0.000 dirty=11.81KiB
+INFO [12-13|19:50:11.988] Imported new chain segment               number=29 hash=bc08c0..7d7308 blocks=1  txs=0 mgas=0.000 elapsed=18.096ms    mgasps=0.000 dirty=12.32KiB
+INFO [12-13|19:50:12.349] Chain reorg detected                     number=28 hash=40373e..ce4077 drop=1 dropfrom=bc08c0..7d7308 add=1 addfrom=eabd0f..9c2e9a
+INFO [12-13|19:50:12.350] Imported new chain segment               number=29 hash=eabd0f..9c2e9a blocks=1  txs=0 mgas=0.000 elapsed=16.152ms    mgasps=0.000 dirty=12.79KiB
+INFO [12-13|19:50:16.721] Looking for peers                        peercount=3 tried=1 static=2
+INFO [12-13|19:50:19.051] Chain reorg detected                     number=28 hash=40373e..ce4077 drop=1 dropfrom=eabd0f..9c2e9a add=2 addfrom=d42083..33098a
+INFO [12-13|19:50:19.052] Imported new chain segment               number=30 hash=d42083..33098a blocks=1  txs=0 mgas=0.000 elapsed=27.542ms    mgasps=0.000 dirty=13.54KiB
+INFO [12-13|19:50:20.552] Imported new chain segment               number=31 hash=0a975c..335b81 blocks=1  txs=0 mgas=0.000 elapsed=16.861ms    mgasps=0.000 dirty=14.04KiB
+INFO [12-13|19:50:21.095] Imported new chain segment               number=32 hash=4b4813..784de8 blocks=1  txs=0 mgas=0.000 elapsed=15.502ms    mgasps=0.000 dirty=14.55KiB
+INFO [12-13|19:50:21.253] Imported new chain segment               number=33 hash=bc674c..68686a blocks=1  txs=0 mgas=0.000 elapsed=16.258ms    mgasps=0.000 dirty=15.05KiB
+INFO [12-13|19:50:23.382] Imported new chain segment               number=34 hash=d7072c..7a5290 blocks=1  txs=0 mgas=0.000 elapsed=14.760ms    mgasps=0.000 dirty=15.56KiB
+INFO [12-13|19:50:28.424] Imported new chain segment               number=35 hash=3db2c4..c4c889 blocks=1  txs=0 mgas=0.000 elapsed=15.251ms    mgasps=0.000 dirty=16.07KiB
+INFO [12-13|19:50:29.048] Imported new chain segment               number=36 hash=5f4910..cdd6c3 blocks=1  txs=0 mgas=0.000 elapsed=15.128ms    mgasps=0.000 dirty=16.60KiB
+INFO [12-13|19:50:29.157] Imported new chain segment               number=36 hash=52f053..2b0877 blocks=1  txs=0 mgas=0.000 elapsed=12.128ms    mgasps=0.000 dirty=17.11KiB
+INFO [12-13|19:50:29.675] Chain reorg detected                     number=35 hash=3db2c4..c4c889 drop=1 dropfrom=5f4910..cdd6c3 add=2 addfrom=6041ea..9a9cc3
+INFO [12-13|19:50:29.676] Imported new chain segment               number=37 hash=6041ea..9a9cc3 blocks=1  txs=0 mgas=0.000 elapsed=16.253ms    mgasps=0.000 dirty=17.61KiB
+INFO [12-13|19:50:30.035] Chain reorg detected                     number=35 hash=3db2c4..c4c889 drop=2 dropfrom=6041ea..9a9cc3 add=2 addfrom=69079c..e13d6a
+INFO [12-13|19:50:30.036] Imported new chain segment               number=37 hash=69079c..e13d6a blocks=1  txs=0 mgas=0.000 elapsed=29.006ms    mgasps=0.000 dirty=18.39KiB
+INFO [12-13|19:50:30.465] Imported new chain segment               number=38 hash=33ea8a..26f83c blocks=1  txs=0 mgas=0.000 elapsed=15.502ms    mgasps=0.000 dirty=18.92KiB
+INFO [12-13|19:50:31.040] Imported new chain segment               number=39 hash=e4e4c2..842a3d blocks=1  txs=0 mgas=0.000 elapsed=20.123ms    mgasps=0.000 dirty=19.46KiB
+INFO [12-13|19:50:31.134] Chain reorg detected                     number=38 hash=33ea8a..26f83c drop=1 dropfrom=e4e4c2..842a3d add=1 addfrom=96a123..e058e5
+INFO [12-13|19:50:31.135] Imported new chain segment               number=39 hash=96a123..e058e5 blocks=1  txs=0 mgas=0.000 elapsed=12.633ms    mgasps=0.000 dirty=20.00KiB
+INFO [12-13|19:50:31.689] Chain reorg detected                     number=38 hash=33ea8a..26f83c drop=1 dropfrom=96a123..e058e5 add=2 addfrom=dc6812..93891f
+INFO [12-13|19:50:31.690] Imported new chain segment               number=40 hash=dc6812..93891f blocks=1  txs=0 mgas=0.000 elapsed=16.141ms    mgasps=0.000 dirty=20.53KiB
+INFO [12-13|19:50:32.228] Imported new chain segment               number=40 hash=274a39..d50d27 blocks=1  txs=0 mgas=0.000 elapsed=28.273ms    mgasps=0.000 dirty=21.31KiB
+INFO [12-13|19:50:36.249] Chain reorg detected                     number=38 hash=33ea8a..26f83c drop=2 dropfrom=dc6812..93891f add=3 addfrom=b5e38f..d207a8
+INFO [12-13|19:50:36.250] Imported new chain segment               number=41 hash=b5e38f..d207a8 blocks=1  txs=0 mgas=0.000 elapsed=15.779ms    mgasps=0.000 dirty=21.84KiB
+INFO [12-13|19:50:39.815] Updated mining threads                   threads=1
+INFO [12-13|19:50:39.815] Transaction pool price threshold updated price=1,000,000,000
+INFO [12-13|19:50:39.816] Commit new sealing work                  number=42 sealhash=e153f8..56b97c uncles=0 txs=0 gas=0 fees=0 elapsed="759.692µs"
+INFO [12-13|19:50:39.817] Commit new sealing work                  number=42 sealhash=e153f8..56b97c uncles=0 txs=0 gas=0 fees=0 elapsed=1.667ms
+INFO [12-13|19:50:40.005] Successfully sealed new block            number=42 sealhash=e153f8..56b97c hash=4a1fe5..d5b544 elapsed=188.461ms
+INFO [12-13|19:50:40.005] "🔨 mined potential block"                number=42 hash=4a1fe5..d5b544
+INFO [12-13|19:50:40.006] Commit new sealing work                  number=43 sealhash=9663eb..e27243 uncles=0 txs=0 gas=0 fees=0 elapsed=1.017ms
+INFO [12-13|19:50:40.006] Commit new sealing work                  number=43 sealhash=9663eb..e27243 uncles=0 txs=0 gas=0 fees=0 elapsed=1.338ms
+INFO [12-13|19:50:52.288] Looking for peers                        peercount=2 tried=0 static=2

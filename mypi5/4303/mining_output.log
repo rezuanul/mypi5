@@ -1,0 +1,472 @@
+INFO [12-13|19:30:53.934] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-13|19:30:53.938] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-13|19:30:53.945] Set global gas cap                       cap=50,000,000
+INFO [12-13|19:30:53.954] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-13|19:30:53.954] Using leveldb as the backing database 
+INFO [12-13|19:30:53.954] Allocated cache and file handles         database=/home/raspberry-node/.testchain44/geth/chaindata cache=512.00MiB handles=524,288
+INFO [12-13|19:30:54.000] Using LevelDB as the backing database 
+INFO [12-13|19:30:54.002] Opened ancient database                  database=/home/raspberry-node/.testchain44/geth/chaindata/ancient/chain readonly=false
+INFO [12-13|19:30:54.003] Disk storage enabled for ethash caches   dir=/home/raspberry-node/.testchain44/geth/ethash count=3
+INFO [12-13|19:30:54.003] Disk storage enabled for ethash DAGs     dir=/home/raspberry-node/.ethash count=2
+INFO [12-13|19:30:54.004] Initialising Ethereum protocol           network=42 dbversion=<nil>
+INFO [12-13|19:30:54.005]  
+INFO [12-13|19:30:54.005] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|19:30:54.005] Chain ID:  4303 (unknown) 
+INFO [12-13|19:30:54.005] Consensus: Ethash (proof-of-work) 
+INFO [12-13|19:30:54.005]  
+INFO [12-13|19:30:54.006] Pre-Merge hard forks (block based): 
+INFO [12-13|19:30:54.006]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-13|19:30:54.006]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-13|19:30:54.006]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|19:30:54.006]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-13|19:30:54.006]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-13|19:30:54.006]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-13|19:30:54.006]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-13|19:30:54.006]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-13|19:30:54.007]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-13|19:30:54.007]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-13|19:30:54.007]  
+INFO [12-13|19:30:54.007] The Merge is not yet available for this network! 
+INFO [12-13|19:30:54.007]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-13|19:30:54.007]  
+INFO [12-13|19:30:54.007] Post-Merge hard forks (timestamp based): 
+INFO [12-13|19:30:54.008]  
+INFO [12-13|19:30:54.008] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-13|19:30:54.008]  
+INFO [12-13|19:30:54.008] Loaded most recent local block           number=0 hash=45f300..179bfa td=250 age=54y8mo3w
+WARN [12-13|19:30:54.009] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [12-13|19:30:54.009] Rebuilding state snapshot 
+INFO [12-13|19:30:54.010] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-13|19:30:54.010] Resuming state snapshot generation       root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.191ms
+INFO [12-13|19:30:54.011] Generated state snapshot                 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.872ms
+INFO [12-13|19:30:54.011] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-13|19:30:54.012] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [12-13|19:30:54.012] Engine API enabled                       protocol=eth
+WARN [12-13|19:30:54.012] Engine API started but chain not configured for merge yet 
+INFO [12-13|19:30:54.012] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+INFO [12-13|19:30:54.048] IPC endpoint opened                      url=/home/raspberry-node/.testchain44/geth.ipc
+INFO [12-13|19:30:54.048] Generated JWT secret                     path=/home/raspberry-node/.testchain44/geth/jwtsecret
+INFO [12-13|19:30:54.049] New local node record                    seq=1,702,492,254,045 id=b0cbff83328aa80e ip=127.0.0.1 udp=0 tcp=4242
+INFO [12-13|19:30:54.050] Started P2P networking                   self="enode://0c447e1581a3822ff679021010339a3e262e12b9af7e61f2e64bdf763960c57a9239543e6bee4c44c3e89d8a9197a45e4182a1f4890e305e434e3f51b1a94350@127.0.0.1:4242?discport=0"
+INFO [12-13|19:30:54.050] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-13|19:30:54.050] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+INFO [12-13|19:30:54.058] Mapped network port                      proto=tcp extport=4242 intport=4242 interface=NAT-PMP(192.168.1.1)
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+coinbase: 0xea0e5642c1adf8624d01a5eeb6d95b839eeeaddc
+at block: 0 (Thu Jan 01 1970 01:00:00 GMT+0100 (CET))
+ datadir: /home/raspberry-node/.testchain44
+ modules: admin:1.0 debug:1.0 engine:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+To exit, press ctrl-d or type exit
+> INFO [12-13|19:30:54.735] New local node record                    seq=1,702,492,254,046 id=b0cbff83328aa80e ip=192.168.1.87 udp=0 tcp=4242
+INFO [12-13|19:31:22.234] Updated mining threads                   threads=1
+INFO [12-13|19:31:22.234] Transaction pool price threshold updated price=1,000,000,000
+INFO [12-13|19:31:22.235] Commit new sealing work                  number=1 sealhash=964188..6984b7 uncles=0 txs=0 gas=0 fees=0 elapsed=1.013ms
+INFO [12-13|19:31:22.236] Commit new sealing work                  number=1 sealhash=964188..6984b7 uncles=0 txs=0 gas=0 fees=0 elapsed=1.718ms
+WARN [12-13|19:31:22.702] Snap syncing, discarded propagated block number=1 hash=5289ea..6cfc6f
+WARN [12-13|19:31:26.257] Snap syncing, discarded propagated block number=1 hash=c57b4a..eebafc
+INFO [12-13|19:31:26.719] Successfully sealed new block            number=1 sealhash=964188..6984b7 hash=90d347..a109f6 elapsed=4.483s
+INFO [12-13|19:31:26.719] "🔨 mined potential block"                number=1 hash=90d347..a109f6
+INFO [12-13|19:31:26.720] Commit new sealing work                  number=2 sealhash=b29d80..bb89c7 uncles=0 txs=0 gas=0 fees=0 elapsed="551.772µs"
+INFO [12-13|19:31:26.720] Commit new sealing work                  number=2 sealhash=b29d80..bb89c7 uncles=0 txs=0 gas=0 fees=0 elapsed=1.015ms
+WARN [12-13|19:31:27.658] Snap syncing, discarded propagated block number=1 hash=c57b4a..eebafc
+WARN [12-13|19:31:27.661] Snap syncing, discarded propagated block number=1 hash=5289ea..6cfc6f
+WARN [12-13|19:31:31.330] Snap syncing, discarded propagated block number=1 hash=5ef94f..2b45ef
+INFO [12-13|19:31:35.195] Looking for peers                        peercount=2 tried=1 static=1
+INFO [12-13|19:31:35.738] Successfully sealed new block            number=2 sealhash=b29d80..bb89c7 hash=2f2c65..63acb8 elapsed=9.018s
+INFO [12-13|19:31:35.739] "🔨 mined potential block"                number=2 hash=2f2c65..63acb8
+INFO [12-13|19:31:35.740] Commit new sealing work                  number=3 sealhash=6bf096..7b7963 uncles=0 txs=0 gas=0 fees=0 elapsed=1.293ms
+INFO [12-13|19:31:35.740] Commit new sealing work                  number=3 sealhash=6bf096..7b7963 uncles=0 txs=0 gas=0 fees=0 elapsed=1.716ms
+INFO [12-13|19:31:42.906] Block synchronisation started 
+INFO [12-13|19:31:42.906] Mining aborted due to sync 
+WARN [12-13|19:31:42.913] Invalid header encountered               number=1 hash=5289ea..6cfc6f parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:31:42.914] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=2@6.00B bodies=2@6.00B receipts=2@6.00B eta=0s
+WARN [12-13|19:31:42.917] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:31:42.918] Commit new sealing work                  number=3 sealhash=b15f34..030df2 uncles=0 txs=0 gas=0 fees=0 elapsed="571.772µs"
+INFO [12-13|19:31:42.918] Commit new sealing work                  number=3 sealhash=b15f34..030df2 uncles=0 txs=0 gas=0 fees=0 elapsed=1.301ms
+WARN [12-13|19:31:42.923] Unexpected account range packet          peer=b580f615 reqid=2,754,668,648,739,919,724
+INFO [12-13|19:31:43.251] Successfully sealed new block            number=3 sealhash=b15f34..030df2 hash=64c4e8..d8fd4f elapsed=333.957ms
+INFO [12-13|19:31:43.252] "🔨 mined potential block"                number=3 hash=64c4e8..d8fd4f
+INFO [12-13|19:31:43.253] Commit new sealing work                  number=4 sealhash=78e9ed..4db342 uncles=0 txs=0 gas=0 fees=0 elapsed="709.011µs"
+INFO [12-13|19:31:43.253] Commit new sealing work                  number=4 sealhash=78e9ed..4db342 uncles=0 txs=0 gas=0 fees=0 elapsed=1.394ms
+INFO [12-13|19:31:48.941] Successfully sealed new block            number=4 sealhash=78e9ed..4db342 hash=2fb7e1..7673ca elapsed=5.688s
+INFO [12-13|19:31:48.941] "🔨 mined potential block"                number=4 hash=2fb7e1..7673ca
+INFO [12-13|19:31:48.943] Commit new sealing work                  number=5 sealhash=ea54d4..c3f3d3 uncles=0 txs=0 gas=0 fees=0 elapsed=2.275ms
+INFO [12-13|19:31:48.945] Commit new sealing work                  number=5 sealhash=ea54d4..c3f3d3 uncles=0 txs=0 gas=0 fees=0 elapsed=3.454ms
+INFO [12-13|19:31:51.458] Successfully sealed new block            number=5 sealhash=ea54d4..c3f3d3 hash=bc5f99..cc9043 elapsed=2.514s
+INFO [12-13|19:31:51.458] "🔨 mined potential block"                number=5 hash=bc5f99..cc9043
+INFO [12-13|19:31:51.460] Commit new sealing work                  number=6 sealhash=d7b7c1..225147 uncles=0 txs=0 gas=0 fees=0 elapsed=1.616ms
+INFO [12-13|19:31:51.460] Commit new sealing work                  number=6 sealhash=d7b7c1..225147 uncles=0 txs=0 gas=0 fees=0 elapsed=2.188ms
+INFO [12-13|19:31:59.243] Mining aborted due to sync 
+WARN [12-13|19:31:59.252] Invalid header encountered               number=1 hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:31:59.253] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=5@6.00B bodies=5@6.00B receipts=5@6.00B eta=0s
+WARN [12-13|19:31:59.253] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:31:59.254] Commit new sealing work                  number=6 sealhash=40bfc6..d46504 uncles=0 txs=0 gas=0 fees=0 elapsed="390.773µs"
+INFO [12-13|19:31:59.255] Commit new sealing work                  number=6 sealhash=40bfc6..d46504 uncles=0 txs=0 gas=0 fees=0 elapsed=1.120ms
+INFO [12-13|19:31:59.255] Looking for peers                        peercount=1 tried=1 static=1
+INFO [12-13|19:32:05.377] Successfully sealed new block            number=6 sealhash=40bfc6..d46504 hash=26ed03..5aa558 elapsed=6.123s
+INFO [12-13|19:32:05.380] "🔨 mined potential block"                number=6 hash=26ed03..5aa558
+INFO [12-13|19:32:05.378] Commit new sealing work                  number=7 sealhash=609ef7..9d2643 uncles=0 txs=0 gas=0 fees=0 elapsed="340.885µs"
+INFO [12-13|19:32:05.381] Commit new sealing work                  number=7 sealhash=609ef7..9d2643 uncles=0 txs=0 gas=0 fees=0 elapsed=3.396ms
+INFO [12-13|19:32:09.254] Mining aborted due to sync 
+WARN [12-13|19:32:09.268] Invalid header encountered               number=1 hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:32:09.268] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=6@6.00B bodies=6@6.00B receipts=6@6.00B eta=0s
+WARN [12-13|19:32:09.269] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:32:09.269] Commit new sealing work                  number=7 sealhash=398a47..b0443a uncles=0 txs=0 gas=0 fees=0 elapsed="537.735µs"
+INFO [12-13|19:32:09.270] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-13|19:32:09.271] Commit new sealing work                  number=7 sealhash=398a47..b0443a uncles=0 txs=0 gas=0 fees=0 elapsed=2.464ms
+INFO [12-13|19:32:14.366] Successfully sealed new block            number=7 sealhash=398a47..b0443a hash=f6ff2c..502d7b elapsed=5.097s
+INFO [12-13|19:32:14.367] "🔨 mined potential block"                number=7 hash=f6ff2c..502d7b
+INFO [12-13|19:32:14.368] Commit new sealing work                  number=8 sealhash=73b7a2..f70afe uncles=0 txs=0 gas=0 fees=0 elapsed=1.407ms
+INFO [12-13|19:32:14.368] Commit new sealing work                  number=8 sealhash=73b7a2..f70afe uncles=0 txs=0 gas=0 fees=0 elapsed=2.010ms
+INFO [12-13|19:32:17.132] Successfully sealed new block            number=8 sealhash=73b7a2..f70afe hash=7e867c..8d2a76 elapsed=2.764s
+INFO [12-13|19:32:17.133] "🔗 block reached canonical chain"        number=1 hash=90d347..a109f6
+INFO [12-13|19:32:17.133] Commit new sealing work                  number=9 sealhash=c47318..87d18f uncles=0 txs=0 gas=0 fees=0 elapsed="668.308µs"
+INFO [12-13|19:32:17.133] Commit new sealing work                  number=9 sealhash=c47318..87d18f uncles=0 txs=0 gas=0 fees=0 elapsed=1.000ms
+INFO [12-13|19:32:17.143] "🔨 mined potential block"                number=8 hash=7e867c..8d2a76
+INFO [12-13|19:32:19.271] Mining aborted due to sync 
+WARN [12-13|19:32:19.285] Invalid header encountered               number=1 hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:32:19.285] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=8@6.00B bodies=8@6.00B receipts=8@6.00B eta=0s
+WARN [12-13|19:32:19.286] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:32:19.286] Commit new sealing work                  number=9 sealhash=a28ece..46c8b3 uncles=0 txs=0 gas=0 fees=0 elapsed="325.144µs"
+INFO [12-13|19:32:19.287] Commit new sealing work                  number=9 sealhash=a28ece..46c8b3 uncles=0 txs=0 gas=0 fees=0 elapsed=1.055ms
+INFO [12-13|19:32:19.288] Looking for peers                        peercount=1 tried=1 static=1
+INFO [12-13|19:32:21.179] Successfully sealed new block            number=9 sealhash=a28ece..46c8b3 hash=5cd6e0..0caec4 elapsed=1.892s
+INFO [12-13|19:32:21.180] "🔗 block reached canonical chain"        number=2 hash=2f2c65..63acb8
+INFO [12-13|19:32:21.180] "🔨 mined potential block"                number=9 hash=5cd6e0..0caec4
+INFO [12-13|19:32:21.180] Commit new sealing work                  number=10 sealhash=6bd535..bfeb36 uncles=0 txs=0 gas=0 fees=0 elapsed="676.104µs"
+INFO [12-13|19:32:21.181] Commit new sealing work                  number=10 sealhash=6bd535..bfeb36 uncles=0 txs=0 gas=0 fees=0 elapsed=1.543ms
+INFO [12-13|19:32:23.215] Successfully sealed new block            number=10 sealhash=6bd535..bfeb36 hash=ddb446..225b09 elapsed=2.035s
+INFO [12-13|19:32:23.216] "🔗 block reached canonical chain"        number=3  hash=64c4e8..d8fd4f
+INFO [12-13|19:32:23.216] "🔨 mined potential block"                number=10 hash=ddb446..225b09
+INFO [12-13|19:32:23.217] Commit new sealing work                  number=11 sealhash=b4208f..7d30d3 uncles=0 txs=0 gas=0 fees=0 elapsed=1.465ms
+INFO [12-13|19:32:23.217] Commit new sealing work                  number=11 sealhash=b4208f..7d30d3 uncles=0 txs=0 gas=0 fees=0 elapsed=2.181ms
+INFO [12-13|19:32:29.289] Mining aborted due to sync 
+WARN [12-13|19:32:29.306] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:32:29.308] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=10@6.00B bodies=10@6.00B receipts=10@6.00B eta=0s
+WARN [12-13|19:32:29.309] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:32:29.310] Commit new sealing work                  number=11 sealhash=177d5b..982cbb uncles=0 txs=0 gas=0 fees=0 elapsed="579.179µs"
+INFO [12-13|19:32:29.310] Looking for peers                        peercount=0 tried=0 static=1
+INFO [12-13|19:32:29.310] Commit new sealing work                  number=11 sealhash=177d5b..982cbb uncles=0 txs=0 gas=0 fees=0 elapsed=1.179ms
+INFO [12-13|19:32:44.284] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:32:44.288] Mining aborted due to sync 
+WARN [12-13|19:32:44.308] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:32:44.310] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=10@6.00B bodies=10@6.00B receipts=10@6.00B eta=0s
+WARN [12-13|19:32:44.314] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:32:44.316] Commit new sealing work                  number=11 sealhash=b24f38..3e4baf uncles=0 txs=0 gas=0 fees=0 elapsed=1.552ms
+INFO [12-13|19:32:44.329] Commit new sealing work                  number=11 sealhash=b24f38..3e4baf uncles=0 txs=0 gas=0 fees=0 elapsed=14.068ms
+INFO [12-13|19:32:49.323] Successfully sealed new block            number=11 sealhash=b24f38..3e4baf hash=09ea29..33613a elapsed=5.007s
+INFO [12-13|19:32:49.324] "🔗 block reached canonical chain"        number=4  hash=2fb7e1..7673ca
+INFO [12-13|19:32:49.324] "🔨 mined potential block"                number=11 hash=09ea29..33613a
+INFO [12-13|19:32:49.324] Commit new sealing work                  number=12 sealhash=737f1f..4b3448 uncles=0 txs=0 gas=0 fees=0 elapsed="628.734µs"
+INFO [12-13|19:32:49.325] Commit new sealing work                  number=12 sealhash=737f1f..4b3448 uncles=0 txs=0 gas=0 fees=0 elapsed=1.090ms
+INFO [12-13|19:32:54.139] Successfully sealed new block            number=12 sealhash=737f1f..4b3448 hash=e5abb8..1b117b elapsed=4.814s
+INFO [12-13|19:32:54.139] "🔗 block reached canonical chain"        number=5  hash=bc5f99..cc9043
+INFO [12-13|19:32:54.140] "🔨 mined potential block"                number=12 hash=e5abb8..1b117b
+INFO [12-13|19:32:54.140] Commit new sealing work                  number=13 sealhash=967b3e..169fca uncles=0 txs=0 gas=0 fees=0 elapsed=1.100ms
+INFO [12-13|19:32:54.141] Commit new sealing work                  number=13 sealhash=967b3e..169fca uncles=0 txs=0 gas=0 fees=0 elapsed=1.705ms
+INFO [12-13|19:32:54.316] Mining aborted due to sync 
+WARN [12-13|19:32:54.331] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:32:54.332] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=12@6.00B bodies=12@6.00B receipts=12@6.00B eta=0s
+WARN [12-13|19:32:54.332] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:32:54.333] Commit new sealing work                  number=13 sealhash=967b3e..169fca uncles=0 txs=0 gas=0 fees=0 elapsed="328.238µs"
+INFO [12-13|19:32:54.333] Commit new sealing work                  number=13 sealhash=967b3e..169fca uncles=0 txs=0 gas=0 fees=0 elapsed="994.49µs"
+INFO [12-13|19:32:54.334] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:32:56.486] "🔗 block reached canonical chain"        number=6  hash=26ed03..5aa558
+INFO [12-13|19:32:56.486] Commit new sealing work                  number=14 sealhash=abf656..a73c06 uncles=0 txs=0 gas=0 fees=0 elapsed="595.716µs"
+INFO [12-13|19:32:56.487] Commit new sealing work                  number=14 sealhash=abf656..a73c06 uncles=0 txs=0 gas=0 fees=0 elapsed=1.031ms
+INFO [12-13|19:32:56.485] Successfully sealed new block            number=13 sealhash=967b3e..169fca hash=086333..331326 elapsed=2.345s
+INFO [12-13|19:32:56.496] "🔨 mined potential block"                number=13 hash=086333..331326
+INFO [12-13|19:33:05.767] Successfully sealed new block            number=14 sealhash=abf656..a73c06 hash=049402..987849 elapsed=9.281s
+INFO [12-13|19:33:05.767] "🔗 block reached canonical chain"        number=7  hash=f6ff2c..502d7b
+INFO [12-13|19:33:05.767] "🔨 mined potential block"                number=14 hash=049402..987849
+INFO [12-13|19:33:05.768] Commit new sealing work                  number=15 sealhash=9dd1d8..8a0110 uncles=0 txs=0 gas=0 fees=0 elapsed="457.588µs"
+INFO [12-13|19:33:05.768] Commit new sealing work                  number=15 sealhash=9dd1d8..8a0110 uncles=0 txs=0 gas=0 fees=0 elapsed="825.51µs"
+INFO [12-13|19:33:08.514] Successfully sealed new block            number=15 sealhash=9dd1d8..8a0110 hash=199453..a42088 elapsed=2.746s
+INFO [12-13|19:33:08.514] "🔗 block reached canonical chain"        number=8  hash=7e867c..8d2a76
+INFO [12-13|19:33:08.514] "🔨 mined potential block"                number=15 hash=199453..a42088
+INFO [12-13|19:33:08.515] Commit new sealing work                  number=16 sealhash=4d1c55..c9195d uncles=0 txs=0 gas=0 fees=0 elapsed="382.848µs"
+INFO [12-13|19:33:08.515] Commit new sealing work                  number=16 sealhash=4d1c55..c9195d uncles=0 txs=0 gas=0 fees=0 elapsed="866.602µs"
+INFO [12-13|19:33:13.275] Successfully sealed new block            number=16 sealhash=4d1c55..c9195d hash=ad25d0..5459d0 elapsed=4.760s
+INFO [12-13|19:33:13.276] "🔗 block reached canonical chain"        number=9  hash=5cd6e0..0caec4
+INFO [12-13|19:33:13.276] "🔨 mined potential block"                number=16 hash=ad25d0..5459d0
+INFO [12-13|19:33:13.276] Commit new sealing work                  number=17 sealhash=0004b3..ba865c uncles=0 txs=0 gas=0 fees=0 elapsed="716.048µs"
+INFO [12-13|19:33:13.277] Commit new sealing work                  number=17 sealhash=0004b3..ba865c uncles=0 txs=0 gas=0 fees=0 elapsed=1.141ms
+INFO [12-13|19:33:19.284] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:33:19.285] Mining aborted due to sync 
+WARN [12-13|19:33:19.310] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:33:19.311] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=16@6.00B bodies=16@6.00B receipts=16@6.00B eta=0s
+WARN [12-13|19:33:19.312] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:33:19.312] Commit new sealing work                  number=17 sealhash=06859f..3622f4 uncles=0 txs=0 gas=0 fees=0 elapsed="358.551µs"
+INFO [12-13|19:33:19.313] Commit new sealing work                  number=17 sealhash=06859f..3622f4 uncles=0 txs=0 gas=0 fees=0 elapsed=1.301ms
+INFO [12-13|19:33:20.733] Successfully sealed new block            number=17 sealhash=06859f..3622f4 hash=3495c0..f46daa elapsed=1.420s
+INFO [12-13|19:33:20.733] "🔗 block reached canonical chain"        number=10 hash=ddb446..225b09
+INFO [12-13|19:33:20.734] "🔨 mined potential block"                number=17 hash=3495c0..f46daa
+INFO [12-13|19:33:20.735] Commit new sealing work                  number=18 sealhash=41769b..9f4c13 uncles=0 txs=0 gas=0 fees=0 elapsed="630.79µs"
+INFO [12-13|19:33:20.736] Commit new sealing work                  number=18 sealhash=41769b..9f4c13 uncles=0 txs=0 gas=0 fees=0 elapsed=1.873ms
+INFO [12-13|19:33:28.992] Successfully sealed new block            number=18 sealhash=41769b..9f4c13 hash=608a71..ae1717 elapsed=8.256s
+INFO [12-13|19:33:28.992] "🔗 block reached canonical chain"        number=11 hash=09ea29..33613a
+INFO [12-13|19:33:28.993] "🔨 mined potential block"                number=18 hash=608a71..ae1717
+INFO [12-13|19:33:28.993] Commit new sealing work                  number=19 sealhash=688dbe..07c815 uncles=0 txs=0 gas=0 fees=0 elapsed="933.767µs"
+INFO [12-13|19:33:28.994] Commit new sealing work                  number=19 sealhash=688dbe..07c815 uncles=0 txs=0 gas=0 fees=0 elapsed=1.529ms
+INFO [12-13|19:33:29.312] Mining aborted due to sync 
+WARN [12-13|19:33:29.329] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:33:29.330] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=18@6.00B bodies=18@6.00B receipts=18@6.00B eta=0s
+WARN [12-13|19:33:29.330] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:33:29.331] Commit new sealing work                  number=19 sealhash=210bf8..d93cd5 uncles=0 txs=0 gas=0 fees=0 elapsed="289.682µs"
+INFO [12-13|19:33:29.331] Commit new sealing work                  number=19 sealhash=210bf8..d93cd5 uncles=0 txs=0 gas=0 fees=0 elapsed="835.176µs"
+INFO [12-13|19:33:29.331] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:33:34.532] "🔗 block reached canonical chain"        number=12 hash=e5abb8..1b117b
+INFO [12-13|19:33:34.532] Commit new sealing work                  number=20 sealhash=2fa650..61a2c0 uncles=0 txs=0 gas=0 fees=0 elapsed="476.291µs"
+INFO [12-13|19:33:34.532] Commit new sealing work                  number=20 sealhash=2fa650..61a2c0 uncles=0 txs=0 gas=0 fees=0 elapsed="705.585µs"
+INFO [12-13|19:33:34.532] Successfully sealed new block            number=19 sealhash=210bf8..d93cd5 hash=651292..7d5bc5 elapsed=5.201s
+INFO [12-13|19:33:34.533] "🔨 mined potential block"                number=19 hash=651292..7d5bc5
+INFO [12-13|19:33:51.381] Successfully sealed new block            number=20 sealhash=2fa650..61a2c0 hash=860702..1b9e9d elapsed=16.848s
+INFO [12-13|19:33:51.381] "🔗 block reached canonical chain"        number=13 hash=086333..331326
+INFO [12-13|19:33:51.382] "🔨 mined potential block"                number=20 hash=860702..1b9e9d
+INFO [12-13|19:33:51.382] Commit new sealing work                  number=21 sealhash=db80b9..36b3eb uncles=0 txs=0 gas=0 fees=0 elapsed="635.771µs"
+INFO [12-13|19:33:51.383] Commit new sealing work                  number=21 sealhash=db80b9..36b3eb uncles=0 txs=0 gas=0 fees=0 elapsed=1.408ms
+INFO [12-13|19:33:54.289] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:33:54.296] Mining aborted due to sync 
+WARN [12-13|19:33:54.329] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:33:54.331] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=20@6.00B bodies=20@6.00B receipts=20@6.00B eta=0s
+WARN [12-13|19:33:54.333] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:33:54.333] Commit new sealing work                  number=21 sealhash=d023b8..5aafc5 uncles=0 txs=0 gas=0 fees=0 elapsed="592.549µs"
+INFO [12-13|19:33:54.334] Commit new sealing work                  number=21 sealhash=d023b8..5aafc5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.490ms
+INFO [12-13|19:34:01.697] Successfully sealed new block            number=21 sealhash=d023b8..5aafc5 hash=6249f4..e0e16d elapsed=7.363s
+INFO [12-13|19:34:01.697] "🔗 block reached canonical chain"        number=14 hash=049402..987849
+INFO [12-13|19:34:01.697] "🔨 mined potential block"                number=21 hash=6249f4..e0e16d
+INFO [12-13|19:34:01.698] Commit new sealing work                  number=22 sealhash=8513a8..787d04 uncles=0 txs=0 gas=0 fees=0 elapsed=1.010ms
+INFO [12-13|19:34:01.698] Commit new sealing work                  number=22 sealhash=8513a8..787d04 uncles=0 txs=0 gas=0 fees=0 elapsed=1.319ms
+INFO [12-13|19:34:04.335] Mining aborted due to sync 
+WARN [12-13|19:34:04.364] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:34:04.364] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=21@6.00B bodies=21@6.00B receipts=21@6.00B eta=0s
+WARN [12-13|19:34:04.365] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:34:04.365] Commit new sealing work                  number=22 sealhash=340a53..40372e uncles=0 txs=0 gas=0 fees=0 elapsed="434.162µs"
+INFO [12-13|19:34:04.365] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:34:04.366] Commit new sealing work                  number=22 sealhash=340a53..40372e uncles=0 txs=0 gas=0 fees=0 elapsed="788.51µs"
+INFO [12-13|19:34:11.613] Successfully sealed new block            number=22 sealhash=340a53..40372e hash=5ad653..58f2c5 elapsed=7.247s
+INFO [12-13|19:34:11.613] "🔗 block reached canonical chain"        number=15 hash=199453..a42088
+INFO [12-13|19:34:11.613] "🔨 mined potential block"                number=22 hash=5ad653..58f2c5
+INFO [12-13|19:34:11.614] Commit new sealing work                  number=23 sealhash=618196..ac6b6b uncles=0 txs=0 gas=0 fees=0 elapsed="907.601µs"
+INFO [12-13|19:34:11.614] Commit new sealing work                  number=23 sealhash=618196..ac6b6b uncles=0 txs=0 gas=0 fees=0 elapsed=1.283ms
+INFO [12-13|19:34:17.395] Successfully sealed new block            number=23 sealhash=618196..ac6b6b hash=2484f7..36ef9a elapsed=5.781s
+INFO [12-13|19:34:17.396] "🔗 block reached canonical chain"        number=16 hash=ad25d0..5459d0
+INFO [12-13|19:34:17.396] "🔨 mined potential block"                number=23 hash=2484f7..36ef9a
+INFO [12-13|19:34:17.396] Commit new sealing work                  number=24 sealhash=e89635..77a496 uncles=0 txs=0 gas=0 fees=0 elapsed="746.288µs"
+INFO [12-13|19:34:17.396] Commit new sealing work                  number=24 sealhash=e89635..77a496 uncles=0 txs=0 gas=0 fees=0 elapsed=1.260ms
+INFO [12-13|19:34:18.478] Successfully sealed new block            number=24 sealhash=e89635..77a496 hash=d3ca5e..3efdc2 elapsed=1.082s
+INFO [12-13|19:34:18.479] "🔗 block reached canonical chain"        number=17 hash=3495c0..f46daa
+INFO [12-13|19:34:18.480] Commit new sealing work                  number=25 sealhash=514762..656a73 uncles=0 txs=0 gas=0 fees=0 elapsed=1.291ms
+INFO [12-13|19:34:18.480] "🔨 mined potential block"                number=24 hash=d3ca5e..3efdc2
+INFO [12-13|19:34:18.481] Commit new sealing work                  number=25 sealhash=514762..656a73 uncles=0 txs=0 gas=0 fees=0 elapsed=2.536ms
+INFO [12-13|19:34:25.911] Successfully sealed new block            number=25 sealhash=514762..656a73 hash=72207d..3bf978 elapsed=7.431s
+INFO [12-13|19:34:25.911] "🔗 block reached canonical chain"        number=18 hash=608a71..ae1717
+INFO [12-13|19:34:25.912] "🔨 mined potential block"                number=25 hash=72207d..3bf978
+INFO [12-13|19:34:25.912] Commit new sealing work                  number=26 sealhash=490e49..e122a5 uncles=0 txs=0 gas=0 fees=0 elapsed="671.104µs"
+INFO [12-13|19:34:25.912] Commit new sealing work                  number=26 sealhash=490e49..e122a5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.203ms
+INFO [12-13|19:34:28.486] Successfully sealed new block            number=26 sealhash=490e49..e122a5 hash=2822d5..cb5305 elapsed=2.574s
+INFO [12-13|19:34:28.487] "🔗 block reached canonical chain"        number=19 hash=651292..7d5bc5
+INFO [12-13|19:34:28.487] Commit new sealing work                  number=27 sealhash=30cfbe..fd0bb9 uncles=0 txs=0 gas=0 fees=0 elapsed="975.064µs"
+INFO [12-13|19:34:28.488] Commit new sealing work                  number=27 sealhash=30cfbe..fd0bb9 uncles=0 txs=0 gas=0 fees=0 elapsed=1.384ms
+INFO [12-13|19:34:28.488] "🔨 mined potential block"                number=26 hash=2822d5..cb5305
+INFO [12-13|19:34:29.293] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:34:29.294] Mining aborted due to sync 
+WARN [12-13|19:34:29.319] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:34:29.319] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=26@6.00B bodies=26@6.00B receipts=26@6.00B eta=0s
+WARN [12-13|19:34:29.320] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:34:29.321] Commit new sealing work                  number=27 sealhash=ab2d99..b858dc uncles=0 txs=0 gas=0 fees=0 elapsed="399.311µs"
+INFO [12-13|19:34:29.322] Commit new sealing work                  number=27 sealhash=ab2d99..b858dc uncles=0 txs=0 gas=0 fees=0 elapsed=1.190ms
+INFO [12-13|19:34:38.956] Successfully sealed new block            number=27 sealhash=ab2d99..b858dc hash=35996c..cb37df elapsed=9.635s
+INFO [12-13|19:34:38.956] "🔗 block reached canonical chain"        number=20 hash=860702..1b9e9d
+INFO [12-13|19:34:38.957] "🔨 mined potential block"                number=27 hash=35996c..cb37df
+INFO [12-13|19:34:38.958] Commit new sealing work                  number=28 sealhash=b3da26..180a67 uncles=0 txs=0 gas=0 fees=0 elapsed="465.384µs"
+INFO [12-13|19:34:38.958] Commit new sealing work                  number=28 sealhash=b3da26..180a67 uncles=0 txs=0 gas=0 fees=0 elapsed=1.258ms
+INFO [12-13|19:34:39.322] Mining aborted due to sync 
+WARN [12-13|19:34:39.344] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:34:39.344] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=27@6.00B bodies=27@6.00B receipts=27@6.00B eta=0s
+WARN [12-13|19:34:39.345] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:34:39.345] Commit new sealing work                  number=28 sealhash=6118f6..7fe8df uncles=0 txs=0 gas=0 fees=0 elapsed="351.329µs"
+INFO [12-13|19:34:39.346] Commit new sealing work                  number=28 sealhash=6118f6..7fe8df uncles=0 txs=0 gas=0 fees=0 elapsed=1.195ms
+INFO [12-13|19:34:39.346] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:34:42.779] Successfully sealed new block            number=28 sealhash=6118f6..7fe8df hash=a1e34f..4401a7 elapsed=3.433s
+INFO [12-13|19:34:42.779] "🔗 block reached canonical chain"        number=21 hash=6249f4..e0e16d
+INFO [12-13|19:34:42.779] "🔨 mined potential block"                number=28 hash=a1e34f..4401a7
+INFO [12-13|19:34:42.779] Commit new sealing work                  number=29 sealhash=b938ec..1dc6ff uncles=0 txs=0 gas=0 fees=0 elapsed="365.478µs"
+INFO [12-13|19:34:42.780] Commit new sealing work                  number=29 sealhash=b938ec..1dc6ff uncles=0 txs=0 gas=0 fees=0 elapsed="760.585µs"
+INFO [12-13|19:34:50.377] Successfully sealed new block            number=29 sealhash=b938ec..1dc6ff hash=4b4763..fb424d elapsed=7.597s
+INFO [12-13|19:34:50.377] "🔗 block reached canonical chain"        number=22 hash=5ad653..58f2c5
+INFO [12-13|19:34:50.378] "🔨 mined potential block"                number=29 hash=4b4763..fb424d
+INFO [12-13|19:34:50.378] Commit new sealing work                  number=30 sealhash=c1affb..5c436c uncles=0 txs=0 gas=0 fees=0 elapsed="815.509µs"
+INFO [12-13|19:34:50.379] Commit new sealing work                  number=30 sealhash=c1affb..5c436c uncles=0 txs=0 gas=0 fees=0 elapsed=1.332ms
+INFO [12-13|19:34:51.756] Successfully sealed new block            number=30 sealhash=c1affb..5c436c hash=987680..188770 elapsed=1.377s
+INFO [12-13|19:34:51.756] "🔗 block reached canonical chain"        number=23 hash=2484f7..36ef9a
+INFO [12-13|19:34:51.756] "🔨 mined potential block"                number=30 hash=987680..188770
+INFO [12-13|19:34:51.756] Commit new sealing work                  number=31 sealhash=8f843f..2032b9 uncles=0 txs=0 gas=0 fees=0 elapsed="415.866µs"
+INFO [12-13|19:34:51.757] Commit new sealing work                  number=31 sealhash=8f843f..2032b9 uncles=0 txs=0 gas=0 fees=0 elapsed="833.047µs"
+INFO [12-13|19:34:58.432] Successfully sealed new block            number=31 sealhash=8f843f..2032b9 hash=f9e0fb..3718d2 elapsed=6.675s
+INFO [12-13|19:34:58.433] "🔗 block reached canonical chain"        number=24 hash=d3ca5e..3efdc2
+INFO [12-13|19:34:58.433] "🔨 mined potential block"                number=31 hash=f9e0fb..3718d2
+INFO [12-13|19:34:58.433] Commit new sealing work                  number=32 sealhash=dcc744..3a5ac0 uncles=0 txs=0 gas=0 fees=0 elapsed="429.44µs"
+INFO [12-13|19:34:58.433] Commit new sealing work                  number=32 sealhash=dcc744..3a5ac0 uncles=0 txs=0 gas=0 fees=0 elapsed="723.437µs"
+INFO [12-13|19:35:00.381] Successfully sealed new block            number=32 sealhash=dcc744..3a5ac0 hash=6c6b2f..3f888f elapsed=1.948s
+INFO [12-13|19:35:00.382] "🔗 block reached canonical chain"        number=25 hash=72207d..3bf978
+INFO [12-13|19:35:00.382] "🔨 mined potential block"                number=32 hash=6c6b2f..3f888f
+INFO [12-13|19:35:00.382] Commit new sealing work                  number=33 sealhash=3d3fc2..3a404c uncles=0 txs=0 gas=0 fees=0 elapsed="516.994µs"
+INFO [12-13|19:35:00.382] Commit new sealing work                  number=33 sealhash=3d3fc2..3a404c uncles=0 txs=0 gas=0 fees=0 elapsed="844.213µs"
+INFO [12-13|19:35:04.295] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:35:04.297] Mining aborted due to sync 
+WARN [12-13|19:35:04.320] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:35:04.320] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=32@6.00B bodies=32@6.00B receipts=32@6.00B eta=0s
+WARN [12-13|19:35:04.321] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:35:04.321] Commit new sealing work                  number=33 sealhash=cefd3f..0d2ed7 uncles=0 txs=0 gas=0 fees=0 elapsed="292.738µs"
+INFO [12-13|19:35:04.322] Commit new sealing work                  number=33 sealhash=cefd3f..0d2ed7 uncles=0 txs=0 gas=0 fees=0 elapsed="883.546µs"
+INFO [12-13|19:35:08.097] Successfully sealed new block            number=33 sealhash=cefd3f..0d2ed7 hash=d7076d..bd0e82 elapsed=3.775s
+INFO [12-13|19:35:08.098] "🔗 block reached canonical chain"        number=26 hash=2822d5..cb5305
+INFO [12-13|19:35:08.103] Commit new sealing work                  number=34 sealhash=2ec6bb..cb0285 uncles=0 txs=0 gas=0 fees=0 elapsed=5.104ms
+INFO [12-13|19:35:08.103] "🔨 mined potential block"                number=33 hash=d7076d..bd0e82
+INFO [12-13|19:35:08.104] Commit new sealing work                  number=34 sealhash=2ec6bb..cb0285 uncles=0 txs=0 gas=0 fees=0 elapsed=6.042ms
+INFO [12-13|19:35:14.322] Mining aborted due to sync 
+WARN [12-13|19:35:14.342] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:35:14.343] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=33@6.00B bodies=33@6.00B receipts=33@6.00B eta=0s
+WARN [12-13|19:35:14.343] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:35:14.344] Commit new sealing work                  number=34 sealhash=f731fb..0f3ee0 uncles=0 txs=0 gas=0 fees=0 elapsed="321.237µs"
+INFO [12-13|19:35:14.344] Commit new sealing work                  number=34 sealhash=f731fb..0f3ee0 uncles=0 txs=0 gas=0 fees=0 elapsed="951.564µs"
+INFO [12-13|19:35:14.345] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:35:21.189] Successfully sealed new block            number=34 sealhash=f731fb..0f3ee0 hash=cc1ef6..a70581 elapsed=6.845s
+INFO [12-13|19:35:21.190] "🔗 block reached canonical chain"        number=27 hash=35996c..cb37df
+INFO [12-13|19:35:21.190] Commit new sealing work                  number=35 sealhash=bd1dc6..798685 uncles=0 txs=0 gas=0 fees=0 elapsed=1.141ms
+INFO [12-13|19:35:21.191] Commit new sealing work                  number=35 sealhash=bd1dc6..798685 uncles=0 txs=0 gas=0 fees=0 elapsed=1.852ms
+INFO [12-13|19:35:21.191] "🔨 mined potential block"                number=34 hash=cc1ef6..a70581
+INFO [12-13|19:35:21.858] Successfully sealed new block            number=35 sealhash=bd1dc6..798685 hash=775ab0..d358b5 elapsed=668.183ms
+INFO [12-13|19:35:21.858] "🔗 block reached canonical chain"        number=28 hash=a1e34f..4401a7
+INFO [12-13|19:35:21.859] "🔨 mined potential block"                number=35 hash=775ab0..d358b5
+INFO [12-13|19:35:21.859] Commit new sealing work                  number=36 sealhash=e70e35..a79277 uncles=0 txs=0 gas=0 fees=0 elapsed="553.531µs"
+INFO [12-13|19:35:21.860] Commit new sealing work                  number=36 sealhash=e70e35..a79277 uncles=0 txs=0 gas=0 fees=0 elapsed="932.379µs"
+INFO [12-13|19:35:28.958] Successfully sealed new block            number=36 sealhash=e70e35..a79277 hash=572d71..fda551 elapsed=7.098s
+INFO [12-13|19:35:28.958] "🔗 block reached canonical chain"        number=29 hash=4b4763..fb424d
+INFO [12-13|19:35:28.959] Commit new sealing work                  number=37 sealhash=067e7d..8e2e35 uncles=0 txs=0 gas=0 fees=0 elapsed="810.343µs"
+INFO [12-13|19:35:28.959] "🔨 mined potential block"                number=36 hash=572d71..fda551
+INFO [12-13|19:35:28.960] Commit new sealing work                  number=37 sealhash=067e7d..8e2e35 uncles=0 txs=0 gas=0 fees=0 elapsed=1.771ms
+INFO [12-13|19:35:36.858] Successfully sealed new block            number=37 sealhash=067e7d..8e2e35 hash=fe4cc0..139d71 elapsed=7.899s
+INFO [12-13|19:35:36.858] "🔗 block reached canonical chain"        number=30 hash=987680..188770
+INFO [12-13|19:35:36.858] "🔨 mined potential block"                number=37 hash=fe4cc0..139d71
+INFO [12-13|19:35:36.859] Commit new sealing work                  number=38 sealhash=c8793b..4e6bc8 uncles=0 txs=0 gas=0 fees=0 elapsed="529.79µs"
+INFO [12-13|19:35:36.859] Commit new sealing work                  number=38 sealhash=c8793b..4e6bc8 uncles=0 txs=0 gas=0 fees=0 elapsed=1.235ms
+INFO [12-13|19:35:39.295] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:35:39.297] Mining aborted due to sync 
+WARN [12-13|19:35:39.322] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:35:39.322] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=37@6.00B bodies=37@6.00B receipts=37@6.00B eta=0s
+WARN [12-13|19:35:39.323] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:35:39.324] Commit new sealing work                  number=38 sealhash=9f8f64..7e11be uncles=0 txs=0 gas=0 fees=0 elapsed="420.292µs"
+INFO [12-13|19:35:39.324] Commit new sealing work                  number=38 sealhash=9f8f64..7e11be uncles=0 txs=0 gas=0 fees=0 elapsed="940.12µs"
+INFO [12-13|19:35:46.047] Successfully sealed new block            number=38 sealhash=9f8f64..7e11be hash=844d26..2fdae8 elapsed=6.723s
+INFO [12-13|19:35:46.048] "🔗 block reached canonical chain"        number=31 hash=f9e0fb..3718d2
+INFO [12-13|19:35:46.048] "🔨 mined potential block"                number=38 hash=844d26..2fdae8
+INFO [12-13|19:35:46.048] Commit new sealing work                  number=39 sealhash=9c4771..f41bcd uncles=0 txs=0 gas=0 fees=0 elapsed="470.013µs"
+INFO [12-13|19:35:46.048] Commit new sealing work                  number=39 sealhash=9c4771..f41bcd uncles=0 txs=0 gas=0 fees=0 elapsed="757.714µs"
+INFO [12-13|19:35:49.325] Mining aborted due to sync 
+WARN [12-13|19:35:49.347] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:35:49.348] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=38@6.00B bodies=38@6.00B receipts=38@6.00B eta=0s
+WARN [12-13|19:35:49.351] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:35:49.352] Commit new sealing work                  number=39 sealhash=4aeebf..29c611 uncles=0 txs=0 gas=0 fees=0 elapsed="558.994µs"
+INFO [12-13|19:35:49.355] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:35:49.357] Commit new sealing work                  number=39 sealhash=4aeebf..29c611 uncles=0 txs=0 gas=0 fees=0 elapsed=6.341ms
+INFO [12-13|19:35:49.481] Successfully sealed new block            number=39 sealhash=4aeebf..29c611 hash=9da1b6..e4bc2e elapsed=129.491ms
+INFO [12-13|19:35:49.482] "🔗 block reached canonical chain"        number=32 hash=6c6b2f..3f888f
+INFO [12-13|19:35:49.494] Commit new sealing work                  number=40 sealhash=fd495b..e5e1a3 uncles=0 txs=0 gas=0 fees=0 elapsed=12.346ms
+INFO [12-13|19:35:49.494] "🔨 mined potential block"                number=39 hash=9da1b6..e4bc2e
+INFO [12-13|19:35:49.502] Commit new sealing work                  number=40 sealhash=fd495b..e5e1a3 uncles=0 txs=0 gas=0 fees=0 elapsed=20.283ms
+INFO [12-13|19:35:57.216] Successfully sealed new block            number=40 sealhash=fd495b..e5e1a3 hash=8bc6ca..40ac71 elapsed=7.734s
+INFO [12-13|19:35:57.217] "🔗 block reached canonical chain"        number=33 hash=d7076d..bd0e82
+INFO [12-13|19:35:57.217] "🔨 mined potential block"                number=40 hash=8bc6ca..40ac71
+INFO [12-13|19:35:57.217] Commit new sealing work                  number=41 sealhash=9b1a33..5850ca uncles=0 txs=0 gas=0 fees=0 elapsed="959.415µs"
+INFO [12-13|19:35:57.218] Commit new sealing work                  number=41 sealhash=9b1a33..5850ca uncles=0 txs=0 gas=0 fees=0 elapsed=1.262ms
+INFO [12-13|19:36:03.764] Successfully sealed new block            number=41 sealhash=9b1a33..5850ca hash=0815fb..8ae2de elapsed=6.546s
+INFO [12-13|19:36:03.765] "🔗 block reached canonical chain"        number=34 hash=cc1ef6..a70581
+INFO [12-13|19:36:03.765] Commit new sealing work                  number=42 sealhash=cdf161..f619a1 uncles=0 txs=0 gas=0 fees=0 elapsed="962.805µs"
+INFO [12-13|19:36:03.765] Commit new sealing work                  number=42 sealhash=cdf161..f619a1 uncles=0 txs=0 gas=0 fees=0 elapsed=1.497ms
+INFO [12-13|19:36:03.766] "🔨 mined potential block"                number=41 hash=0815fb..8ae2de
+INFO [12-13|19:36:10.429] Successfully sealed new block            number=42 sealhash=cdf161..f619a1 hash=148e2c..6f7313 elapsed=6.664s
+INFO [12-13|19:36:10.430] "🔗 block reached canonical chain"        number=35 hash=775ab0..d358b5
+INFO [12-13|19:36:10.430] "🔨 mined potential block"                number=42 hash=148e2c..6f7313
+INFO [12-13|19:36:10.430] Commit new sealing work                  number=43 sealhash=f525fa..476dab uncles=0 txs=0 gas=0 fees=0 elapsed="444.236µs"
+INFO [12-13|19:36:10.431] Commit new sealing work                  number=43 sealhash=f525fa..476dab uncles=0 txs=0 gas=0 fees=0 elapsed="739.714µs"
+INFO [12-13|19:36:13.149] Successfully sealed new block            number=43 sealhash=f525fa..476dab hash=69848a..c05440 elapsed=2.718s
+INFO [12-13|19:36:13.149] "🔗 block reached canonical chain"        number=36 hash=572d71..fda551
+INFO [12-13|19:36:13.150] "🔨 mined potential block"                number=43 hash=69848a..c05440
+INFO [12-13|19:36:13.150] Commit new sealing work                  number=44 sealhash=8c069f..9c6dd1 uncles=0 txs=0 gas=0 fees=0 elapsed="509.865µs"
+INFO [12-13|19:36:13.150] Commit new sealing work                  number=44 sealhash=8c069f..9c6dd1 uncles=0 txs=0 gas=0 fees=0 elapsed="896.546µs"
+INFO [12-13|19:36:14.305] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:36:14.308] Mining aborted due to sync 
+WARN [12-13|19:36:14.339] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:36:14.339] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=43@6.00B bodies=43@6.00B receipts=43@6.00B eta=0s
+WARN [12-13|19:36:14.340] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:36:14.342] Commit new sealing work                  number=44 sealhash=3fe98b..e281ec uncles=0 txs=0 gas=0 fees=0 elapsed="445.94µs"
+INFO [12-13|19:36:14.350] Commit new sealing work                  number=44 sealhash=3fe98b..e281ec uncles=0 txs=0 gas=0 fees=0 elapsed=8.416ms
+INFO [12-13|19:36:18.783] Successfully sealed new block            number=44 sealhash=3fe98b..e281ec hash=ae3572..0bcd96 elapsed=4.441s
+INFO [12-13|19:36:18.783] "🔗 block reached canonical chain"        number=37 hash=fe4cc0..139d71
+INFO [12-13|19:36:18.784] "🔨 mined potential block"                number=44 hash=ae3572..0bcd96
+INFO [12-13|19:36:18.784] Commit new sealing work                  number=45 sealhash=47c1d8..841845 uncles=0 txs=0 gas=0 fees=0 elapsed="640.049µs"
+INFO [12-13|19:36:18.784] Commit new sealing work                  number=45 sealhash=47c1d8..841845 uncles=0 txs=0 gas=0 fees=0 elapsed=1.136ms
+INFO [12-13|19:36:24.348] Mining aborted due to sync 
+WARN [12-13|19:36:24.365] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:36:24.367] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=44@6.00B bodies=44@6.00B receipts=44@6.00B eta=0s
+WARN [12-13|19:36:24.368] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:36:24.369] Commit new sealing work                  number=45 sealhash=67c27e..1fcfa4 uncles=0 txs=0 gas=0 fees=0 elapsed="432.495µs"
+INFO [12-13|19:36:24.370] Commit new sealing work                  number=45 sealhash=67c27e..1fcfa4 uncles=0 txs=0 gas=0 fees=0 elapsed="990.082µs"
+INFO [12-13|19:36:24.370] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:36:32.784] Successfully sealed new block            number=45 sealhash=67c27e..1fcfa4 hash=878aa0..ec62cd elapsed=8.415s
+INFO [12-13|19:36:32.784] "🔗 block reached canonical chain"        number=38 hash=844d26..2fdae8
+INFO [12-13|19:36:32.785] "🔨 mined potential block"                number=45 hash=878aa0..ec62cd
+INFO [12-13|19:36:32.785] Commit new sealing work                  number=46 sealhash=6c93ee..92897f uncles=0 txs=0 gas=0 fees=0 elapsed="547.106µs"
+INFO [12-13|19:36:32.787] Commit new sealing work                  number=46 sealhash=6c93ee..92897f uncles=0 txs=0 gas=0 fees=0 elapsed=1.917ms
+INFO [12-13|19:36:49.303] Looking for peers                        peercount=1 tried=0 static=1
+INFO [12-13|19:36:49.305] Mining aborted due to sync 
+WARN [12-13|19:36:49.324] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:36:49.325] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=45@6.00B bodies=45@6.00B receipts=45@6.00B eta=0s
+WARN [12-13|19:36:49.326] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:36:49.327] Commit new sealing work                  number=46 sealhash=60545f..075695 uncles=0 txs=0 gas=0 fees=0 elapsed="384.774µs"
+INFO [12-13|19:36:49.339] Commit new sealing work                  number=46 sealhash=60545f..075695 uncles=0 txs=0 gas=0 fees=0 elapsed=12.717ms
+INFO [12-13|19:36:59.339] Mining aborted due to sync 
+WARN [12-13|19:36:59.355] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:36:59.356] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=45@6.00B bodies=45@6.00B receipts=45@6.00B eta=0s
+WARN [12-13|19:36:59.356] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:36:59.357] Commit new sealing work                  number=46 sealhash=12a467..f4da84 uncles=0 txs=0 gas=0 fees=0 elapsed="380.292µs"
+INFO [12-13|19:36:59.358] Commit new sealing work                  number=46 sealhash=12a467..f4da84 uncles=0 txs=0 gas=0 fees=0 elapsed=1.196ms
+INFO [12-13|19:36:59.358] Looking for peers                        peercount=0 tried=1 static=1
+INFO [12-13|19:37:05.665] Successfully sealed new block            number=46 sealhash=12a467..f4da84 hash=6382e5..f23d4b elapsed=6.307s
+INFO [12-13|19:37:05.665] "🔗 block reached canonical chain"        number=39 hash=9da1b6..e4bc2e
+INFO [12-13|19:37:05.666] "🔨 mined potential block"                number=46 hash=6382e5..f23d4b
+INFO [12-13|19:37:05.666] Commit new sealing work                  number=47 sealhash=eddbdc..10fd4c uncles=0 txs=0 gas=0 fees=0 elapsed=1.225ms
+INFO [12-13|19:37:05.668] Commit new sealing work                  number=47 sealhash=eddbdc..10fd4c uncles=0 txs=0 gas=0 fees=0 elapsed=2.266ms
+INFO [12-13|19:37:09.152] Successfully sealed new block            number=47 sealhash=eddbdc..10fd4c hash=c1d92b..bdacff elapsed=3.486s
+INFO [12-13|19:37:09.153] "🔗 block reached canonical chain"        number=40 hash=8bc6ca..40ac71
+INFO [12-13|19:37:09.153] "🔨 mined potential block"                number=47 hash=c1d92b..bdacff
+INFO [12-13|19:37:09.153] Commit new sealing work                  number=48 sealhash=9399b6..62f62a uncles=0 txs=0 gas=0 fees=0 elapsed="523.179µs"
+INFO [12-13|19:37:09.153] Commit new sealing work                  number=48 sealhash=9399b6..62f62a uncles=0 txs=0 gas=0 fees=0 elapsed="879.62µs"
+INFO [12-13|19:37:10.853] Successfully sealed new block            number=48 sealhash=9399b6..62f62a hash=cfacde..7fe1f1 elapsed=1.700s
+INFO [12-13|19:37:10.853] "🔗 block reached canonical chain"        number=41 hash=0815fb..8ae2de
+INFO [12-13|19:37:10.854] "🔨 mined potential block"                number=48 hash=cfacde..7fe1f1
+INFO [12-13|19:37:10.854] Commit new sealing work                  number=49 sealhash=86399c..42776c uncles=0 txs=0 gas=0 fees=0 elapsed="356.534µs"
+INFO [12-13|19:37:10.854] Commit new sealing work                  number=49 sealhash=86399c..42776c uncles=0 txs=0 gas=0 fees=0 elapsed="758.289µs"
+INFO [12-13|19:37:11.614] Successfully sealed new block            number=49 sealhash=86399c..42776c hash=5a3186..845fdc elapsed=760.588ms
+INFO [12-13|19:37:11.615] "🔗 block reached canonical chain"        number=42 hash=148e2c..6f7313
+INFO [12-13|19:37:11.615] "🔨 mined potential block"                number=49 hash=5a3186..845fdc
+INFO [12-13|19:37:11.616] Commit new sealing work                  number=50 sealhash=8848ed..bc9e39 uncles=0 txs=0 gas=0 fees=0 elapsed="675.827µs"
+INFO [12-13|19:37:11.616] Commit new sealing work                  number=50 sealhash=8848ed..bc9e39 uncles=0 txs=0 gas=0 fees=0 elapsed=1.297ms
+INFO [12-13|19:37:16.665] "🔗 block reached canonical chain"        number=43 hash=69848a..c05440
+INFO [12-13|19:37:16.665] Commit new sealing work                  number=51 sealhash=e7980c..1cf2e9 uncles=0 txs=0 gas=0 fees=0 elapsed="871.046µs"
+INFO [12-13|19:37:16.666] Commit new sealing work                  number=51 sealhash=e7980c..1cf2e9 uncles=0 txs=0 gas=0 fees=0 elapsed=1.528ms
+INFO [12-13|19:37:16.664] Successfully sealed new block            number=50 sealhash=8848ed..bc9e39 hash=3e3780..12de68 elapsed=5.048s
+INFO [12-13|19:37:16.668] "🔨 mined potential block"                number=50 hash=3e3780..12de68
+INFO [12-13|19:37:24.298] Looking for peers                        peercount=1 tried=0 static=1
+WARN [12-13|19:37:24.319] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:37:24.319] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=50@6.00B bodies=50@6.00B receipts=50@6.00B eta=0s
+WARN [12-13|19:37:24.320] Synchronisation failed, dropping peer    peer=b580f61544ef0fca993257de96e0b4c1d7628520ddf87f888b0d376202e290a1 err="retrieved hash chain is invalid: block in the future"
+WARN [12-13|19:37:34.333] Invalid header encountered               number=1  hash=5ef94f..2b45ef parent=45f300..179bfa err="block in the future"
+INFO [12-13|19:37:34.334] Syncing: chain download in progress      synced=100.00% chain=18.00B headers=50@6.00B bodies=50@6.00B receipts=50@6.00B eta=0s
+WARN [12-13|19:37:34.334] Synchronisation failed, dropping peer    peer=ece52527dec0ad30eb750abd93992708b42919c47ae96a8aaeaf5dd69a15e761 err="retrieved hash chain is invalid: block in the future"
+INFO [12-13|19:37:34.335] Looking for peers                        peercount=0 tried=1 static=1

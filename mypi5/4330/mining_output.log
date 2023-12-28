@@ -1,0 +1,1386 @@
+INFO [12-16|23:44:44.308] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-16|23:44:44.313] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [12-16|23:44:44.321] Set global gas cap                       cap=50,000,000
+INFO [12-16|23:44:44.329] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-16|23:44:44.335] Using leveldb as the backing database 
+INFO [12-16|23:44:44.335] Allocated cache and file handles         database=/home/raspberry-node/.testchain44/geth/chaindata cache=512.00MiB handles=524,288
+INFO [12-16|23:44:44.379] Using LevelDB as the backing database 
+INFO [12-16|23:44:44.380] Opened ancient database                  database=/home/raspberry-node/.testchain44/geth/chaindata/ancient/chain readonly=false
+INFO [12-16|23:44:44.382] Disk storage enabled for ethash caches   dir=/home/raspberry-node/.testchain44/geth/ethash count=3
+INFO [12-16|23:44:44.382] Disk storage enabled for ethash DAGs     dir=/home/raspberry-node/.ethash count=2
+INFO [12-16|23:44:44.382] Initialising Ethereum protocol           network=42 dbversion=<nil>
+INFO [12-16|23:44:44.386]  
+INFO [12-16|23:44:44.386] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-16|23:44:44.386] Chain ID:  4330 (unknown) 
+INFO [12-16|23:44:44.386] Consensus: Ethash (proof-of-work) 
+INFO [12-16|23:44:44.386]  
+INFO [12-16|23:44:44.386] Pre-Merge hard forks (block based): 
+INFO [12-16|23:44:44.386]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-16|23:44:44.386]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-16|23:44:44.386]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-16|23:44:44.386]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-16|23:44:44.386]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-16|23:44:44.386]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-16|23:44:44.386]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-16|23:44:44.386]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-16|23:44:44.386]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-16|23:44:44.386]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-16|23:44:44.386]  
+INFO [12-16|23:44:44.386] The Merge is not yet available for this network! 
+INFO [12-16|23:44:44.386]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-16|23:44:44.386]  
+INFO [12-16|23:44:44.386] Post-Merge hard forks (timestamp based): 
+INFO [12-16|23:44:44.386]  
+INFO [12-16|23:44:44.386] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-16|23:44:44.387]  
+INFO [12-16|23:44:44.389] Loaded most recent local block           number=0 hash=15e889..fbdc3a td=30 age=54y8mo3w
+WARN [12-16|23:44:44.390] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [12-16|23:44:44.390] Rebuilding state snapshot 
+INFO [12-16|23:44:44.391] Resuming state snapshot generation       root=56e81f..63b421 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.200ms
+INFO [12-16|23:44:44.391] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-16|23:44:44.391] Generated state snapshot                 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.676ms
+INFO [12-16|23:44:44.394] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-16|23:44:44.394] Error reading unclean shutdown markers   error="leveldb: not found"
+WARN [12-16|23:44:44.394] Engine API enabled                       protocol=eth
+WARN [12-16|23:44:44.395] Engine API started but chain not configured for merge yet 
+INFO [12-16|23:44:44.395] Starting peer-to-peer node               instance=Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+INFO [12-16|23:44:44.429] New local node record                    seq=1,702,766,684,427 id=52a8566b254f6425 ip=127.0.0.1 udp=0 tcp=4242
+INFO [12-16|23:44:44.429] Started P2P networking                   self="enode://e350bb78238f2bf1664841490e6c6a320c196ceb8068e5a1cc831b24249bbe23085841177882ed419c89f804a0792b25baf6cd5e0c4069e45910ab2c5ecc942e@127.0.0.1:4242?discport=0"
+INFO [12-16|23:44:44.430] IPC endpoint opened                      url=/home/raspberry-node/.testchain44/geth.ipc
+INFO [12-16|23:44:44.431] Generated JWT secret                     path=/home/raspberry-node/.testchain44/geth/jwtsecret
+INFO [12-16|23:44:44.433] WebSocket enabled                        url=ws://127.0.0.1:8551
+INFO [12-16|23:44:44.433] HTTP server started                      endpoint=127.0.0.1:8551 auth=true prefix= cors=localhost vhosts=localhost
+Welcome to the Geth JavaScript console!
+
+instance: Geth/v1.11.6-stable-ea9e62ca/linux-arm64/go1.20.5
+coinbase: 0x05f0ab0e0860714857209197db4083e780322a98
+at block: 0 (Thu Jan 01 1970 01:00:00 GMT+0100 (CET))
+ datadir: /home/raspberry-node/.testchain44
+ modules: admin:1.0 debug:1.0 engine:1.0 eth:1.0 ethash:1.0 miner:1.0 net:1.0 rpc:1.0 txpool:1.0 web3:1.0
+
+To exit, press ctrl-d or type exit
+> INFO [12-16|23:44:54.561] Looking for peers                        peercount=2 tried=1 static=1
+INFO [12-16|23:45:28.773] Looking for peers                        peercount=4 tried=0 static=4
+WARN [12-16|23:46:02.438] Snap syncing, discarded propagated block number=1 hash=a75adc..5d0aa5
+INFO [12-16|23:46:29.963] Block synchronisation started 
+WARN [12-16|23:46:29.969] Invalid header encountered               number=1 hash=a75adc..5d0aa5 parent=15e889..fbdc3a err="block in the future"
+WARN [12-16|23:46:29.970] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:46:29.971] Looking for peers                        peercount=3 tried=0 static=4
+WARN [12-16|23:46:39.983] Invalid header encountered               number=1 hash=a75adc..5d0aa5 parent=15e889..fbdc3a err="block in the future"
+WARN [12-16|23:46:39.985] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:46:39.986] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:47:04.971] Looking for peers                        peercount=3 tried=0 static=4
+WARN [12-16|23:47:04.994] Invalid header encountered               number=1 hash=a75adc..5d0aa5 parent=15e889..fbdc3a err="block in the future"
+WARN [12-16|23:47:04.995] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:47:39.971] Looking for peers                        peercount=3 tried=1 static=4
+WARN [12-16|23:47:42.041] Invalid header encountered               number=2 hash=aa7ce0..c87b26 parent=a75adc..5d0aa5 err="block in the future"
+WARN [12-16|23:47:42.041] Rewinding blockchain to block            target=0
+INFO [12-16|23:47:42.043] Loaded most recent local block           number=0 hash=15e889..fbdc3a td=30 age=54y8mo3w
+WARN [12-16|23:47:42.043] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:47:42.045] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:48:14.972] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:48:49.972] Looking for peers                        peercount=3 tried=1 static=4
+WARN [12-16|23:48:50.036] Invalid header encountered               number=11 hash=48b95d..3bc381 parent=029cce..f30db5 err="block in the future"
+WARN [12-16|23:48:50.037] Rewinding blockchain to block            target=0
+INFO [12-16|23:48:50.038] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+WARN [12-16|23:48:50.038] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:48:50.039] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:49:24.973] Looking for peers                        peercount=3 tried=1 static=4
+WARN [12-16|23:49:25.033] Invalid header encountered               number=11 hash=48b95d..3bc381 parent=029cce..f30db5 err="block in the future"
+WARN [12-16|23:49:25.033] Rewinding blockchain to block            target=0
+INFO [12-16|23:49:25.034] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+WARN [12-16|23:49:25.034] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:49:25.035] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:49:59.974] Looking for peers                        peercount=3 tried=1 static=4
+WARN [12-16|23:50:00.050] Invalid header encountered               number=15 hash=8f9efb..469ba6 parent=799849..bdc623 err="block in the future"
+WARN [12-16|23:50:00.051] Rewinding blockchain to block            target=0
+INFO [12-16|23:50:00.051] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+WARN [12-16|23:50:00.051] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:50:00.053] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:50:34.975] Looking for peers                        peercount=3 tried=1 static=4
+WARN [12-16|23:50:35.078] Invalid header encountered               number=19 hash=868de0..4ed3e9 parent=207dd2..8716db err="block in the future"
+WARN [12-16|23:50:35.078] Rewinding blockchain to block            target=0
+INFO [12-16|23:50:35.079] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+WARN [12-16|23:50:35.080] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:50:35.083] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:51:09.976] Looking for peers                        peercount=3 tried=1 static=4
+WARN [12-16|23:51:10.099] Invalid header encountered               number=29 hash=562325..42966b parent=c44aa0..f2f1fb err="block in the future"
+WARN [12-16|23:51:10.099] Rewinding blockchain to block            target=0
+INFO [12-16|23:51:10.100] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:51:10.100] Loaded last fast-sync pivot marker       number=4
+WARN [12-16|23:51:10.101] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:51:10.101] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:51:44.976] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:51:45.024] Syncing: state download in progress      synced=19.88% state=196.00B accounts=1@196.00B slots=0@0.00B codes=0@0.00B eta=21m9.873s
+INFO [12-16|23:51:45.182] Syncing: state download in progress      synced=100.00% state=390.00B accounts=2@390.00B slots=0@0.00B codes=0@0.00B eta=-124ns
+INFO [12-16|23:51:45.214] Syncing: state healing in progress       accounts=2@93.00B  slots=0@0.00B codes=0@0.00B nodes=3@314.00B pending=0
+WARN [12-16|23:51:45.214] Invalid header encountered               number=40 hash=3c835a..b9df64 parent=9117ac..82f4b4 err="block in the future"
+WARN [12-16|23:51:45.215] Rewinding blockchain to block            target=0
+INFO [12-16|23:51:45.215] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:51:45.216] Loaded last fast-sync pivot marker       number=15
+WARN [12-16|23:51:45.216] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:51:45.216] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:52:19.977] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:52:20.009] Syncing: state healing in progress       accounts=2@93.00B  slots=0@0.00B codes=0@0.00B nodes=3@314.00B pending=1
+INFO [12-16|23:52:20.045] Syncing: state healing in progress       accounts=4@187.00B slots=0@0.00B codes=0@0.00B nodes=6@629.00B pending=0
+WARN [12-16|23:52:20.202] Invalid header encountered               number=55 hash=80fddc..7b5839 parent=7fef36..87144e err="block in the future"
+WARN [12-16|23:52:20.202] Rewinding blockchain to block            target=0
+INFO [12-16|23:52:20.202] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:52:20.203] Loaded last fast-sync pivot marker       number=28
+WARN [12-16|23:52:20.203] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:52:20.203] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:52:54.978] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:52:55.005] Syncing: state healing in progress       accounts=4@187.00B slots=0@0.00B codes=0@0.00B nodes=6@629.00B pending=1
+INFO [12-16|23:52:55.015] Syncing: state healing in progress       accounts=6@281.00B slots=0@0.00B codes=0@0.00B nodes=9@944.00B pending=0
+WARN [12-16|23:52:55.207] Invalid header encountered               number=62 hash=7a2a84..207777 parent=f3f558..644f64 err="block in the future"
+WARN [12-16|23:52:55.207] Rewinding blockchain to block            target=0
+INFO [12-16|23:52:55.208] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:52:55.208] Loaded last fast-sync pivot marker       number=34
+WARN [12-16|23:52:55.208] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:52:55.209] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:53:29.978] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:53:30.002] Syncing: state healing in progress       accounts=6@281.00B slots=0@0.00B codes=0@0.00B nodes=9@944.00B pending=1
+INFO [12-16|23:53:30.009] Syncing: state healing in progress       accounts=8@375.00B slots=0@0.00B codes=0@0.00B nodes=12@1.23KiB pending=0
+WARN [12-16|23:53:30.162] Invalid header encountered               number=70 hash=bf35f2..57430a parent=79d9f4..e500e9 err="block in the future"
+WARN [12-16|23:53:30.162] Rewinding blockchain to block            target=0
+INFO [12-16|23:53:30.163] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:53:30.163] Loaded last fast-sync pivot marker       number=50
+WARN [12-16|23:53:30.163] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:53:30.164] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:54:04.979] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:54:05.011] Syncing: state healing in progress       accounts=8@375.00B slots=0@0.00B codes=0@0.00B nodes=12@1.23KiB pending=1
+INFO [12-16|23:54:05.058] Syncing: state healing in progress       accounts=10@469.00B slots=0@0.00B codes=0@0.00B nodes=15@1.54KiB pending=0
+WARN [12-16|23:54:05.267] Invalid header encountered               number=81 hash=9a549f..2e36e9 parent=0e1276..7c6226 err="block in the future"
+WARN [12-16|23:54:05.267] Rewinding blockchain to block            target=0
+INFO [12-16|23:54:05.268] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:54:05.268] Loaded last fast-sync pivot marker       number=63
+WARN [12-16|23:54:05.268] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:54:05.269] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:54:39.979] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:54:40.023] Syncing: state healing in progress       accounts=10@469.00B slots=0@0.00B codes=0@0.00B nodes=15@1.54KiB pending=1
+INFO [12-16|23:54:40.031] Syncing: state healing in progress       accounts=12@563.00B slots=0@0.00B codes=0@0.00B nodes=18@1.84KiB pending=0
+WARN [12-16|23:54:40.318] Invalid header encountered               number=95 hash=f07059..280ce3 parent=ce8a6a..f4464f err="block in the future"
+WARN [12-16|23:54:40.318] Rewinding blockchain to block            target=0
+INFO [12-16|23:54:40.319] Loaded most recent local block           number=0  hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:54:40.319] Loaded last fast-sync pivot marker       number=80
+WARN [12-16|23:54:40.319] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:54:40.320] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:55:14.980] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:55:15.006] Syncing: state healing in progress       accounts=12@563.00B slots=0@0.00B codes=0@0.00B nodes=18@1.84KiB pending=1
+INFO [12-16|23:55:15.014] Syncing: state healing in progress       accounts=14@657.00B slots=0@0.00B codes=0@0.00B nodes=21@2.15KiB pending=0
+WARN [12-16|23:55:15.234] Invalid header encountered               number=102 hash=018c8a..4e0117 parent=59d944..080929 err="block in the future"
+WARN [12-16|23:55:15.234] Rewinding blockchain to block            target=0
+INFO [12-16|23:55:15.235] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:55:15.235] Loaded last fast-sync pivot marker       number=91
+WARN [12-16|23:55:15.235] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:55:15.235] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:55:49.981] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:55:50.011] Syncing: state healing in progress       accounts=14@657.00B slots=0@0.00B codes=0@0.00B nodes=21@2.15KiB pending=1
+INFO [12-16|23:55:50.024] Syncing: state healing in progress       accounts=16@751.00B slots=0@0.00B codes=0@0.00B nodes=24@2.46KiB pending=0
+WARN [12-16|23:55:50.527] Invalid header encountered               number=117 hash=569e31..bebaf1 parent=0a5a10..1aa0b8 err="block in the future"
+WARN [12-16|23:55:50.528] Rewinding blockchain to block            target=0
+INFO [12-16|23:55:50.528] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:55:50.528] Loaded last fast-sync pivot marker       number=105
+WARN [12-16|23:55:50.529] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:55:50.529] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:56:24.982] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:56:25.008] Syncing: state healing in progress       accounts=16@751.00B slots=0@0.00B codes=0@0.00B nodes=24@2.46KiB pending=1
+INFO [12-16|23:56:25.026] Syncing: state healing in progress       accounts=18@845.00B slots=0@0.00B codes=0@0.00B nodes=27@2.77KiB pending=0
+WARN [12-16|23:56:25.408] Invalid header encountered               number=130 hash=251fab..a4c192 parent=80c31f..db474c err="block in the future"
+WARN [12-16|23:56:25.408] Rewinding blockchain to block            target=0
+INFO [12-16|23:56:25.409] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:56:25.409] Loaded last fast-sync pivot marker       number=115
+WARN [12-16|23:56:25.409] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:56:25.411] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:56:59.982] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:57:00.004] Syncing: state healing in progress       accounts=18@845.00B slots=0@0.00B codes=0@0.00B nodes=27@2.77KiB pending=1
+INFO [12-16|23:57:00.014] Syncing: state healing in progress       accounts=20@939.00B slots=0@0.00B codes=0@0.00B nodes=30@3.08KiB pending=0
+WARN [12-16|23:57:00.337] Invalid header encountered               number=149 hash=d46b14..ea29e7 parent=d72e84..619400 err="block in the future"
+WARN [12-16|23:57:00.337] Rewinding blockchain to block            target=0
+INFO [12-16|23:57:00.337] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:57:00.337] Loaded last fast-sync pivot marker       number=125
+WARN [12-16|23:57:00.338] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:57:00.338] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:57:34.983] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:57:35.014] Syncing: state healing in progress       accounts=20@939.00B slots=0@0.00B codes=0@0.00B nodes=30@3.08KiB pending=1
+INFO [12-16|23:57:35.030] Syncing: state healing in progress       accounts=22@1.01KiB slots=0@0.00B codes=0@0.00B nodes=33@3.38KiB pending=0
+WARN [12-16|23:57:35.516] Invalid header encountered               number=158 hash=661992..68b0d3 parent=ef2545..53768a err="block in the future"
+WARN [12-16|23:57:35.517] Rewinding blockchain to block            target=0
+INFO [12-16|23:57:35.518] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:57:35.518] Loaded last fast-sync pivot marker       number=132
+WARN [12-16|23:57:35.518] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:57:35.519] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:58:09.984] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:58:10.008] Syncing: state healing in progress       accounts=22@1.01KiB slots=0@0.00B codes=0@0.00B nodes=33@3.38KiB pending=1
+INFO [12-16|23:58:10.018] Syncing: state healing in progress       accounts=24@1.10KiB slots=0@0.00B codes=0@0.00B nodes=36@3.69KiB pending=0
+WARN [12-16|23:58:10.476] Invalid header encountered               number=173 hash=dfa2ec..d8f937 parent=023769..34e794 err="block in the future"
+WARN [12-16|23:58:10.476] Rewinding blockchain to block            target=0
+INFO [12-16|23:58:10.477] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:58:10.477] Loaded last fast-sync pivot marker       number=144
+WARN [12-16|23:58:10.477] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:58:10.478] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+WARN [12-16|23:58:21.103] Invalid header encountered               number=175 hash=64603f..a71ac1 parent=8f6dc9..46e959 err="block in the future"
+WARN [12-16|23:58:21.104] Rewinding blockchain to block            target=0
+INFO [12-16|23:58:21.104] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:58:21.104] Loaded last fast-sync pivot marker       number=144
+WARN [12-16|23:58:21.105] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:58:21.105] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:58:21.106] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:58:44.984] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-16|23:58:45.007] Syncing: state healing in progress       accounts=24@1.10KiB slots=0@0.00B codes=0@0.00B nodes=36@3.69KiB pending=1
+INFO [12-16|23:58:45.019] Syncing: state healing in progress       accounts=26@1.19KiB slots=0@0.00B codes=0@0.00B nodes=39@4.00KiB pending=0
+WARN [12-16|23:58:45.420] Invalid header encountered               number=185 hash=9b1d32..72e963 parent=30a251..37bb7a err="block in the future"
+WARN [12-16|23:58:45.422] Rewinding blockchain to block            target=0
+INFO [12-16|23:58:45.424] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:58:45.425] Loaded last fast-sync pivot marker       number=155
+WARN [12-16|23:58:45.426] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:58:45.427] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:58:55.445] Syncing: state healing in progress       accounts=26@1.19KiB slots=0@0.00B codes=0@0.00B nodes=39@4.00KiB pending=1
+INFO [12-16|23:58:55.462] Syncing: state healing in progress       accounts=28@1.28KiB slots=0@0.00B codes=0@0.00B nodes=42@4.31KiB pending=0
+WARN [12-16|23:58:56.012] Invalid header encountered               number=185 hash=9b1d32..72e963 parent=30a251..37bb7a err="block in the future"
+WARN [12-16|23:58:56.013] Rewinding blockchain to block            target=0
+INFO [12-16|23:58:56.013] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:58:56.013] Loaded last fast-sync pivot marker       number=160
+WARN [12-16|23:58:56.013] Rolled back chain segment                header=0->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:58:56.014] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:58:56.015] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:59:19.985] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-16|23:59:20.032] Syncing: state healing in progress       accounts=28@1.28KiB slots=0@0.00B codes=0@0.00B nodes=42@4.31KiB pending=1
+INFO [12-16|23:59:20.072] Syncing: state healing in progress       accounts=30@1.38KiB slots=0@0.00B codes=0@0.00B nodes=45@4.61KiB pending=0
+WARN [12-16|23:59:20.673] Invalid header encountered               number=193 hash=6102ed..3bd18e parent=f350fe..4ac4bb err="block in the future"
+WARN [12-16|23:59:20.674] Rewinding blockchain to block            target=0
+INFO [12-16|23:59:20.693] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:59:20.694] Loaded last fast-sync pivot marker       number=168
+WARN [12-16|23:59:20.694] Rolled back chain segment                header=192->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:59:20.695] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:59:30.710] Syncing: state healing in progress       accounts=30@1.38KiB slots=0@0.00B codes=0@0.00B nodes=45@4.61KiB pending=1
+INFO [12-16|23:59:30.720] Syncing: state healing in progress       accounts=32@1.47KiB slots=0@0.00B codes=0@0.00B nodes=48@4.92KiB pending=0
+WARN [12-16|23:59:31.157] Invalid header encountered               number=195 hash=d16950..5174a8 parent=33bb24..97322f err="block in the future"
+WARN [12-16|23:59:31.157] Rewinding blockchain to block            target=0
+INFO [12-16|23:59:31.178] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:59:31.179] Loaded last fast-sync pivot marker       number=171
+WARN [12-16|23:59:31.179] Rolled back chain segment                header=192->0 snap=0->0 block=0->0 reason="block in the future"
+WARN [12-16|23:59:31.179] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-16|23:59:31.180] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-16|23:59:54.985] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-16|23:59:55.016] Syncing: state healing in progress       accounts=32@1.47KiB slots=0@0.00B codes=0@0.00B nodes=48@4.92KiB pending=1
+INFO [12-16|23:59:55.024] Syncing: state healing in progress       accounts=34@1.56KiB slots=0@0.00B codes=0@0.00B nodes=51@5.23KiB pending=0
+INFO [12-16|23:59:55.680] Syncing: chain download in progress      synced=92.31%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=1m7.142s
+INFO [12-16|23:59:55.682] Rebuilding state snapshot 
+INFO [12-16|23:59:55.683] Committed new head block                 number=182 hash=bf2a71..006658
+INFO [12-16|23:59:55.683] Resuming state snapshot generation       root=8fcf9f..c36476 accounts=0          slots=0       storage=0.00B dangling=0 elapsed="792.728µs"
+INFO [12-16|23:59:55.684] Generated state snapshot                 accounts=2          slots=0       storage=96.00B dangling=0 elapsed=1.719ms
+WARN [12-16|23:59:55.699] Invalid header encountered               number=199 hash=e40b90..55d7b1 parent=5a1fc3..3c1256 err="block in the future"
+INFO [12-16|23:59:55.732] Imported new chain segment               number=192 hash=f350fe..4ac4bb blocks=10 txs=0 mgas=0.000 elapsed=49.025ms    mgasps=0.000 dirty=4.43KiB
+WARN [12-16|23:59:55.733] Rewinding blockchain to block            target=0
+INFO [12-16|23:59:55.821] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-16|23:59:55.821] Loaded last fast-sync pivot marker       number=182
+WARN [12-16|23:59:55.822] Rolled back chain segment                header=183->0 snap=183->0 block=183->0 reason="block in the future"
+WARN [12-16|23:59:55.823] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:00:05.843] Syncing: state healing in progress       accounts=34@1.56KiB slots=0@0.00B codes=0@0.00B nodes=51@5.23KiB pending=1
+INFO [12-17|00:00:05.847] Syncing: state healing in progress       accounts=35@1.61KiB slots=0@0.00B codes=0@0.00B nodes=53@5.42KiB pending=0
+INFO [12-17|00:00:06.607] Syncing: chain download in progress      synced=91.30%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=1m17.775s
+INFO [12-17|00:00:06.610] Rebuilding state snapshot 
+INFO [12-17|00:00:06.611] Committed new head block                 number=184 hash=30a251..37bb7a
+INFO [12-17|00:00:06.612] Resuming state snapshot generation       root=694755..630ea7 accounts=0          slots=0       storage=0.00B  dangling=0 elapsed=1.863ms
+INFO [12-17|00:00:06.613] Generated state snapshot                 accounts=2          slots=0       storage=96.00B dangling=0 elapsed=3.050ms
+WARN [12-17|00:00:06.637] Invalid header encountered               number=202 hash=72d120..2b459d parent=02db6e..7d74e8 err="block in the future"
+INFO [12-17|00:00:06.671] Imported new chain segment               number=192 hash=f350fe..4ac4bb blocks=8  txs=0 mgas=0.000 elapsed=59.568ms    mgasps=0.000 dirty=4.43KiB
+WARN [12-17|00:00:06.672] Rewinding blockchain to block            target=0
+INFO [12-17|00:00:06.761] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:00:06.761] Loaded last fast-sync pivot marker       number=184
+WARN [12-17|00:00:06.762] Rolled back chain segment                header=192->0 snap=184->0 block=184->0 reason="block in the future"
+WARN [12-17|00:00:06.762] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:00:06.763] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:00:29.986] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:00:30.009] Syncing: state healing in progress       accounts=35@1.61KiB slots=0@0.00B codes=0@0.00B nodes=53@5.42KiB pending=1
+INFO [12-17|00:00:30.075] Syncing: state healing in progress       accounts=37@1.70KiB slots=0@0.00B codes=0@0.00B nodes=56@5.73KiB pending=0
+INFO [12-17|00:00:30.614] Syncing: chain download in progress      synced=88.42%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=1m50.084s
+INFO [12-17|00:00:30.616] Rebuilding state snapshot 
+INFO [12-17|00:00:30.617] Committed new head block                 number=190 hash=002b87..be268e
+INFO [12-17|00:00:30.618] Resuming state snapshot generation       root=9f509b..19c7da accounts=0          slots=0       storage=0.00B  dangling=0 elapsed=1.041ms
+INFO [12-17|00:00:30.619] Generated state snapshot                 accounts=2          slots=0       storage=96.00B dangling=0 elapsed=1.949ms
+INFO [12-17|00:00:30.662] Imported new chain segment               number=192 hash=f350fe..4ac4bb blocks=2  txs=0 mgas=0.000 elapsed=44.496ms    mgasps=0.000 dirty=4.43KiB
+WARN [12-17|00:00:30.676] Invalid header encountered               number=211 hash=b007d1..68237f parent=b64dcd..793151 err="block in the future"
+WARN [12-17|00:00:30.676] Rewinding blockchain to block            target=0
+INFO [12-17|00:00:30.733] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:00:30.733] Loaded last fast-sync pivot marker       number=190
+WARN [12-17|00:00:30.733] Rolled back chain segment                header=192->0 snap=192->0 block=192->0 reason="block in the future"
+WARN [12-17|00:00:30.734] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:00:40.749] Syncing: state healing in progress       accounts=37@1.70KiB slots=0@0.00B codes=0@0.00B nodes=56@5.73KiB pending=1
+INFO [12-17|00:00:40.760] Syncing: state healing in progress       accounts=38@1.74KiB slots=0@0.00B codes=0@0.00B nodes=58@5.92KiB pending=0
+INFO [12-17|00:00:41.210] Syncing: chain download in progress      synced=87.50%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=2m1.605s
+INFO [12-17|00:00:41.212] Rebuilding state snapshot 
+INFO [12-17|00:00:41.213] Committed new head block                 number=192 hash=f350fe..4ac4bb
+INFO [12-17|00:00:41.213] Resuming state snapshot generation       root=249a3c..bcb9dd accounts=0          slots=0       storage=0.00B  dangling=0 elapsed="792.617µs"
+INFO [12-17|00:00:41.214] Generated state snapshot                 accounts=2          slots=0       storage=96.00B dangling=0 elapsed=1.457ms
+WARN [12-17|00:00:41.249] Invalid header encountered               number=211 hash=b007d1..68237f parent=b64dcd..793151 err="block in the future"
+WARN [12-17|00:00:41.250] Rewinding blockchain to block            target=0
+INFO [12-17|00:00:41.286] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:00:41.286] Loaded last fast-sync pivot marker       number=192
+WARN [12-17|00:00:41.286] Rolled back chain segment                header=192->0 snap=192->0 block=192->0 reason="block in the future"
+WARN [12-17|00:00:41.286] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:00:41.287] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:01:04.987] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:01:05.014] Syncing: state healing in progress       accounts=38@1.74KiB slots=0@0.00B codes=0@0.00B nodes=58@5.92KiB pending=1
+INFO [12-17|00:01:05.026] Syncing: state healing in progress       accounts=40@1.83KiB slots=0@0.00B codes=0@0.00B nodes=61@6.23KiB pending=0
+INFO [12-17|00:01:05.630] Syncing: chain download in progress      synced=84.00%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=2m46.792s
+WARN [12-17|00:01:05.685] Invalid header encountered               number=222 hash=384c51..ebb516 parent=afa227..481a43 err="block in the future"
+WARN [12-17|00:01:05.685] Rewinding blockchain to block            target=0
+INFO [12-17|00:01:05.733] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:01:05.734] Loaded last fast-sync pivot marker       number=200
+WARN [12-17|00:01:05.734] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:01:05.734] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:01:15.758] Syncing: state healing in progress       accounts=40@1.83KiB slots=0@0.00B codes=0@0.00B nodes=61@6.23KiB pending=1
+INFO [12-17|00:01:15.767] Syncing: state healing in progress       accounts=41@1.88KiB slots=0@0.00B codes=0@0.00B nodes=63@6.43KiB pending=0
+INFO [12-17|00:01:16.448] Syncing: chain download in progress      synced=83.58%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=2m54.129s
+WARN [12-17|00:01:16.562] Invalid header encountered               number=227 hash=be7910..0ac1bf parent=6d6e26..09b978 err="block in the future"
+WARN [12-17|00:01:16.562] Rewinding blockchain to block            target=0
+INFO [12-17|00:01:16.621] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:01:16.621] Loaded last fast-sync pivot marker       number=201
+WARN [12-17|00:01:16.622] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:01:16.622] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:01:16.623] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:01:39.987] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:01:40.021] Syncing: state healing in progress       accounts=41@1.88KiB slots=0@0.00B codes=0@0.00B nodes=63@6.43KiB pending=1
+INFO [12-17|00:01:40.036] Syncing: state healing in progress       accounts=43@1.97KiB slots=0@0.00B codes=0@0.00B nodes=66@6.73KiB pending=0
+INFO [12-17|00:01:40.490] Syncing: chain download in progress      synced=79.62%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=3m53.050s
+WARN [12-17|00:01:40.577] Invalid header encountered               number=236 hash=249e93..985045 parent=1cb388..34a2c7 err="block in the future"
+WARN [12-17|00:01:40.578] Rewinding blockchain to block            target=0
+INFO [12-17|00:01:40.622] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:01:40.622] Loaded last fast-sync pivot marker       number=211
+WARN [12-17|00:01:40.623] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:01:40.623] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:01:41.239] Updated mining threads                   threads=1
+INFO [12-17|00:01:41.240] Transaction pool price threshold updated price=1,000,000,000
+INFO [12-17|00:01:41.240] Commit new sealing work                  number=1   sealhash=ffd2bf..5ef0a1 uncles=0 txs=0 gas=0 fees=0 elapsed="433.716µs"
+INFO [12-17|00:01:41.241] Commit new sealing work                  number=1   sealhash=ffd2bf..5ef0a1 uncles=0 txs=0 gas=0 fees=0 elapsed="849.654µs"
+INFO [12-17|00:01:50.624] Mining aborted due to sync 
+INFO [12-17|00:01:50.639] Syncing: state healing in progress       accounts=43@1.97KiB slots=0@0.00B codes=0@0.00B nodes=66@6.73KiB pending=1
+INFO [12-17|00:01:50.653] Syncing: state healing in progress       accounts=45@2.06KiB slots=0@0.00B codes=0@0.00B nodes=69@7.04KiB pending=0
+INFO [12-17|00:01:51.267] Syncing: chain download in progress      synced=78.14%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=4m17.744s
+WARN [12-17|00:01:51.400] Invalid header encountered               number=239 hash=3b80c2..dca7e9 parent=9ea3fe..723b9a err="block in the future"
+WARN [12-17|00:01:51.401] Rewinding blockchain to block            target=0
+INFO [12-17|00:01:51.473] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:01:51.474] Loaded last fast-sync pivot marker       number=215
+WARN [12-17|00:01:51.474] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+INFO [12-17|00:01:51.476] Commit new sealing work                  number=1   sealhash=75e506..ce00fd uncles=0 txs=0 gas=0 fees=0 elapsed="528.4µs"
+INFO [12-17|00:01:51.476] Commit new sealing work                  number=1   sealhash=75e506..ce00fd uncles=0 txs=0 gas=0 fees=0 elapsed="859.765µs"
+WARN [12-17|00:01:51.475] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:01:51.478] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:02:14.988] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:02:14.998] Mining aborted due to sync 
+INFO [12-17|00:02:15.018] Syncing: state healing in progress       accounts=45@2.06KiB slots=0@0.00B codes=0@0.00B nodes=69@7.04KiB pending=1
+INFO [12-17|00:02:15.037] Syncing: state healing in progress       accounts=47@2.16KiB slots=0@0.00B codes=0@0.00B nodes=72@7.35KiB pending=0
+INFO [12-17|00:02:15.097] Syncing: chain download in progress      synced=76.02%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=4m58.165s
+WARN [12-17|00:02:15.313] Invalid header encountered               number=248 hash=a28795..79f26d parent=331272..bc9efe err="block in the future"
+WARN [12-17|00:02:15.313] Rewinding blockchain to block            target=0
+INFO [12-17|00:02:15.428] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:02:15.428] Loaded last fast-sync pivot marker       number=221
+WARN [12-17|00:02:15.428] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:02:15.429] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:02:15.430] Commit new sealing work                  number=1   sealhash=4b0e60..b1a5b3 uncles=0 txs=0 gas=0 fees=0 elapsed="417.179µs"
+INFO [12-17|00:02:15.430] Commit new sealing work                  number=1   sealhash=4b0e60..b1a5b3 uncles=0 txs=0 gas=0 fees=0 elapsed="794.802µs"
+INFO [12-17|00:02:16.734] Successfully sealed new block            number=1   sealhash=4b0e60..b1a5b3 hash=09f2b6..e6aab6 elapsed=1.304s
+INFO [12-17|00:02:16.734] "🔨 mined potential block"                number=1   hash=09f2b6..e6aab6
+INFO [12-17|00:02:16.736] Commit new sealing work                  number=2   sealhash=27282f..756309 uncles=0 txs=0 gas=0 fees=0 elapsed="573.01µs"
+INFO [12-17|00:02:16.736] Commit new sealing work                  number=2   sealhash=27282f..756309 uncles=0 txs=0 gas=0 fees=0 elapsed="975.985µs"
+INFO [12-17|00:02:22.443] Successfully sealed new block            number=2   sealhash=27282f..756309 hash=79c31f..3ab2dd elapsed=5.707s
+INFO [12-17|00:02:22.444] "🔨 mined potential block"                number=2   hash=79c31f..3ab2dd
+INFO [12-17|00:02:22.444] Commit new sealing work                  number=3   sealhash=41704c..679fd3 uncles=0 txs=0 gas=0 fees=0 elapsed="649.527µs"
+INFO [12-17|00:02:22.446] Commit new sealing work                  number=3   sealhash=41704c..679fd3 uncles=0 txs=0 gas=0 fees=0 elapsed=2.267ms
+INFO [12-17|00:02:25.431] Mining aborted due to sync 
+INFO [12-17|00:02:25.501] Syncing: chain download in progress      synced=0.90%   chain=18.00B headers=192@6.00B bodies=2@6.00B   receipts=2@6.00B   eta=29h3m50.821s
+WARN [12-17|00:02:25.715] Invalid header encountered               number=252 hash=93b29e..fd8eb5 parent=c337ea..1cbf11 err="block in the future"
+WARN [12-17|00:02:25.715] Rewinding blockchain to block            target=0
+INFO [12-17|00:02:25.824] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:02:25.824] Loaded last fast-sync pivot marker       number=221
+WARN [12-17|00:02:25.824] Rolled back chain segment                header=192->0 snap=192->0 block=2->0   reason="block in the future"
+WARN [12-17|00:02:25.825] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:02:25.825] Commit new sealing work                  number=1   sealhash=f21593..159f53 uncles=0 txs=0 gas=0 fees=0 elapsed="409.105µs"
+INFO [12-17|00:02:25.825] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:02:25.825] Commit new sealing work                  number=1   sealhash=ed002a..733ef3 uncles=0 txs=0 gas=0 fees=0 elapsed="290.699µs"
+INFO [12-17|00:02:25.826] Commit new sealing work                  number=1   sealhash=ed002a..733ef3 uncles=0 txs=0 gas=0 fees=0 elapsed="560.491µs"
+INFO [12-17|00:02:27.897] Commit new sealing work                  number=2   sealhash=d7b236..1a8146 uncles=0 txs=0 gas=0 fees=0 elapsed="566.491µs"
+INFO [12-17|00:02:27.898] Commit new sealing work                  number=2   sealhash=d7b236..1a8146 uncles=0 txs=0 gas=0 fees=0 elapsed="920.226µs"
+INFO [12-17|00:02:27.897] Successfully sealed new block            number=1   sealhash=ed002a..733ef3 hash=b4d122..e26fb9 elapsed=2.071s
+INFO [12-17|00:02:27.898] "🔨 mined potential block"                number=1   hash=b4d122..e26fb9
+INFO [12-17|00:02:37.502] Successfully sealed new block            number=2   sealhash=d7b236..1a8146 hash=68b9b1..ec7f32 elapsed=9.604s
+INFO [12-17|00:02:37.502] "🔨 mined potential block"                number=2   hash=68b9b1..ec7f32
+INFO [12-17|00:02:37.503] Commit new sealing work                  number=3   sealhash=133021..10e44a uncles=0 txs=0 gas=0 fees=0 elapsed="613.602µs"
+INFO [12-17|00:02:37.503] Commit new sealing work                  number=3   sealhash=133021..10e44a uncles=0 txs=0 gas=0 fees=0 elapsed=1.078ms
+INFO [12-17|00:02:40.208] Successfully sealed new block            number=3   sealhash=133021..10e44a hash=176007..92e342 elapsed=2.705s
+INFO [12-17|00:02:40.209] "🔨 mined potential block"                number=3   hash=176007..92e342
+INFO [12-17|00:02:40.210] Commit new sealing work                  number=4   sealhash=5e46d7..2aeeac uncles=0 txs=0 gas=0 fees=0 elapsed=2.237ms
+INFO [12-17|00:02:40.211] Commit new sealing work                  number=4   sealhash=5e46d7..2aeeac uncles=0 txs=0 gas=0 fees=0 elapsed=3.261ms
+INFO [12-17|00:02:40.447] Successfully sealed new block            number=4   sealhash=5e46d7..2aeeac hash=0616dc..3f815e elapsed=238.102ms
+INFO [12-17|00:02:40.448] "🔨 mined potential block"                number=4   hash=0616dc..3f815e
+INFO [12-17|00:02:40.448] Commit new sealing work                  number=5   sealhash=6a3cf9..e00d9b uncles=0 txs=0 gas=0 fees=0 elapsed="750.525µs"
+INFO [12-17|00:02:40.449] Commit new sealing work                  number=5   sealhash=6a3cf9..e00d9b uncles=0 txs=0 gas=0 fees=0 elapsed=1.257ms
+INFO [12-17|00:02:47.702] Successfully sealed new block            number=5   sealhash=6a3cf9..e00d9b hash=9efeb3..25ebdd elapsed=7.253s
+INFO [12-17|00:02:47.702] "🔨 mined potential block"                number=5   hash=9efeb3..25ebdd
+INFO [12-17|00:02:47.703] Commit new sealing work                  number=6   sealhash=84da01..0af201 uncles=0 txs=0 gas=0 fees=0 elapsed="822.246µs"
+INFO [12-17|00:02:47.704] Commit new sealing work                  number=6   sealhash=84da01..0af201 uncles=0 txs=0 gas=0 fees=0 elapsed=1.272ms
+INFO [12-17|00:02:48.671] Successfully sealed new block            number=6   sealhash=84da01..0af201 hash=348fc1..e63144 elapsed=968.110ms
+INFO [12-17|00:02:48.672] "🔨 mined potential block"                number=6   hash=348fc1..e63144
+INFO [12-17|00:02:48.672] Commit new sealing work                  number=7   sealhash=3e8fb7..3bf6c1 uncles=0 txs=0 gas=0 fees=0 elapsed="498.455µs"
+INFO [12-17|00:02:48.673] Commit new sealing work                  number=7   sealhash=3e8fb7..3bf6c1 uncles=0 txs=0 gas=0 fees=0 elapsed="959.299µs"
+INFO [12-17|00:02:49.988] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:02:49.998] Mining aborted due to sync 
+INFO [12-17|00:02:50.015] Syncing: state healing in progress       accounts=47@2.16KiB slots=0@0.00B codes=0@0.00B nodes=72@7.35KiB pending=1
+INFO [12-17|00:02:50.025] Syncing: state healing in progress       accounts=49@2.25KiB slots=0@0.00B codes=0@0.00B nodes=75@7.66KiB pending=0
+INFO [12-17|00:02:50.095] Syncing: chain download in progress      synced=2.62%   chain=18.00B headers=192@6.00B bodies=6@6.00B   receipts=6@6.00B   eta=10h7m8.028s
+WARN [12-17|00:02:50.336] Invalid header encountered               number=256 hash=fbf998..ecf128 parent=ee8795..1645fd err="block in the future"
+WARN [12-17|00:02:50.337] Rewinding blockchain to block            target=0
+INFO [12-17|00:02:50.474] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:02:50.475] Loaded last fast-sync pivot marker       number=229
+WARN [12-17|00:02:50.477] Rolled back chain segment                header=192->0 snap=192->0 block=6->0   reason="block in the future"
+WARN [12-17|00:02:50.478] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:02:50.479] Commit new sealing work                  number=1   sealhash=51b7ae..15675c uncles=0 txs=0 gas=0 fees=0 elapsed="696.175µs"
+INFO [12-17|00:02:50.480] Commit new sealing work                  number=1   sealhash=51b7ae..15675c uncles=0 txs=0 gas=0 fees=0 elapsed=1.449ms
+INFO [12-17|00:02:52.692] Successfully sealed new block            number=1   sealhash=51b7ae..15675c hash=8bf8a6..9cf600 elapsed=2.213s
+INFO [12-17|00:02:52.693] "🔨 mined potential block"                number=1   hash=8bf8a6..9cf600
+INFO [12-17|00:02:52.693] Commit new sealing work                  number=2   sealhash=5cff07..f204ab uncles=0 txs=0 gas=0 fees=0 elapsed="532.27µs"
+INFO [12-17|00:02:52.694] Commit new sealing work                  number=2   sealhash=5cff07..f204ab uncles=0 txs=0 gas=0 fees=0 elapsed="943.152µs"
+INFO [12-17|00:02:55.287] Successfully sealed new block            number=2   sealhash=5cff07..f204ab hash=4e675d..80d61a elapsed=2.593s
+INFO [12-17|00:02:55.287] "🔨 mined potential block"                number=2   hash=4e675d..80d61a
+INFO [12-17|00:02:55.288] Commit new sealing work                  number=3   sealhash=1a91d1..743e06 uncles=0 txs=0 gas=0 fees=0 elapsed=1.068ms
+INFO [12-17|00:02:55.289] Commit new sealing work                  number=3   sealhash=1a91d1..743e06 uncles=0 txs=0 gas=0 fees=0 elapsed=1.852ms
+INFO [12-17|00:02:55.377] Successfully sealed new block            number=3   sealhash=1a91d1..743e06 hash=98c1e7..870417 elapsed=88.690ms
+INFO [12-17|00:02:55.377] "🔨 mined potential block"                number=3   hash=98c1e7..870417
+INFO [12-17|00:02:55.379] Commit new sealing work                  number=4   sealhash=8e4a21..403352 uncles=0 txs=0 gas=0 fees=0 elapsed=1.011ms
+INFO [12-17|00:02:55.380] Commit new sealing work                  number=4   sealhash=8e4a21..403352 uncles=0 txs=0 gas=0 fees=0 elapsed=2.505ms
+INFO [12-17|00:02:57.025] Successfully sealed new block            number=4   sealhash=8e4a21..403352 hash=e7da62..8dd55a elapsed=1.645s
+INFO [12-17|00:02:57.025] "🔨 mined potential block"                number=4   hash=e7da62..8dd55a
+INFO [12-17|00:02:57.028] Commit new sealing work                  number=5   sealhash=f03efc..cf9652 uncles=0 txs=0 gas=0 fees=0 elapsed=2.518ms
+INFO [12-17|00:02:57.029] Commit new sealing work                  number=5   sealhash=f03efc..cf9652 uncles=0 txs=0 gas=0 fees=0 elapsed=3.665ms
+INFO [12-17|00:02:57.363] Successfully sealed new block            number=5   sealhash=f03efc..cf9652 hash=09a972..5cc88c elapsed=335.514ms
+INFO [12-17|00:02:57.363] "🔨 mined potential block"                number=5   hash=09a972..5cc88c
+INFO [12-17|00:02:57.364] Commit new sealing work                  number=6   sealhash=1f22e8..a38d77 uncles=0 txs=0 gas=0 fees=0 elapsed="492.863µs"
+INFO [12-17|00:02:57.364] Commit new sealing work                  number=6   sealhash=1f22e8..a38d77 uncles=0 txs=0 gas=0 fees=0 elapsed="731.137µs"
+INFO [12-17|00:03:00.480] Mining aborted due to sync 
+INFO [12-17|00:03:00.499] Syncing: state healing in progress       accounts=49@2.25KiB slots=0@0.00B codes=0@0.00B nodes=75@7.66KiB pending=1
+INFO [12-17|00:03:00.525] Syncing: state healing in progress       accounts=50@2.29KiB slots=0@0.00B codes=0@0.00B nodes=77@7.85KiB pending=0
+INFO [12-17|00:03:00.556] Syncing: chain download in progress      synced=2.17%   chain=18.00B headers=192@6.00B bodies=5@6.00B   receipts=5@6.00B   eta=12h22m56.434s
+WARN [12-17|00:03:00.849] Invalid header encountered               number=260 hash=94902f..78b7fb parent=e5efd1..aa88eb err="block in the future"
+WARN [12-17|00:03:00.852] Rewinding blockchain to block            target=0
+INFO [12-17|00:03:00.948] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:03:00.949] Loaded last fast-sync pivot marker       number=230
+WARN [12-17|00:03:00.950] Rolled back chain segment                header=192->0 snap=192->0 block=5->0   reason="block in the future"
+INFO [12-17|00:03:00.951] Commit new sealing work                  number=1   sealhash=5155a2..83f170 uncles=0 txs=0 gas=0 fees=0 elapsed="423.456µs"
+INFO [12-17|00:03:00.951] Commit new sealing work                  number=1   sealhash=5155a2..83f170 uncles=0 txs=0 gas=0 fees=0 elapsed="818.691µs"
+WARN [12-17|00:03:00.952] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:03:00.953] Looking for peers                        peercount=3 tried=2 static=4
+INFO [12-17|00:03:02.516] Successfully sealed new block            number=1   sealhash=5155a2..83f170 hash=68c8c6..95731d elapsed=1.565s
+INFO [12-17|00:03:02.516] "🔨 mined potential block"                number=1   hash=68c8c6..95731d
+INFO [12-17|00:03:02.517] Commit new sealing work                  number=2   sealhash=df0132..bffbeb uncles=0 txs=0 gas=0 fees=0 elapsed="477.937µs"
+INFO [12-17|00:03:02.517] Commit new sealing work                  number=2   sealhash=df0132..bffbeb uncles=0 txs=0 gas=0 fees=0 elapsed="993.429µs"
+INFO [12-17|00:03:05.387] Successfully sealed new block            number=2   sealhash=df0132..bffbeb hash=ad84e0..a4ab06 elapsed=2.869s
+INFO [12-17|00:03:05.387] "🔨 mined potential block"                number=2   hash=ad84e0..a4ab06
+INFO [12-17|00:03:05.399] Commit new sealing work                  number=3   sealhash=68a1fc..6cfc21 uncles=0 txs=0 gas=0 fees=0 elapsed=11.157ms
+INFO [12-17|00:03:05.400] Commit new sealing work                  number=3   sealhash=68a1fc..6cfc21 uncles=0 txs=0 gas=0 fees=0 elapsed=11.802ms
+INFO [12-17|00:03:07.357] Successfully sealed new block            number=3   sealhash=68a1fc..6cfc21 hash=d5bbe8..b7fdd2 elapsed=1.968s
+INFO [12-17|00:03:07.357] "🔨 mined potential block"                number=3   hash=d5bbe8..b7fdd2
+INFO [12-17|00:03:07.357] Commit new sealing work                  number=4   sealhash=ba753f..4dfe32 uncles=0 txs=0 gas=0 fees=0 elapsed="447.53µs"
+INFO [12-17|00:03:07.358] Commit new sealing work                  number=4   sealhash=ba753f..4dfe32 uncles=0 txs=0 gas=0 fees=0 elapsed="712.396µs"
+INFO [12-17|00:03:08.174] Successfully sealed new block            number=4   sealhash=ba753f..4dfe32 hash=bdb271..42fff1 elapsed=816.807ms
+INFO [12-17|00:03:08.175] "🔨 mined potential block"                number=4   hash=bdb271..42fff1
+INFO [12-17|00:03:08.175] Commit new sealing work                  number=5   sealhash=c85524..ab509f uncles=0 txs=0 gas=0 fees=0 elapsed="733.785µs"
+INFO [12-17|00:03:08.176] Commit new sealing work                  number=5   sealhash=c85524..ab509f uncles=0 txs=0 gas=0 fees=0 elapsed=1.668ms
+INFO [12-17|00:03:12.663] Successfully sealed new block            number=5   sealhash=c85524..ab509f hash=f5559c..316962 elapsed=4.487s
+INFO [12-17|00:03:12.663] "🔨 mined potential block"                number=5   hash=f5559c..316962
+INFO [12-17|00:03:12.663] Commit new sealing work                  number=6   sealhash=f62c00..0884b7 uncles=0 txs=0 gas=0 fees=0 elapsed="474.419µs"
+INFO [12-17|00:03:12.664] Commit new sealing work                  number=6   sealhash=f62c00..0884b7 uncles=0 txs=0 gas=0 fees=0 elapsed="759.173µs"
+INFO [12-17|00:03:21.143] Successfully sealed new block            number=6   sealhash=f62c00..0884b7 hash=9d162f..d72256 elapsed=8.479s
+INFO [12-17|00:03:21.143] "🔨 mined potential block"                number=6   hash=9d162f..d72256
+INFO [12-17|00:03:21.144] Commit new sealing work                  number=7   sealhash=def249..a7f56f uncles=0 txs=0 gas=0 fees=0 elapsed="572.399µs"
+INFO [12-17|00:03:21.144] Commit new sealing work                  number=7   sealhash=def249..a7f56f uncles=0 txs=0 gas=0 fees=0 elapsed="928.93µs"
+INFO [12-17|00:03:21.999] Successfully sealed new block            number=7   sealhash=def249..a7f56f hash=06e484..735288 elapsed=854.604ms
+INFO [12-17|00:03:21.999] "🔨 mined potential block"                number=7   hash=06e484..735288
+INFO [12-17|00:03:22.000] Commit new sealing work                  number=8   sealhash=2405b1..df6686 uncles=0 txs=0 gas=0 fees=0 elapsed="733.266µs"
+INFO [12-17|00:03:22.000] Commit new sealing work                  number=8   sealhash=2405b1..df6686 uncles=0 txs=0 gas=0 fees=0 elapsed=1.305ms
+INFO [12-17|00:03:22.502] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:03:25.002] Mining aborted due to sync 
+INFO [12-17|00:03:25.026] Syncing: state healing in progress       accounts=50@2.29KiB slots=0@0.00B codes=0@0.00B nodes=77@7.85KiB pending=1
+INFO [12-17|00:03:25.036] Syncing: state healing in progress       accounts=52@2.39KiB slots=0@0.00B codes=0@0.00B nodes=80@8.16KiB pending=0
+INFO [12-17|00:03:25.084] Syncing: chain download in progress      synced=2.95%   chain=18.00B headers=192@6.00B bodies=7@6.00B   receipts=7@6.00B   eta=9h15m53.789s
+WARN [12-17|00:03:25.384] Invalid header encountered               number=267 hash=c8e80f..8ca840 parent=3cc7f9..25027e err="block in the future"
+WARN [12-17|00:03:25.384] Rewinding blockchain to block            target=0
+INFO [12-17|00:03:25.474] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:03:25.475] Loaded last fast-sync pivot marker       number=237
+WARN [12-17|00:03:25.476] Rolled back chain segment                header=192->0 snap=192->0 block=7->0   reason="block in the future"
+WARN [12-17|00:03:25.476] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:03:25.477] Commit new sealing work                  number=1   sealhash=a5f924..55b914 uncles=0 txs=0 gas=0 fees=0 elapsed="305.328µs"
+INFO [12-17|00:03:25.477] Commit new sealing work                  number=1   sealhash=a5f924..55b914 uncles=0 txs=0 gas=0 fees=0 elapsed="607.564µs"
+INFO [12-17|00:03:32.503] Looking for peers                        peercount=3 tried=3 static=4
+INFO [12-17|00:03:35.478] Mining aborted due to sync 
+INFO [12-17|00:03:35.540] Syncing: chain download in progress      synced=70.89%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=7m1.216s
+WARN [12-17|00:03:35.867] Invalid header encountered               number=269 hash=60b132..b29871 parent=f1e33b..7dc922 err="block in the future"
+WARN [12-17|00:03:35.868] Rewinding blockchain to block            target=0
+INFO [12-17|00:03:35.977] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:03:35.978] Loaded last fast-sync pivot marker       number=237
+WARN [12-17|00:03:35.979] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:03:35.979] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:03:35.980] Commit new sealing work                  number=1   sealhash=214f3f..2b0e4f uncles=0 txs=0 gas=0 fees=0 elapsed="420.771µs"
+INFO [12-17|00:03:35.980] Commit new sealing work                  number=1   sealhash=214f3f..2b0e4f uncles=0 txs=0 gas=0 fees=0 elapsed="766.785µs"
+INFO [12-17|00:03:40.919] Successfully sealed new block            number=1   sealhash=214f3f..2b0e4f hash=fdf7de..d8b35f elapsed=4.939s
+INFO [12-17|00:03:40.919] "🔨 mined potential block"                number=1   hash=fdf7de..d8b35f
+INFO [12-17|00:03:40.920] Commit new sealing work                  number=2   sealhash=e168e1..03d7ba uncles=0 txs=0 gas=0 fees=0 elapsed="963.762µs"
+INFO [12-17|00:03:40.921] Commit new sealing work                  number=2   sealhash=e168e1..03d7ba uncles=0 txs=0 gas=0 fees=0 elapsed=1.463ms
+INFO [12-17|00:03:48.189] Successfully sealed new block            number=2   sealhash=e168e1..03d7ba hash=b2b134..ddc2ab elapsed=7.268s
+INFO [12-17|00:03:48.189] "🔨 mined potential block"                number=2   hash=b2b134..ddc2ab
+INFO [12-17|00:03:48.190] Commit new sealing work                  number=3   sealhash=4a49a0..f3e49f uncles=0 txs=0 gas=0 fees=0 elapsed="860.543µs"
+INFO [12-17|00:03:48.190] Commit new sealing work                  number=3   sealhash=4a49a0..f3e49f uncles=0 txs=0 gas=0 fees=0 elapsed=1.266ms
+INFO [12-17|00:03:56.230] Successfully sealed new block            number=3   sealhash=4a49a0..f3e49f hash=7c398c..bd6170 elapsed=8.040s
+INFO [12-17|00:03:56.231] "🔨 mined potential block"                number=3   hash=7c398c..bd6170
+INFO [12-17|00:03:56.232] Commit new sealing work                  number=4   sealhash=73148e..d9d4bf uncles=0 txs=0 gas=0 fees=0 elapsed=1.083ms
+INFO [12-17|00:03:56.232] Commit new sealing work                  number=4   sealhash=73148e..d9d4bf uncles=0 txs=0 gas=0 fees=0 elapsed=1.619ms
+INFO [12-17|00:03:56.878] Successfully sealed new block            number=4   sealhash=73148e..d9d4bf hash=ada667..a1f35a elapsed=646.011ms
+INFO [12-17|00:03:56.878] "🔨 mined potential block"                number=4   hash=ada667..a1f35a
+INFO [12-17|00:03:56.879] Commit new sealing work                  number=5   sealhash=95a324..3aa5af uncles=0 txs=0 gas=0 fees=0 elapsed="557.01µs"
+INFO [12-17|00:03:56.880] Commit new sealing work                  number=5   sealhash=95a324..3aa5af uncles=0 txs=0 gas=0 fees=0 elapsed=1.182ms
+INFO [12-17|00:03:57.197] Looking for peers                        peercount=1 tried=0 static=4
+INFO [12-17|00:03:57.282] Successfully sealed new block            number=5   sealhash=95a324..3aa5af hash=ba9368..f8a1b0 elapsed=402.288ms
+INFO [12-17|00:03:57.282] "🔨 mined potential block"                number=5   hash=ba9368..f8a1b0
+INFO [12-17|00:03:57.284] Commit new sealing work                  number=6   sealhash=40f7ae..aa4064 uncles=0 txs=0 gas=0 fees=0 elapsed=1.819ms
+INFO [12-17|00:03:57.285] Commit new sealing work                  number=6   sealhash=40f7ae..aa4064 uncles=0 txs=0 gas=0 fees=0 elapsed=2.572ms
+INFO [12-17|00:03:58.908] Successfully sealed new block            number=6   sealhash=40f7ae..aa4064 hash=8f0650..80b0a8 elapsed=1.624s
+INFO [12-17|00:03:58.909] "🔨 mined potential block"                number=6   hash=8f0650..80b0a8
+INFO [12-17|00:03:58.909] Commit new sealing work                  number=7   sealhash=aaee51..339be1 uncles=0 txs=0 gas=0 fees=0 elapsed="773.765µs"
+INFO [12-17|00:03:58.910] Commit new sealing work                  number=7   sealhash=aaee51..339be1 uncles=0 txs=0 gas=0 fees=0 elapsed=1.281ms
+INFO [12-17|00:04:00.010] Mining aborted due to sync 
+INFO [12-17|00:04:00.028] Syncing: state healing in progress       accounts=52@2.39KiB slots=0@0.00B codes=0@0.00B nodes=80@8.16KiB pending=1
+INFO [12-17|00:04:00.036] Syncing: state healing in progress       accounts=54@2.48KiB slots=0@0.00B codes=0@0.00B nodes=83@8.47KiB pending=0
+INFO [12-17|00:04:00.128] Syncing: chain download in progress      synced=2.48%   chain=18.00B headers=192@6.00B bodies=6@6.00B   receipts=6@6.00B   eta=11h28m26.253s
+WARN [12-17|00:04:00.690] Invalid header encountered               number=279 hash=297352..d6cdf7 parent=4a6a0a..52ef6e err="block in the future"
+WARN [12-17|00:04:00.697] Rewinding blockchain to block            target=0
+INFO [12-17|00:04:00.853] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:04:00.853] Loaded last fast-sync pivot marker       number=242
+WARN [12-17|00:04:00.854] Rolled back chain segment                header=192->0 snap=192->0 block=6->0   reason="block in the future"
+WARN [12-17|00:04:00.855] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:04:00.855] Commit new sealing work                  number=1   sealhash=8a23df..ee8731 uncles=0 txs=0 gas=0 fees=0 elapsed="367.624µs"
+INFO [12-17|00:04:00.857] Commit new sealing work                  number=1   sealhash=8a23df..ee8731 uncles=0 txs=0 gas=0 fees=0 elapsed=1.621ms
+INFO [12-17|00:04:02.334] Successfully sealed new block            number=1   sealhash=8a23df..ee8731 hash=ab9642..a85834 elapsed=1.478s
+INFO [12-17|00:04:02.334] "🔨 mined potential block"                number=1   hash=ab9642..a85834
+INFO [12-17|00:04:02.334] Commit new sealing work                  number=2   sealhash=f203fc..ed81d5 uncles=0 txs=0 gas=0 fees=0 elapsed="557.455µs"
+INFO [12-17|00:04:02.335] Commit new sealing work                  number=2   sealhash=f203fc..ed81d5 uncles=0 txs=0 gas=0 fees=0 elapsed="847.191µs"
+INFO [12-17|00:04:05.103] Successfully sealed new block            number=2   sealhash=f203fc..ed81d5 hash=1dc0fd..bbf1c8 elapsed=2.768s
+INFO [12-17|00:04:05.103] "🔨 mined potential block"                number=2   hash=1dc0fd..bbf1c8
+INFO [12-17|00:04:05.104] Commit new sealing work                  number=3   sealhash=62d769..7027c5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.087ms
+INFO [12-17|00:04:05.105] Commit new sealing work                  number=3   sealhash=62d769..7027c5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.751ms
+INFO [12-17|00:04:10.707] Successfully sealed new block            number=3   sealhash=62d769..7027c5 hash=5082c6..425d41 elapsed=5.603s
+INFO [12-17|00:04:10.708] Commit new sealing work                  number=4   sealhash=eb5fd6..360b21 uncles=0 txs=0 gas=0 fees=0 elapsed="561.75µs"
+INFO [12-17|00:04:10.708] "🔨 mined potential block"                number=3   hash=5082c6..425d41
+INFO [12-17|00:04:10.722] Commit new sealing work                  number=4   sealhash=eb5fd6..360b21 uncles=0 txs=0 gas=0 fees=0 elapsed=14.475ms
+INFO [12-17|00:04:10.857] Mining aborted due to sync 
+INFO [12-17|00:04:10.875] Syncing: state healing in progress       accounts=54@2.48KiB slots=0@0.00B codes=0@0.00B nodes=83@8.47KiB pending=1
+INFO [12-17|00:04:10.879] Syncing: state healing in progress       accounts=55@2.52KiB slots=0@0.00B codes=0@0.00B nodes=85@8.66KiB pending=0
+INFO [12-17|00:04:10.918] Syncing: chain download in progress      synced=1.23%   chain=18.00B headers=192@6.00B bodies=3@6.00B   receipts=3@6.00B   eta=23h40m29.619s
+WARN [12-17|00:04:11.296] Invalid header encountered               number=283 hash=296f2c..0350d8 parent=79e95b..e7ddb0 err="block in the future"
+WARN [12-17|00:04:11.297] Rewinding blockchain to block            target=0
+INFO [12-17|00:04:11.526] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:04:11.528] Loaded last fast-sync pivot marker       number=244
+WARN [12-17|00:04:11.529] Rolled back chain segment                header=192->0 snap=192->0 block=3->0   reason="block in the future"
+INFO [12-17|00:04:11.531] Commit new sealing work                  number=1   sealhash=78b225..4f49ff uncles=0 txs=0 gas=0 fees=0 elapsed="778.877µs"
+INFO [12-17|00:04:11.532] Commit new sealing work                  number=1   sealhash=78b225..4f49ff uncles=0 txs=0 gas=0 fees=0 elapsed=1.453ms
+WARN [12-17|00:04:11.530] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:04:11.533] Looking for peers                        peercount=2 tried=3 static=4
+INFO [12-17|00:04:27.287] Looking for peers                        peercount=1 tried=0 static=4
+INFO [12-17|00:04:27.542] Successfully sealed new block            number=1   sealhash=78b225..4f49ff hash=bf6e52..f5ff79 elapsed=16.011s
+INFO [12-17|00:04:27.542] "🔨 mined potential block"                number=1   hash=bf6e52..f5ff79
+INFO [12-17|00:04:27.543] Commit new sealing work                  number=2   sealhash=e3602c..b464cd uncles=0 txs=0 gas=0 fees=0 elapsed="513.566µs"
+INFO [12-17|00:04:27.544] Commit new sealing work                  number=2   sealhash=e3602c..b464cd uncles=0 txs=0 gas=0 fees=0 elapsed="797.821µs"
+INFO [12-17|00:04:30.184] Successfully sealed new block            number=2   sealhash=e3602c..b464cd hash=408e30..03d653 elapsed=2.640s
+INFO [12-17|00:04:30.184] "🔨 mined potential block"                number=2   hash=408e30..03d653
+INFO [12-17|00:04:30.185] Commit new sealing work                  number=3   sealhash=7ca22f..23dc09 uncles=0 txs=0 gas=0 fees=0 elapsed="869.153µs"
+INFO [12-17|00:04:30.186] Commit new sealing work                  number=3   sealhash=7ca22f..23dc09 uncles=0 txs=0 gas=0 fees=0 elapsed=1.711ms
+INFO [12-17|00:04:31.394] Successfully sealed new block            number=3   sealhash=7ca22f..23dc09 hash=03ddf8..22b60a elapsed=1.210s
+INFO [12-17|00:04:31.395] "🔨 mined potential block"                number=3   hash=03ddf8..22b60a
+INFO [12-17|00:04:31.396] Commit new sealing work                  number=4   sealhash=7522c6..96c015 uncles=0 txs=0 gas=0 fees=0 elapsed="439.048µs"
+INFO [12-17|00:04:31.397] Commit new sealing work                  number=4   sealhash=7522c6..96c015 uncles=0 txs=0 gas=0 fees=0 elapsed=1.490ms
+INFO [12-17|00:04:33.232] Successfully sealed new block            number=4   sealhash=7522c6..96c015 hash=a270ca..590bec elapsed=1.835s
+INFO [12-17|00:04:33.232] "🔨 mined potential block"                number=4   hash=a270ca..590bec
+INFO [12-17|00:04:33.232] Commit new sealing work                  number=5   sealhash=1b1f5b..2d22a5 uncles=0 txs=0 gas=0 fees=0 elapsed="479.604µs"
+INFO [12-17|00:04:33.233] Commit new sealing work                  number=5   sealhash=1b1f5b..2d22a5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.145ms
+INFO [12-17|00:04:34.782] Successfully sealed new block            number=5   sealhash=1b1f5b..2d22a5 hash=540a3b..fab23a elapsed=1.549s
+INFO [12-17|00:04:34.783] Commit new sealing work                  number=6   sealhash=ad6bf5..ba1103 uncles=0 txs=0 gas=0 fees=0 elapsed="626.045µs"
+INFO [12-17|00:04:34.783] "🔨 mined potential block"                number=5   hash=540a3b..fab23a
+INFO [12-17|00:04:34.785] Commit new sealing work                  number=6   sealhash=ad6bf5..ba1103 uncles=0 txs=0 gas=0 fees=0 elapsed=3.209ms
+INFO [12-17|00:04:34.999] Mining aborted due to sync 
+INFO [12-17|00:04:35.043] Syncing: state healing in progress       accounts=55@2.52KiB slots=0@0.00B codes=0@0.00B nodes=85@8.66KiB pending=1
+INFO [12-17|00:04:35.049] Syncing: state healing in progress       accounts=57@2.62KiB slots=0@0.00B codes=0@0.00B nodes=88@8.97KiB pending=0
+INFO [12-17|00:04:35.098] Syncing: chain download in progress      synced=1.97%   chain=18.00B headers=192@6.00B bodies=5@6.00B   receipts=5@6.00B   eta=15h0m39.454s
+INFO [12-17|00:04:35.205] Successfully sealed new block            number=6   sealhash=ad6bf5..ba1103 hash=fd5814..3a9ce6 elapsed=422.423ms
+INFO [12-17|00:04:35.205] "🔨 mined potential block"                number=6   hash=fd5814..3a9ce6
+WARN [12-17|00:04:35.454] Invalid header encountered               number=289 hash=de40d2..629b51 parent=dea462..3f4a00 err="block in the future"
+WARN [12-17|00:04:35.455] Rewinding blockchain to block            target=0
+INFO [12-17|00:04:35.518] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:04:35.518] Loaded last fast-sync pivot marker       number=254
+WARN [12-17|00:04:35.519] Rolled back chain segment                header=6->0   snap=6->0   block=6->0   reason="block in the future"
+WARN [12-17|00:04:35.519] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:04:35.520] Commit new sealing work                  number=1   sealhash=139c5a..7b5d9a uncles=0 txs=0 gas=0 fees=0 elapsed="521.047µs"
+INFO [12-17|00:04:35.520] Commit new sealing work                  number=1   sealhash=177538..909647 uncles=0 txs=0 gas=0 fees=0 elapsed="323.587µs"
+INFO [12-17|00:04:35.520] Commit new sealing work                  number=1   sealhash=177538..909647 uncles=0 txs=0 gas=0 fees=0 elapsed="627.823µs"
+INFO [12-17|00:04:42.042] Looking for peers                        peercount=3 tried=2 static=4
+INFO [12-17|00:04:45.521] Mining aborted due to sync 
+INFO [12-17|00:04:45.542] Syncing: state healing in progress       accounts=57@2.62KiB slots=0@0.00B codes=0@0.00B nodes=88@8.97KiB pending=1
+INFO [12-17|00:04:45.554] Syncing: state healing in progress       accounts=59@2.71KiB slots=0@0.00B codes=0@0.00B nodes=91@9.28KiB pending=0
+INFO [12-17|00:04:45.604] Syncing: chain download in progress      synced=65.37%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=9m40.425s
+WARN [12-17|00:04:45.951] Invalid header encountered               number=289 hash=de40d2..629b51 parent=dea462..3f4a00 err="block in the future"
+WARN [12-17|00:04:45.952] Rewinding blockchain to block            target=0
+INFO [12-17|00:04:46.064] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:04:46.064] Loaded last fast-sync pivot marker       number=257
+WARN [12-17|00:04:46.065] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:04:46.065] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:04:46.065] Commit new sealing work                  number=1   sealhash=008c54..9be6b0 uncles=0 txs=0 gas=0 fees=0 elapsed="323.569µs"
+INFO [12-17|00:04:46.066] Commit new sealing work                  number=1   sealhash=ef51cc..1ab9d4 uncles=0 txs=0 gas=0 fees=0 elapsed="334.939µs"
+INFO [12-17|00:04:46.066] Commit new sealing work                  number=1   sealhash=ef51cc..1ab9d4 uncles=0 txs=0 gas=0 fees=0 elapsed="654.008µs"
+INFO [12-17|00:04:46.750] Successfully sealed new block            number=1   sealhash=ef51cc..1ab9d4 hash=04dc96..f0a340 elapsed=684.572ms
+INFO [12-17|00:04:46.750] "🔨 mined potential block"                number=1   hash=04dc96..f0a340
+INFO [12-17|00:04:46.751] Commit new sealing work                  number=2   sealhash=0fb594..a1192a uncles=0 txs=0 gas=0 fees=0 elapsed="493.141µs"
+INFO [12-17|00:04:46.751] Commit new sealing work                  number=2   sealhash=0fb594..a1192a uncles=0 txs=0 gas=0 fees=0 elapsed="796.395µs"
+INFO [12-17|00:04:50.319] Successfully sealed new block            number=2   sealhash=0fb594..a1192a hash=377c26..530cfa elapsed=3.568s
+INFO [12-17|00:04:50.320] "🔨 mined potential block"                number=2   hash=377c26..530cfa
+INFO [12-17|00:04:50.320] Commit new sealing work                  number=3   sealhash=5c885e..b126f4 uncles=0 txs=0 gas=0 fees=0 elapsed="634.879µs"
+INFO [12-17|00:04:50.321] Commit new sealing work                  number=3   sealhash=5c885e..b126f4 uncles=0 txs=0 gas=0 fees=0 elapsed=1.472ms
+INFO [12-17|00:04:50.628] Successfully sealed new block            number=3   sealhash=5c885e..b126f4 hash=2cc74b..2229ae elapsed=308.221ms
+INFO [12-17|00:04:50.629] "🔨 mined potential block"                number=3   hash=2cc74b..2229ae
+INFO [12-17|00:04:50.630] Commit new sealing work                  number=4   sealhash=6d95b4..6f5b26 uncles=0 txs=0 gas=0 fees=0 elapsed="968.411µs"
+INFO [12-17|00:04:50.631] Commit new sealing work                  number=4   sealhash=6d95b4..6f5b26 uncles=0 txs=0 gas=0 fees=0 elapsed=1.867ms
+INFO [12-17|00:04:55.154] Successfully sealed new block            number=4   sealhash=6d95b4..6f5b26 hash=f589c6..e54e34 elapsed=4.523s
+INFO [12-17|00:04:55.154] "🔨 mined potential block"                number=4   hash=f589c6..e54e34
+INFO [12-17|00:04:55.155] Commit new sealing work                  number=5   sealhash=098677..f7305b uncles=0 txs=0 gas=0 fees=0 elapsed="474.64µs"
+INFO [12-17|00:04:55.155] Commit new sealing work                  number=5   sealhash=098677..f7305b uncles=0 txs=0 gas=0 fees=0 elapsed="891.115µs"
+INFO [12-17|00:04:56.075] Successfully sealed new block            number=5   sealhash=098677..f7305b hash=733d6a..adc494 elapsed=920.545ms
+INFO [12-17|00:04:56.076] "🔨 mined potential block"                number=5   hash=733d6a..adc494
+INFO [12-17|00:04:56.076] Commit new sealing work                  number=6   sealhash=f435a2..25a7dd uncles=0 txs=0 gas=0 fees=0 elapsed="532.14µs"
+INFO [12-17|00:04:56.077] Commit new sealing work                  number=6   sealhash=f435a2..25a7dd uncles=0 txs=0 gas=0 fees=0 elapsed=1.089ms
+INFO [12-17|00:05:01.361] Successfully sealed new block            number=6   sealhash=f435a2..25a7dd hash=37c017..cc7902 elapsed=5.284s
+INFO [12-17|00:05:01.362] "🔨 mined potential block"                number=6   hash=37c017..cc7902
+INFO [12-17|00:05:01.362] Commit new sealing work                  number=7   sealhash=93af97..934aac uncles=0 txs=0 gas=0 fees=0 elapsed="984.688µs"
+INFO [12-17|00:05:01.363] Commit new sealing work                  number=7   sealhash=93af97..934aac uncles=0 txs=0 gas=0 fees=0 elapsed=1.748ms
+INFO [12-17|00:05:02.267] Looking for peers                        peercount=1 tried=1 static=4
+INFO [12-17|00:05:10.005] Mining aborted due to sync 
+INFO [12-17|00:05:10.035] Syncing: state healing in progress       accounts=59@2.71KiB slots=0@0.00B codes=0@0.00B nodes=91@9.28KiB pending=1
+INFO [12-17|00:05:10.053] Syncing: state healing in progress       accounts=61@2.80KiB slots=0@0.00B codes=0@0.00B nodes=94@9.58KiB pending=0
+INFO [12-17|00:05:10.115] Syncing: chain download in progress      synced=2.28%   chain=18.00B headers=192@6.00B bodies=6@6.00B   receipts=6@6.00B   eta=13h19m39.607s
+WARN [12-17|00:05:10.647] Invalid header encountered               number=295 hash=6b5c6e..1b507d parent=9349a0..d6cf7e err="block in the future"
+WARN [12-17|00:05:10.652] Rewinding blockchain to block            target=0
+INFO [12-17|00:05:10.762] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:05:10.762] Loaded last fast-sync pivot marker       number=263
+WARN [12-17|00:05:10.763] Rolled back chain segment                header=192->0 snap=192->0 block=6->0   reason="block in the future"
+WARN [12-17|00:05:10.763] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:05:10.764] Commit new sealing work                  number=1   sealhash=400c6a..1ed031 uncles=0 txs=0 gas=0 fees=0 elapsed="301.347µs"
+INFO [12-17|00:05:10.764] Commit new sealing work                  number=1   sealhash=400c6a..1ed031 uncles=0 txs=0 gas=0 fees=0 elapsed="732.544µs"
+INFO [12-17|00:05:12.108] Successfully sealed new block            number=1   sealhash=400c6a..1ed031 hash=666ee4..e90271 elapsed=1.344s
+INFO [12-17|00:05:12.109] "🔨 mined potential block"                number=1   hash=666ee4..e90271
+INFO [12-17|00:05:12.109] Commit new sealing work                  number=2   sealhash=173546..7c1667 uncles=0 txs=0 gas=0 fees=0 elapsed="469.381µs"
+INFO [12-17|00:05:12.110] Commit new sealing work                  number=2   sealhash=173546..7c1667 uncles=0 txs=0 gas=0 fees=0 elapsed="987.355µs"
+INFO [12-17|00:05:17.043] Looking for peers                        peercount=2 tried=2 static=4
+INFO [12-17|00:05:19.793] Commit new sealing work                  number=3   sealhash=8dfb32..79cf93 uncles=0 txs=0 gas=0 fees=0 elapsed="589.157µs"
+INFO [12-17|00:05:19.794] Commit new sealing work                  number=3   sealhash=8dfb32..79cf93 uncles=0 txs=0 gas=0 fees=0 elapsed=1.265ms
+INFO [12-17|00:05:19.792] Successfully sealed new block            number=2   sealhash=173546..7c1667 hash=20d166..c5a8cb elapsed=7.683s
+INFO [12-17|00:05:19.795] "🔨 mined potential block"                number=2   hash=20d166..c5a8cb
+INFO [12-17|00:05:20.766] Mining aborted due to sync 
+INFO [12-17|00:05:20.794] Syncing: state healing in progress       accounts=61@2.80KiB slots=0@0.00B codes=0@0.00B nodes=94@9.58KiB pending=1
+INFO [12-17|00:05:20.807] Syncing: state healing in progress       accounts=62@2.84KiB slots=0@0.00B codes=0@0.00B nodes=96@9.78KiB pending=0
+INFO [12-17|00:05:20.881] Syncing: chain download in progress      synced=0.76%   chain=18.00B headers=192@6.00B bodies=2@6.00B   receipts=2@6.00B   eta=41h9m9.497s
+WARN [12-17|00:05:21.363] Invalid header encountered               number=298 hash=4d3400..6eaa82 parent=663daa..958d82 err="block in the future"
+WARN [12-17|00:05:21.364] Rewinding blockchain to block            target=0
+INFO [12-17|00:05:21.445] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:05:21.445] Loaded last fast-sync pivot marker       number=264
+WARN [12-17|00:05:21.446] Rolled back chain segment                header=192->0 snap=192->0 block=2->0   reason="block in the future"
+WARN [12-17|00:05:21.446] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:05:21.446] Commit new sealing work                  number=1   sealhash=e0975a..70fca4 uncles=0 txs=0 gas=0 fees=0 elapsed="316.662µs"
+INFO [12-17|00:05:21.446] Commit new sealing work                  number=1   sealhash=e0975a..70fca4 uncles=0 txs=0 gas=0 fees=0 elapsed="599.25µs"
+INFO [12-17|00:05:21.447] Commit new sealing work                  number=1   sealhash=244635..a38818 uncles=0 txs=0 gas=0 fees=0 elapsed="265.718µs"
+INFO [12-17|00:05:21.447] Commit new sealing work                  number=1   sealhash=244635..a38818 uncles=0 txs=0 gas=0 fees=0 elapsed="507.011µs"
+INFO [12-17|00:05:22.161] Successfully sealed new block            number=1   sealhash=244635..a38818 hash=363977..ba4349 elapsed=714.382ms
+INFO [12-17|00:05:22.161] "🔨 mined potential block"                number=1   hash=363977..ba4349
+INFO [12-17|00:05:22.163] Commit new sealing work                  number=2   sealhash=075001..7a9b25 uncles=0 txs=0 gas=0 fees=0 elapsed="492.178µs"
+INFO [12-17|00:05:22.163] Commit new sealing work                  number=2   sealhash=075001..7a9b25 uncles=0 txs=0 gas=0 fees=0 elapsed=1.151ms
+INFO [12-17|00:05:22.625] Successfully sealed new block            number=2   sealhash=075001..7a9b25 hash=8dd950..9b7084 elapsed=462.264ms
+INFO [12-17|00:05:22.625] "🔨 mined potential block"                number=2   hash=8dd950..9b7084
+INFO [12-17|00:05:22.626] Commit new sealing work                  number=3   sealhash=841ba9..406e33 uncles=0 txs=0 gas=0 fees=0 elapsed="935.263µs"
+INFO [12-17|00:05:22.627] Commit new sealing work                  number=3   sealhash=841ba9..406e33 uncles=0 txs=0 gas=0 fees=0 elapsed=1.592ms
+INFO [12-17|00:05:30.685] Successfully sealed new block            number=3   sealhash=841ba9..406e33 hash=191e40..501994 elapsed=8.059s
+INFO [12-17|00:05:30.685] "🔨 mined potential block"                number=3   hash=191e40..501994
+INFO [12-17|00:05:30.686] Commit new sealing work                  number=4   sealhash=501559..60485c uncles=0 txs=0 gas=0 fees=0 elapsed="701.452µs"
+INFO [12-17|00:05:30.687] Commit new sealing work                  number=4   sealhash=501559..60485c uncles=0 txs=0 gas=0 fees=0 elapsed=1.674ms
+INFO [12-17|00:05:36.570] Successfully sealed new block            number=4   sealhash=501559..60485c hash=62a08c..541d76 elapsed=5.884s
+INFO [12-17|00:05:36.571] "🔨 mined potential block"                number=4   hash=62a08c..541d76
+INFO [12-17|00:05:36.572] Commit new sealing work                  number=5   sealhash=54cd70..8337fd uncles=0 txs=0 gas=0 fees=0 elapsed="790.654µs"
+INFO [12-17|00:05:36.573] Commit new sealing work                  number=5   sealhash=54cd70..8337fd uncles=0 txs=0 gas=0 fees=0 elapsed=2.017ms
+INFO [12-17|00:05:38.798] Commit new sealing work                  number=6   sealhash=d6ad29..1debb1 uncles=0 txs=0 gas=0 fees=0 elapsed="507.529µs"
+INFO [12-17|00:05:38.799] Commit new sealing work                  number=6   sealhash=d6ad29..1debb1 uncles=0 txs=0 gas=0 fees=0 elapsed="894.745µs"
+INFO [12-17|00:05:38.798] Successfully sealed new block            number=5   sealhash=54cd70..8337fd hash=d246f0..518288 elapsed=2.226s
+INFO [12-17|00:05:38.799] "🔨 mined potential block"                number=5   hash=d246f0..518288
+INFO [12-17|00:05:42.381] Looking for peers                        peercount=1 tried=1 static=4
+INFO [12-17|00:05:45.001] Mining aborted due to sync 
+INFO [12-17|00:05:45.018] Syncing: state healing in progress       accounts=62@2.84KiB slots=0@0.00B codes=0@0.00B nodes=96@9.78KiB pending=1
+INFO [12-17|00:05:45.035] Syncing: state healing in progress       accounts=64@2.94KiB slots=0@0.00B codes=0@0.00B nodes=99@10.09KiB pending=0
+INFO [12-17|00:05:45.082] Syncing: chain download in progress      synced=1.83%   chain=18.00B headers=192@6.00B bodies=5@6.00B   receipts=5@6.00B   eta=17h11m54.083s
+WARN [12-17|00:05:45.502] Invalid header encountered               number=303 hash=4cae81..ae08c6 parent=9e6f28..97ff2d err="block in the future"
+WARN [12-17|00:05:45.502] Rewinding blockchain to block            target=0
+INFO [12-17|00:05:45.605] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:05:45.605] Loaded last fast-sync pivot marker       number=273
+WARN [12-17|00:05:45.605] Rolled back chain segment                header=192->0 snap=192->0 block=5->0   reason="block in the future"
+WARN [12-17|00:05:45.606] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:05:45.606] Commit new sealing work                  number=1   sealhash=1ab10d..01abab uncles=0 txs=0 gas=0 fees=0 elapsed="354.161µs"
+INFO [12-17|00:05:45.607] Commit new sealing work                  number=1   sealhash=1ab10d..01abab uncles=0 txs=0 gas=0 fees=0 elapsed="829.006µs"
+INFO [12-17|00:05:45.607] Commit new sealing work                  number=1   sealhash=652221..7ef172 uncles=0 txs=0 gas=0 fees=0 elapsed="332.199µs"
+INFO [12-17|00:05:45.607] Commit new sealing work                  number=1   sealhash=652221..7ef172 uncles=0 txs=0 gas=0 fees=0 elapsed="613.491µs"
+INFO [12-17|00:05:46.660] Commit new sealing work                  number=2   sealhash=a1e4d8..e1cabb uncles=0 txs=0 gas=0 fees=0 elapsed="561.399µs"
+INFO [12-17|00:05:46.661] Commit new sealing work                  number=2   sealhash=a1e4d8..e1cabb uncles=0 txs=0 gas=0 fees=0 elapsed="933.671µs"
+INFO [12-17|00:05:46.659] Successfully sealed new block            number=1   sealhash=652221..7ef172 hash=0cb577..bbec10 elapsed=1.052s
+INFO [12-17|00:05:46.661] "🔨 mined potential block"                number=1   hash=0cb577..bbec10
+INFO [12-17|00:05:50.591] Successfully sealed new block            number=2   sealhash=a1e4d8..e1cabb hash=9ccc56..b46ce7 elapsed=3.930s
+INFO [12-17|00:05:50.591] "🔨 mined potential block"                number=2   hash=9ccc56..b46ce7
+INFO [12-17|00:05:50.592] Commit new sealing work                  number=3   sealhash=f90de7..1c0458 uncles=0 txs=0 gas=0 fees=0 elapsed="562.25µs"
+INFO [12-17|00:05:50.592] Commit new sealing work                  number=3   sealhash=f90de7..1c0458 uncles=0 txs=0 gas=0 fees=0 elapsed="829.728µs"
+INFO [12-17|00:05:55.608] Mining aborted due to sync 
+INFO [12-17|00:05:55.627] Syncing: state healing in progress       accounts=64@2.94KiB slots=0@0.00B codes=0@0.00B nodes=99@10.09KiB pending=1
+INFO [12-17|00:05:55.636] Syncing: state healing in progress       accounts=66@3.03KiB slots=0@0.00B codes=0@0.00B nodes=102@10.39KiB pending=0
+INFO [12-17|00:05:55.682] Syncing: chain download in progress      synced=0.73%   chain=18.00B headers=192@6.00B bodies=2@6.00B   receipts=2@6.00B   eta=44h11m59.827s
+WARN [12-17|00:05:56.152] Invalid header encountered               number=303 hash=4cae81..ae08c6 parent=9e6f28..97ff2d err="block in the future"
+WARN [12-17|00:05:56.153] Rewinding blockchain to block            target=0
+INFO [12-17|00:05:56.250] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:05:56.250] Loaded last fast-sync pivot marker       number=275
+WARN [12-17|00:05:56.251] Rolled back chain segment                header=192->0 snap=192->0 block=2->0   reason="block in the future"
+WARN [12-17|00:05:56.251] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:05:56.252] Commit new sealing work                  number=1   sealhash=a22e7d..2605f6 uncles=0 txs=0 gas=0 fees=0 elapsed="448.568µs"
+INFO [12-17|00:05:56.252] Looking for peers                        peercount=3 tried=3 static=4
+INFO [12-17|00:05:56.252] Commit new sealing work                  number=1   sealhash=a22e7d..2605f6 uncles=0 txs=0 gas=0 fees=0 elapsed="984.485µs"
+INFO [12-17|00:05:56.253] Commit new sealing work                  number=1   sealhash=c903d0..a46b7c uncles=0 txs=0 gas=0 fees=0 elapsed="555.51µs"
+INFO [12-17|00:05:56.254] Commit new sealing work                  number=1   sealhash=c903d0..a46b7c uncles=0 txs=0 gas=0 fees=0 elapsed=1.215ms
+INFO [12-17|00:05:57.700] Successfully sealed new block            number=1   sealhash=c903d0..a46b7c hash=c98993..74b913 elapsed=1.446s
+INFO [12-17|00:05:57.700] "🔨 mined potential block"                number=1   hash=c98993..74b913
+INFO [12-17|00:05:57.702] Commit new sealing work                  number=2   sealhash=8ac6f8..e89342 uncles=0 txs=0 gas=0 fees=0 elapsed=1.436ms
+INFO [12-17|00:05:57.703] Commit new sealing work                  number=2   sealhash=8ac6f8..e89342 uncles=0 txs=0 gas=0 fees=0 elapsed=2.300ms
+INFO [12-17|00:06:00.222] Successfully sealed new block            number=2   sealhash=8ac6f8..e89342 hash=52f0fe..f10fdd elapsed=2.520s
+INFO [12-17|00:06:00.223] "🔨 mined potential block"                number=2   hash=52f0fe..f10fdd
+INFO [12-17|00:06:00.223] Commit new sealing work                  number=3   sealhash=9e3d72..3bb2b3 uncles=0 txs=0 gas=0 fees=0 elapsed="520.862µs"
+INFO [12-17|00:06:00.224] Commit new sealing work                  number=3   sealhash=9e3d72..3bb2b3 uncles=0 txs=0 gas=0 fees=0 elapsed="921.319µs"
+INFO [12-17|00:06:03.582] Successfully sealed new block            number=3   sealhash=9e3d72..3bb2b3 hash=ade0e3..635b31 elapsed=3.358s
+INFO [12-17|00:06:03.582] "🔨 mined potential block"                number=3   hash=ade0e3..635b31
+INFO [12-17|00:06:03.585] Commit new sealing work                  number=4   sealhash=facb63..4af315 uncles=0 txs=0 gas=0 fees=0 elapsed=1.426ms
+INFO [12-17|00:06:03.586] Commit new sealing work                  number=4   sealhash=facb63..4af315 uncles=0 txs=0 gas=0 fees=0 elapsed=2.822ms
+INFO [12-17|00:06:07.561] Successfully sealed new block            number=4   sealhash=facb63..4af315 hash=b506c1..dcc941 elapsed=3.975s
+INFO [12-17|00:06:07.561] "🔨 mined potential block"                number=4   hash=b506c1..dcc941
+INFO [12-17|00:06:07.562] Commit new sealing work                  number=5   sealhash=cdbaba..6946da uncles=0 txs=0 gas=0 fees=0 elapsed="632.713µs"
+INFO [12-17|00:06:07.563] Commit new sealing work                  number=5   sealhash=cdbaba..6946da uncles=0 txs=0 gas=0 fees=0 elapsed=1.177ms
+INFO [12-17|00:06:11.032] Successfully sealed new block            number=5   sealhash=cdbaba..6946da hash=d05f2b..fb4ea1 elapsed=3.470s
+INFO [12-17|00:06:11.033] "🔨 mined potential block"                number=5   hash=d05f2b..fb4ea1
+INFO [12-17|00:06:11.033] Commit new sealing work                  number=6   sealhash=6e90bc..0f4c52 uncles=0 txs=0 gas=0 fees=0 elapsed="486.233µs"
+INFO [12-17|00:06:11.034] Commit new sealing work                  number=6   sealhash=6e90bc..0f4c52 uncles=0 txs=0 gas=0 fees=0 elapsed=1.151ms
+INFO [12-17|00:06:14.836] Successfully sealed new block            number=6   sealhash=6e90bc..0f4c52 hash=47e415..d5a3af elapsed=3.803s
+INFO [12-17|00:06:14.837] "🔨 mined potential block"                number=6   hash=47e415..d5a3af
+INFO [12-17|00:06:14.838] Commit new sealing work                  number=7   sealhash=00c23f..a5a3f7 uncles=0 txs=0 gas=0 fees=0 elapsed=1.392ms
+INFO [12-17|00:06:14.838] Commit new sealing work                  number=7   sealhash=00c23f..a5a3f7 uncles=0 txs=0 gas=0 fees=0 elapsed=2.058ms
+INFO [12-17|00:06:17.505] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:06:20.003] Mining aborted due to sync 
+INFO [12-17|00:06:20.020] Syncing: state healing in progress       accounts=66@3.03KiB slots=0@0.00B codes=0@0.00B nodes=102@10.39KiB pending=1
+INFO [12-17|00:06:20.028] Syncing: state healing in progress       accounts=68@3.12KiB slots=0@0.00B codes=0@0.00B nodes=105@10.70KiB pending=0
+INFO [12-17|00:06:20.083] Syncing: chain download in progress      synced=2.10%   chain=18.00B headers=192@6.00B bodies=6@6.00B   receipts=6@6.00B   eta=15h25m38.643s
+WARN [12-17|00:06:20.566] Invalid header encountered               number=309 hash=41a485..693ca9 parent=9878f5..083a8b err="block in the future"
+WARN [12-17|00:06:20.567] Rewinding blockchain to block            target=0
+INFO [12-17|00:06:20.669] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:06:20.669] Loaded last fast-sync pivot marker       number=286
+WARN [12-17|00:06:20.670] Rolled back chain segment                header=192->0 snap=192->0 block=6->0   reason="block in the future"
+WARN [12-17|00:06:20.670] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:06:20.671] Commit new sealing work                  number=1   sealhash=362b1e..8a3a25 uncles=0 txs=0 gas=0 fees=0 elapsed="706.545µs"
+INFO [12-17|00:06:20.672] Commit new sealing work                  number=1   sealhash=362b1e..8a3a25 uncles=0 txs=0 gas=0 fees=0 elapsed=1.365ms
+INFO [12-17|00:06:30.673] Mining aborted due to sync 
+INFO [12-17|00:06:30.698] Syncing: state healing in progress       accounts=68@3.12KiB slots=0@0.00B codes=0@0.00B nodes=105@10.70KiB pending=1
+INFO [12-17|00:06:30.710] Syncing: state healing in progress       accounts=70@3.21KiB slots=0@0.00B codes=0@0.00B nodes=108@11.01KiB pending=0
+INFO [12-17|00:06:30.787] Syncing: chain download in progress      synced=58.13%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=14m24.875s
+WARN [12-17|00:06:31.254] Invalid header encountered               number=312 hash=336b9b..586a95 parent=2078fc..1d36b1 err="block in the future"
+WARN [12-17|00:06:31.254] Rewinding blockchain to block            target=0
+INFO [12-17|00:06:31.359] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:06:31.359] Loaded last fast-sync pivot marker       number=289
+WARN [12-17|00:06:31.360] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:06:31.360] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:06:31.361] Commit new sealing work                  number=1   sealhash=a8dd0a..72976a uncles=0 txs=0 gas=0 fees=0 elapsed="352.087µs"
+INFO [12-17|00:06:31.362] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:06:31.362] Commit new sealing work                  number=1   sealhash=a8dd0a..72976a uncles=0 txs=0 gas=0 fees=0 elapsed=1.149ms
+INFO [12-17|00:06:31.646] Successfully sealed new block            number=1   sealhash=a8dd0a..72976a hash=e3b982..1b107c elapsed=285.385ms
+INFO [12-17|00:06:31.647] Commit new sealing work                  number=2   sealhash=1ffcc4..741098 uncles=0 txs=0 gas=0 fees=0 elapsed="609.417µs"
+INFO [12-17|00:06:31.647] "🔨 mined potential block"                number=1   hash=e3b982..1b107c
+INFO [12-17|00:06:31.658] Commit new sealing work                  number=2   sealhash=1ffcc4..741098 uncles=0 txs=0 gas=0 fees=0 elapsed=11.266ms
+INFO [12-17|00:06:32.189] Successfully sealed new block            number=2   sealhash=1ffcc4..741098 hash=f6393d..94769a elapsed=541.516ms
+INFO [12-17|00:06:32.189] "🔨 mined potential block"                number=2   hash=f6393d..94769a
+INFO [12-17|00:06:32.191] Commit new sealing work                  number=3   sealhash=b9bb9b..350355 uncles=0 txs=0 gas=0 fees=0 elapsed="905.616µs"
+INFO [12-17|00:06:32.198] Commit new sealing work                  number=3   sealhash=b9bb9b..350355 uncles=0 txs=0 gas=0 fees=0 elapsed=8.017ms
+INFO [12-17|00:06:36.873] Successfully sealed new block            number=3   sealhash=b9bb9b..350355 hash=0a0f21..11686b elapsed=4.682s
+INFO [12-17|00:06:36.874] "🔨 mined potential block"                number=3   hash=0a0f21..11686b
+INFO [12-17|00:06:36.874] Commit new sealing work                  number=4   sealhash=025381..25f221 uncles=0 txs=0 gas=0 fees=0 elapsed="714.562µs"
+INFO [12-17|00:06:36.875] Commit new sealing work                  number=4   sealhash=025381..25f221 uncles=0 txs=0 gas=0 fees=0 elapsed=1.309ms
+INFO [12-17|00:06:38.128] Successfully sealed new block            number=4   sealhash=025381..25f221 hash=7a1c7d..e7b239 elapsed=1.253s
+INFO [12-17|00:06:38.128] "🔨 mined potential block"                number=4   hash=7a1c7d..e7b239
+INFO [12-17|00:06:38.128] Commit new sealing work                  number=5   sealhash=d71419..6b4604 uncles=0 txs=0 gas=0 fees=0 elapsed="532.992µs"
+INFO [12-17|00:06:38.129] Commit new sealing work                  number=5   sealhash=d71419..6b4604 uncles=0 txs=0 gas=0 fees=0 elapsed="830.728µs"
+INFO [12-17|00:06:48.568] Successfully sealed new block            number=5   sealhash=d71419..6b4604 hash=2050a6..7856d4 elapsed=10.439s
+INFO [12-17|00:06:48.570] "🔨 mined potential block"                number=5   hash=2050a6..7856d4
+INFO [12-17|00:06:48.569] Commit new sealing work                  number=6   sealhash=54fac5..9b1c02 uncles=0 txs=0 gas=0 fees=0 elapsed="549.807µs"
+INFO [12-17|00:06:48.571] Commit new sealing work                  number=6   sealhash=54fac5..9b1c02 uncles=0 txs=0 gas=0 fees=0 elapsed=2.531ms
+INFO [12-17|00:06:52.552] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:06:55.003] Mining aborted due to sync 
+INFO [12-17|00:06:55.020] Syncing: state healing in progress       accounts=70@3.21KiB slots=0@0.00B codes=0@0.00B nodes=108@11.01KiB pending=1
+INFO [12-17|00:06:55.036] Syncing: state healing in progress       accounts=72@3.30KiB slots=0@0.00B codes=0@0.00B nodes=111@11.32KiB pending=0
+INFO [12-17|00:06:55.091] Syncing: chain download in progress      synced=1.68%   chain=18.00B headers=192@6.00B bodies=5@6.00B   receipts=5@6.00B   eta=19h52m27.133s
+WARN [12-17|00:06:55.566] Invalid header encountered               number=321 hash=0d91a2..0f4337 parent=14e175..5a4e52 err="block in the future"
+WARN [12-17|00:06:55.567] Rewinding blockchain to block            target=0
+INFO [12-17|00:06:55.672] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:06:55.673] Loaded last fast-sync pivot marker       number=297
+WARN [12-17|00:06:55.673] Rolled back chain segment                header=192->0 snap=192->0 block=5->0   reason="block in the future"
+WARN [12-17|00:06:55.674] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:06:55.674] Commit new sealing work                  number=1   sealhash=f9f24c..2aa843 uncles=0 txs=0 gas=0 fees=0 elapsed="325.921µs"
+INFO [12-17|00:06:55.675] Commit new sealing work                  number=1   sealhash=f9f24c..2aa843 uncles=0 txs=0 gas=0 fees=0 elapsed="776.229µs"
+INFO [12-17|00:06:58.258] Successfully sealed new block            number=1   sealhash=f9f24c..2aa843 hash=905899..407ab0 elapsed=2.583s
+INFO [12-17|00:06:58.259] "🔨 mined potential block"                number=1   hash=905899..407ab0
+INFO [12-17|00:06:58.261] Commit new sealing work                  number=2   sealhash=f9b133..fb471a uncles=0 txs=0 gas=0 fees=0 elapsed="807.395µs"
+INFO [12-17|00:06:58.267] Commit new sealing work                  number=2   sealhash=f9b133..fb471a uncles=0 txs=0 gas=0 fees=0 elapsed=7.136ms
+INFO [12-17|00:07:05.465] Successfully sealed new block            number=2   sealhash=f9b133..fb471a hash=4e99d0..9c9afb elapsed=7.203s
+INFO [12-17|00:07:05.465] "🔨 mined potential block"                number=2   hash=4e99d0..9c9afb
+INFO [12-17|00:07:05.466] Commit new sealing work                  number=3   sealhash=04464d..5b1db6 uncles=0 txs=0 gas=0 fees=0 elapsed="532.196µs"
+INFO [12-17|00:07:05.466] Commit new sealing work                  number=3   sealhash=04464d..5b1db6 uncles=0 txs=0 gas=0 fees=0 elapsed="998.077µs"
+INFO [12-17|00:07:05.675] Mining aborted due to sync 
+INFO [12-17|00:07:05.691] Syncing: state healing in progress       accounts=72@3.30KiB slots=0@0.00B codes=0@0.00B nodes=111@11.32KiB pending=1
+INFO [12-17|00:07:05.696] Syncing: state healing in progress       accounts=73@3.35KiB slots=0@0.00B codes=0@0.00B nodes=113@11.51KiB pending=0
+INFO [12-17|00:07:05.738] Syncing: chain download in progress      synced=0.67%   chain=18.00B headers=192@6.00B bodies=2@6.00B   receipts=2@6.00B   eta=50h58m31.751s
+WARN [12-17|00:07:06.270] Invalid header encountered               number=326 hash=79c6aa..5bdb32 parent=029ecc..4c64c0 err="block in the future"
+WARN [12-17|00:07:06.271] Rewinding blockchain to block            target=0
+INFO [12-17|00:07:06.404] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:07:06.404] Loaded last fast-sync pivot marker       number=299
+WARN [12-17|00:07:06.405] Rolled back chain segment                header=192->0 snap=192->0 block=2->0   reason="block in the future"
+INFO [12-17|00:07:06.406] Commit new sealing work                  number=1   sealhash=84861f..a7c6c7 uncles=0 txs=0 gas=0 fees=0 elapsed="434.864µs"
+INFO [12-17|00:07:06.407] Commit new sealing work                  number=1   sealhash=84861f..a7c6c7 uncles=0 txs=0 gas=0 fees=0 elapsed="794.543µs"
+WARN [12-17|00:07:06.407] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:07:06.408] Looking for peers                        peercount=2 tried=2 static=4
+INFO [12-17|00:07:07.218] Successfully sealed new block            number=1   sealhash=84861f..a7c6c7 hash=de8c0e..0d7f6a elapsed=811.345ms
+INFO [12-17|00:07:07.219] "🔨 mined potential block"                number=1   hash=de8c0e..0d7f6a
+INFO [12-17|00:07:07.219] Commit new sealing work                  number=2   sealhash=3d7044..eadd2b uncles=0 txs=0 gas=0 fees=0 elapsed=1.494ms
+INFO [12-17|00:07:07.220] Commit new sealing work                  number=2   sealhash=3d7044..eadd2b uncles=0 txs=0 gas=0 fees=0 elapsed=2.271ms
+INFO [12-17|00:07:21.321] Successfully sealed new block            number=2   sealhash=3d7044..eadd2b hash=ffd668..3bf4ac elapsed=14.102s
+INFO [12-17|00:07:21.322] "🔨 mined potential block"                number=2   hash=ffd668..3bf4ac
+INFO [12-17|00:07:21.322] Commit new sealing work                  number=3   sealhash=1940be..4c2443 uncles=0 txs=0 gas=0 fees=0 elapsed="492.548µs"
+INFO [12-17|00:07:21.323] Commit new sealing work                  number=3   sealhash=1940be..4c2443 uncles=0 txs=0 gas=0 fees=0 elapsed=1.078ms
+INFO [12-17|00:07:27.553] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:07:30.005] Mining aborted due to sync 
+INFO [12-17|00:07:30.024] Syncing: state healing in progress       accounts=73@3.35KiB slots=0@0.00B codes=0@0.00B nodes=113@11.51KiB pending=1
+INFO [12-17|00:07:30.036] Syncing: state healing in progress       accounts=74@3.40KiB slots=0@0.00B codes=0@0.00B nodes=115@11.71KiB pending=0
+INFO [12-17|00:07:30.108] Syncing: chain download in progress      synced=0.66%   chain=18.00B headers=192@6.00B bodies=2@6.00B   receipts=2@6.00B   eta=52h40m50.915s
+WARN [12-17|00:07:30.666] Invalid header encountered               number=330 hash=fae12d..90a40b parent=a3cfca..bff8be err="block in the future"
+WARN [12-17|00:07:30.666] Rewinding blockchain to block            target=0
+INFO [12-17|00:07:30.782] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:07:30.782] Loaded last fast-sync pivot marker       number=303
+WARN [12-17|00:07:30.782] Rolled back chain segment                header=192->0 snap=192->0 block=2->0   reason="block in the future"
+WARN [12-17|00:07:30.782] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:07:30.783] Commit new sealing work                  number=1   sealhash=3586e3..bc5a8c uncles=0 txs=0 gas=0 fees=0 elapsed="362.92µs"
+INFO [12-17|00:07:30.783] Commit new sealing work                  number=1   sealhash=3586e3..bc5a8c uncles=0 txs=0 gas=0 fees=0 elapsed="716.526µs"
+INFO [12-17|00:07:40.785] Mining aborted due to sync 
+INFO [12-17|00:07:40.813] Syncing: state healing in progress       accounts=74@3.40KiB slots=0@0.00B codes=0@0.00B nodes=115@11.71KiB pending=1
+INFO [12-17|00:07:40.828] Syncing: state healing in progress       accounts=75@3.44KiB slots=0@0.00B codes=0@0.00B nodes=117@11.90KiB pending=0
+INFO [12-17|00:07:40.910] Syncing: chain download in progress      synced=54.90%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=17m23.987s
+WARN [12-17|00:07:41.471] Invalid header encountered               number=331 hash=0d68a4..e1bedb parent=fae12d..90a40b err="block in the future"
+WARN [12-17|00:07:41.472] Rewinding blockchain to block            target=0
+INFO [12-17|00:07:41.591] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:07:41.591] Loaded last fast-sync pivot marker       number=306
+WARN [12-17|00:07:41.591] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:07:41.592] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:07:41.592] Commit new sealing work                  number=1   sealhash=5eed60..213aa7 uncles=0 txs=0 gas=0 fees=0 elapsed="365.457µs"
+INFO [12-17|00:07:41.592] Looking for peers                        peercount=3 tried=2 static=4
+INFO [12-17|00:07:41.593] Commit new sealing work                  number=1   sealhash=5eed60..213aa7 uncles=0 txs=0 gas=0 fees=0 elapsed="811.302µs"
+INFO [12-17|00:07:41.594] Commit new sealing work                  number=1   sealhash=979625..eb2ee8 uncles=0 txs=0 gas=0 fees=0 elapsed="958.3µs"
+INFO [12-17|00:07:41.602] Commit new sealing work                  number=1   sealhash=979625..eb2ee8 uncles=0 txs=0 gas=0 fees=0 elapsed=9.000ms
+INFO [12-17|00:07:48.380] Successfully sealed new block            number=1   sealhash=979625..eb2ee8 hash=112f4a..3dd77c elapsed=6.786s
+INFO [12-17|00:07:48.380] "🔨 mined potential block"                number=1   hash=112f4a..3dd77c
+INFO [12-17|00:07:48.381] Commit new sealing work                  number=2   sealhash=c4eda2..c40cef uncles=0 txs=0 gas=0 fees=0 elapsed="491.492µs"
+INFO [12-17|00:07:48.381] Commit new sealing work                  number=2   sealhash=c4eda2..c40cef uncles=0 txs=0 gas=0 fees=0 elapsed="778.228µs"
+INFO [12-17|00:07:53.375] Successfully sealed new block            number=2   sealhash=c4eda2..c40cef hash=c3de1d..efd7bd elapsed=4.994s
+INFO [12-17|00:07:53.376] "🔨 mined potential block"                number=2   hash=c3de1d..efd7bd
+INFO [12-17|00:07:53.376] Commit new sealing work                  number=3   sealhash=6fd9e8..282b7c uncles=0 txs=0 gas=0 fees=0 elapsed="688.378µs"
+INFO [12-17|00:07:53.377] Commit new sealing work                  number=3   sealhash=6fd9e8..282b7c uncles=0 txs=0 gas=0 fees=0 elapsed=1.038ms
+INFO [12-17|00:08:02.553] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:08:02.939] Successfully sealed new block            number=3   sealhash=6fd9e8..282b7c hash=b90ae1..aa070a elapsed=9.562s
+INFO [12-17|00:08:02.940] "🔨 mined potential block"                number=3   hash=b90ae1..aa070a
+INFO [12-17|00:08:02.940] Commit new sealing work                  number=4   sealhash=ae51b3..292278 uncles=0 txs=0 gas=0 fees=0 elapsed="567.861µs"
+INFO [12-17|00:08:02.941] Commit new sealing work                  number=4   sealhash=ae51b3..292278 uncles=0 txs=0 gas=0 fees=0 elapsed="867.505µs"
+INFO [12-17|00:08:03.266] Successfully sealed new block            number=4   sealhash=ae51b3..292278 hash=a9c856..3881b6 elapsed=325.680ms
+INFO [12-17|00:08:03.266] "🔨 mined potential block"                number=4   hash=a9c856..3881b6
+INFO [12-17|00:08:03.267] Commit new sealing work                  number=5   sealhash=873fa6..2843f1 uncles=0 txs=0 gas=0 fees=0 elapsed="509.492µs"
+INFO [12-17|00:08:03.267] Commit new sealing work                  number=5   sealhash=873fa6..2843f1 uncles=0 txs=0 gas=0 fees=0 elapsed="819.45µs"
+INFO [12-17|00:08:04.946] Successfully sealed new block            number=5   sealhash=873fa6..2843f1 hash=b15afc..824489 elapsed=1.679s
+INFO [12-17|00:08:04.946] "🔨 mined potential block"                number=5   hash=b15afc..824489
+INFO [12-17|00:08:04.947] Commit new sealing work                  number=6   sealhash=ba9bb5..816577 uncles=0 txs=0 gas=0 fees=0 elapsed="954.374µs"
+INFO [12-17|00:08:04.948] Commit new sealing work                  number=6   sealhash=ba9bb5..816577 uncles=0 txs=0 gas=0 fees=0 elapsed=1.604ms
+INFO [12-17|00:08:05.010] Mining aborted due to sync 
+INFO [12-17|00:08:05.035] Syncing: state healing in progress       accounts=75@3.44KiB slots=0@0.00B codes=0@0.00B nodes=117@11.90KiB pending=1
+INFO [12-17|00:08:05.039] Syncing: state healing in progress       accounts=77@3.53KiB slots=0@0.00B codes=0@0.00B nodes=120@12.21KiB pending=0
+INFO [12-17|00:08:05.085] Syncing: chain download in progress      synced=1.60%   chain=18.00B headers=192@6.00B bodies=5@6.00B   receipts=5@6.00B   eta=22h9m39.164s
+INFO [12-17|00:08:05.607] Successfully sealed new block            number=6   sealhash=ba9bb5..816577 hash=4f5947..963bd7 elapsed=660.684ms
+INFO [12-17|00:08:05.607] "🔨 mined potential block"                number=6   hash=4f5947..963bd7
+WARN [12-17|00:08:05.653] Invalid header encountered               number=340 hash=70e7a8..28c73a parent=c15685..bf0d7f err="block in the future"
+WARN [12-17|00:08:05.653] Rewinding blockchain to block            target=0
+INFO [12-17|00:08:05.716] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:08:05.716] Loaded last fast-sync pivot marker       number=313
+WARN [12-17|00:08:05.716] Rolled back chain segment                header=6->0   snap=6->0   block=6->0   reason="block in the future"
+WARN [12-17|00:08:05.717] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:08:05.718] Commit new sealing work                  number=1   sealhash=cb8c37..eeed53 uncles=0 txs=0 gas=0 fees=0 elapsed="896.375µs"
+INFO [12-17|00:08:05.718] Commit new sealing work                  number=1   sealhash=9b187c..67f38d uncles=0 txs=0 gas=0 fees=0 elapsed="477.4µs"
+INFO [12-17|00:08:05.719] Commit new sealing work                  number=1   sealhash=9b187c..67f38d uncles=0 txs=0 gas=0 fees=0 elapsed=1.010ms
+INFO [12-17|00:08:15.719] Mining aborted due to sync 
+INFO [12-17|00:08:15.735] Syncing: state healing in progress       accounts=77@3.53KiB slots=0@0.00B codes=0@0.00B nodes=120@12.21KiB pending=1
+INFO [12-17|00:08:15.751] Syncing: state healing in progress       accounts=78@3.58KiB slots=0@0.00B codes=0@0.00B nodes=122@12.40KiB pending=0
+INFO [12-17|00:08:15.839] Syncing: chain download in progress      synced=53.33%  chain=18.00B headers=192@6.00B bodies=168@6.00B receipts=168@6.00B eta=19m2.636s
+WARN [12-17|00:08:16.269] Invalid header encountered               number=342 hash=44dc76..09c2dd parent=a47b6d..0add5e err="block in the future"
+WARN [12-17|00:08:16.270] Rewinding blockchain to block            target=0
+INFO [12-17|00:08:16.404] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:08:16.405] Loaded last fast-sync pivot marker       number=315
+WARN [12-17|00:08:16.405] Rolled back chain segment                header=192->0 snap=192->0 block=0->0   reason="block in the future"
+WARN [12-17|00:08:16.406] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:08:16.406] Commit new sealing work                  number=1   sealhash=49f38f..8451ca uncles=0 txs=0 gas=0 fees=0 elapsed="486.122µs"
+INFO [12-17|00:08:16.407] Commit new sealing work                  number=1   sealhash=49f38f..8451ca uncles=0 txs=0 gas=0 fees=0 elapsed="814.653µs"
+INFO [12-17|00:08:16.407] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:08:19.354] Successfully sealed new block            number=1   sealhash=49f38f..8451ca hash=60d8fb..ae1f75 elapsed=2.947s
+INFO [12-17|00:08:19.354] "🔨 mined potential block"                number=1   hash=60d8fb..ae1f75
+INFO [12-17|00:08:19.355] Commit new sealing work                  number=2   sealhash=23910c..093b55 uncles=0 txs=0 gas=0 fees=0 elapsed="651.804µs"
+INFO [12-17|00:08:19.356] Commit new sealing work                  number=2   sealhash=23910c..093b55 uncles=0 txs=0 gas=0 fees=0 elapsed=1.012ms
+INFO [12-17|00:08:31.514] Successfully sealed new block            number=2   sealhash=23910c..093b55 hash=05f131..106e2b elapsed=12.158s
+INFO [12-17|00:08:31.514] "🔨 mined potential block"                number=2   hash=05f131..106e2b
+INFO [12-17|00:08:31.515] Commit new sealing work                  number=3   sealhash=14cb1e..c227ca uncles=0 txs=0 gas=0 fees=0 elapsed="470.512µs"
+INFO [12-17|00:08:31.515] Commit new sealing work                  number=3   sealhash=14cb1e..c227ca uncles=0 txs=0 gas=0 fees=0 elapsed="756.674µs"
+INFO [12-17|00:08:32.791] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:08:37.381] Successfully sealed new block            number=3   sealhash=14cb1e..c227ca hash=9c5092..ba685a elapsed=5.866s
+INFO [12-17|00:08:37.381] "🔨 mined potential block"                number=3   hash=9c5092..ba685a
+INFO [12-17|00:08:37.382] Commit new sealing work                  number=4   sealhash=a9b2ef..8b7cc6 uncles=0 txs=0 gas=0 fees=0 elapsed="544.251µs"
+INFO [12-17|00:08:37.383] Commit new sealing work                  number=4   sealhash=a9b2ef..8b7cc6 uncles=0 txs=0 gas=0 fees=0 elapsed=1.392ms
+INFO [12-17|00:08:40.008] Mining aborted due to sync 
+INFO [12-17|00:08:40.032] Syncing: state healing in progress       accounts=78@3.58KiB slots=0@0.00B codes=0@0.00B nodes=122@12.40KiB pending=1
+INFO [12-17|00:08:40.042] Syncing: state healing in progress       accounts=80@3.67KiB slots=0@0.00B codes=0@0.00B nodes=125@12.71KiB pending=0
+INFO [12-17|00:08:40.122] Syncing: chain download in progress      synced=0.94%   chain=18.00B headers=192@6.00B bodies=3@6.00B   receipts=3@6.00B   eta=38h47m46.136s
+WARN [12-17|00:08:40.860] Invalid header encountered               number=357 hash=138e7c..16adc4 parent=c2a9be..c181a2 err="block in the future"
+WARN [12-17|00:08:40.861] Rewinding blockchain to block            target=0
+INFO [12-17|00:08:40.985] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:08:40.985] Loaded last fast-sync pivot marker       number=318
+WARN [12-17|00:08:40.986] Rolled back chain segment                header=192->0 snap=192->0 block=3->0   reason="block in the future"
+WARN [12-17|00:08:40.986] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:08:40.987] Commit new sealing work                  number=1   sealhash=5e8904..d72213 uncles=0 txs=0 gas=0 fees=0 elapsed="364.995µs"
+INFO [12-17|00:08:40.988] Commit new sealing work                  number=1   sealhash=5e8904..d72213 uncles=0 txs=0 gas=0 fees=0 elapsed="881.227µs"
+INFO [12-17|00:08:42.517] Successfully sealed new block            number=1   sealhash=5e8904..d72213 hash=a3faa0..0c755a elapsed=1.529s
+INFO [12-17|00:08:42.517] "🔨 mined potential block"                number=1   hash=a3faa0..0c755a
+INFO [12-17|00:08:42.519] Commit new sealing work                  number=2   sealhash=33fcd8..eb65fe uncles=0 txs=0 gas=0 fees=0 elapsed="903.541µs"
+INFO [12-17|00:08:42.534] Commit new sealing work                  number=2   sealhash=33fcd8..eb65fe uncles=0 txs=0 gas=0 fees=0 elapsed=15.936ms
+INFO [12-17|00:08:50.988] Mining aborted due to sync 
+INFO [12-17|00:08:51.014] Syncing: state healing in progress       accounts=80@3.67KiB slots=0@0.00B codes=0@0.00B nodes=125@12.71KiB pending=1
+INFO [12-17|00:08:51.032] Syncing: state healing in progress       accounts=82@3.76KiB slots=0@0.00B codes=0@0.00B nodes=128@13.02KiB pending=0
+WARN [12-17|00:08:52.657] Invalid header encountered               number=359 hash=0abe99..bc438e parent=838fec..05f61f err="block in the future"
+WARN [12-17|00:08:52.657] Rewinding blockchain to block            target=0
+INFO [12-17|00:08:52.661] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:08:52.661] Loaded last fast-sync pivot marker       number=320
+WARN [12-17|00:08:52.662] Rolled back chain segment                header=1->0   snap=1->0   block=1->0   reason="block in the future"
+WARN [12-17|00:08:52.662] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:08:52.663] Looking for peers                        peercount=2 tried=2 static=4
+INFO [12-17|00:08:52.663] Commit new sealing work                  number=1   sealhash=2a7888..0f9c93 uncles=0 txs=0 gas=0 fees=0 elapsed="480.308µs"
+INFO [12-17|00:08:52.664] Commit new sealing work                  number=1   sealhash=2a7888..0f9c93 uncles=0 txs=0 gas=0 fees=0 elapsed="863.431µs"
+INFO [12-17|00:08:52.664] Commit new sealing work                  number=1   sealhash=2a7888..0f9c93 uncles=0 txs=0 gas=0 fees=0 elapsed="364.79µs"
+INFO [12-17|00:08:52.664] Commit new sealing work                  number=1   sealhash=2a7888..0f9c93 uncles=0 txs=0 gas=0 fees=0 elapsed="635.156µs"
+INFO [12-17|00:08:54.072] Successfully sealed new block            number=1   sealhash=2a7888..0f9c93 hash=661de6..9023d6 elapsed=1.409s
+INFO [12-17|00:08:54.072] "🔨 mined potential block"                number=1   hash=661de6..9023d6
+INFO [12-17|00:08:54.073] Commit new sealing work                  number=2   sealhash=1e826b..0af6e6 uncles=0 txs=0 gas=0 fees=0 elapsed="540.139µs"
+INFO [12-17|00:08:54.073] Commit new sealing work                  number=2   sealhash=1e826b..0af6e6 uncles=0 txs=0 gas=0 fees=0 elapsed="841.875µs"
+INFO [12-17|00:08:56.328] Successfully sealed new block            number=2   sealhash=1e826b..0af6e6 hash=430eef..2dc0bb elapsed=2.254s
+INFO [12-17|00:08:56.328] "🔨 mined potential block"                number=2   hash=430eef..2dc0bb
+INFO [12-17|00:08:56.329] Commit new sealing work                  number=3   sealhash=425e35..d71807 uncles=0 txs=0 gas=0 fees=0 elapsed="620.935µs"
+INFO [12-17|00:08:56.329] Commit new sealing work                  number=3   sealhash=425e35..d71807 uncles=0 txs=0 gas=0 fees=0 elapsed=1.022ms
+INFO [12-17|00:08:57.451] Successfully sealed new block            number=3   sealhash=425e35..d71807 hash=3dbc8b..f3141e elapsed=1.122s
+INFO [12-17|00:08:57.452] "🔨 mined potential block"                number=3   hash=3dbc8b..f3141e
+INFO [12-17|00:08:57.454] Commit new sealing work                  number=4   sealhash=287c9e..521e38 uncles=0 txs=0 gas=0 fees=0 elapsed=1.246ms
+INFO [12-17|00:08:57.454] Commit new sealing work                  number=4   sealhash=287c9e..521e38 uncles=0 txs=0 gas=0 fees=0 elapsed=1.860ms
+INFO [12-17|00:09:02.199] Successfully sealed new block            number=4   sealhash=287c9e..521e38 hash=8a189d..b6a5ef elapsed=4.745s
+INFO [12-17|00:09:02.203] Commit new sealing work                  number=5   sealhash=cce4bd..e3c836 uncles=0 txs=0 gas=0 fees=0 elapsed=2.557ms
+INFO [12-17|00:09:02.204] "🔨 mined potential block"                number=4   hash=8a189d..b6a5ef
+INFO [12-17|00:09:02.207] Commit new sealing work                  number=5   sealhash=cce4bd..e3c836 uncles=0 txs=0 gas=0 fees=0 elapsed=6.629ms
+INFO [12-17|00:09:02.797] Successfully sealed new block            number=5   sealhash=cce4bd..e3c836 hash=e3821b..8615a5 elapsed=594.769ms
+INFO [12-17|00:09:02.798] "🔨 mined potential block"                number=5   hash=e3821b..8615a5
+INFO [12-17|00:09:02.801] Commit new sealing work                  number=6   sealhash=0cc8d2..18990f uncles=0 txs=0 gas=0 fees=0 elapsed=2.921ms
+INFO [12-17|00:09:02.803] Commit new sealing work                  number=6   sealhash=0cc8d2..18990f uncles=0 txs=0 gas=0 fees=0 elapsed=4.306ms
+INFO [12-17|00:09:06.844] Successfully sealed new block            number=6   sealhash=0cc8d2..18990f hash=9c5a72..694828 elapsed=4.043s
+INFO [12-17|00:09:06.844] "🔨 mined potential block"                number=6   hash=9c5a72..694828
+INFO [12-17|00:09:06.844] Commit new sealing work                  number=7   sealhash=7d2db0..d355d6 uncles=0 txs=0 gas=0 fees=0 elapsed="559.565µs"
+INFO [12-17|00:09:06.845] Commit new sealing work                  number=7   sealhash=7d2db0..d355d6 uncles=0 txs=0 gas=0 fees=0 elapsed="994.022µs"
+INFO [12-17|00:09:07.793] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:09:11.199] Successfully sealed new block            number=7   sealhash=7d2db0..d355d6 hash=7f9d09..64878a elapsed=4.354s
+INFO [12-17|00:09:11.199] "🔨 mined potential block"                number=7   hash=7f9d09..64878a
+INFO [12-17|00:09:11.200] Commit new sealing work                  number=8   sealhash=e3a96a..a30d1d uncles=0 txs=0 gas=0 fees=0 elapsed="458.215µs"
+INFO [12-17|00:09:11.200] Commit new sealing work                  number=8   sealhash=e3a96a..a30d1d uncles=0 txs=0 gas=0 fees=0 elapsed="844.672µs"
+INFO [12-17|00:09:11.881] Successfully sealed new block            number=8   sealhash=e3a96a..a30d1d hash=031c7c..de735c elapsed=681.125ms
+INFO [12-17|00:09:11.881] "😱 block lost"                           number=1   hash=09f2b6..e6aab6
+INFO [12-17|00:09:11.882] "🔨 mined potential block"                number=8   hash=031c7c..de735c
+INFO [12-17|00:09:11.882] Commit new sealing work                  number=9   sealhash=4d3595..37efc0 uncles=0 txs=0 gas=0 fees=0 elapsed="526.714µs"
+INFO [12-17|00:09:11.883] Commit new sealing work                  number=9   sealhash=4d3595..37efc0 uncles=0 txs=0 gas=0 fees=0 elapsed=1.268ms
+INFO [12-17|00:09:15.013] Mining aborted due to sync 
+INFO [12-17|00:09:15.038] Syncing: state healing in progress       accounts=82@3.76KiB slots=0@0.00B codes=0@0.00B nodes=128@13.02KiB pending=1
+INFO [12-17|00:09:15.048] Syncing: state healing in progress       accounts=84@3.85KiB slots=0@0.00B codes=0@0.00B nodes=131@13.32KiB pending=0
+WARN [12-17|00:09:16.286] Invalid header encountered               number=365 hash=953729..ff9e6c parent=3cae63..d562ed err="block in the future"
+WARN [12-17|00:09:16.286] Rewinding blockchain to block            target=0
+INFO [12-17|00:09:16.291] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:09:16.292] Loaded last fast-sync pivot marker       number=330
+WARN [12-17|00:09:16.292] Rolled back chain segment                header=8->0   snap=8->0   block=8->0   reason="block in the future"
+WARN [12-17|00:09:16.292] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:09:16.293] Commit new sealing work                  number=1   sealhash=f8c3f3..4da585 uncles=0 txs=0 gas=0 fees=0 elapsed="428.104µs"
+INFO [12-17|00:09:16.293] Commit new sealing work                  number=1   sealhash=f8c3f3..4da585 uncles=0 txs=0 gas=0 fees=0 elapsed="981.355µs"
+INFO [12-17|00:09:26.293] Mining aborted due to sync 
+WARN [12-17|00:09:27.483] Invalid header encountered               number=367 hash=34f565..fcb557 parent=b0738e..3c460a err="block in the future"
+WARN [12-17|00:09:27.483] Rewinding blockchain to block            target=0
+INFO [12-17|00:09:27.484] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:09:27.484] Loaded last fast-sync pivot marker       number=330
+WARN [12-17|00:09:27.484] Rolled back chain segment                header=0->0   snap=0->0   block=0->0   reason="block in the future"
+WARN [12-17|00:09:27.485] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:09:27.486] Looking for peers                        peercount=2 tried=2 static=4
+INFO [12-17|00:09:27.497] Commit new sealing work                  number=1   sealhash=e25403..d41ae3 uncles=0 txs=0 gas=0 fees=0 elapsed=11.749ms
+INFO [12-17|00:09:27.497] Commit new sealing work                  number=1   sealhash=e25403..d41ae3 uncles=0 txs=0 gas=0 fees=0 elapsed=12.130ms
+INFO [12-17|00:09:27.498] Commit new sealing work                  number=1   sealhash=255a44..c0b8dc uncles=0 txs=0 gas=0 fees=0 elapsed="661.045µs"
+INFO [12-17|00:09:27.498] Commit new sealing work                  number=1   sealhash=255a44..c0b8dc uncles=0 txs=0 gas=0 fees=0 elapsed=1.096ms
+INFO [12-17|00:09:29.494] Successfully sealed new block            number=1   sealhash=255a44..c0b8dc hash=020d32..c415f3 elapsed=1.995s
+INFO [12-17|00:09:29.494] "🔨 mined potential block"                number=1   hash=020d32..c415f3
+INFO [12-17|00:09:29.495] Commit new sealing work                  number=2   sealhash=ff3eef..41ae25 uncles=0 txs=0 gas=0 fees=0 elapsed="624.583µs"
+INFO [12-17|00:09:29.495] Commit new sealing work                  number=2   sealhash=ff3eef..41ae25 uncles=0 txs=0 gas=0 fees=0 elapsed=1.219ms
+INFO [12-17|00:09:38.083] Successfully sealed new block            number=2   sealhash=ff3eef..41ae25 hash=3ca29e..f62d9d elapsed=8.588s
+INFO [12-17|00:09:38.084] "🔨 mined potential block"                number=2   hash=3ca29e..f62d9d
+INFO [12-17|00:09:38.085] Commit new sealing work                  number=3   sealhash=370991..9c78ad uncles=0 txs=0 gas=0 fees=0 elapsed="839.987µs"
+INFO [12-17|00:09:38.085] Commit new sealing work                  number=3   sealhash=370991..9c78ad uncles=0 txs=0 gas=0 fees=0 elapsed=1.606ms
+INFO [12-17|00:09:38.757] Commit new sealing work                  number=4   sealhash=761eba..22f70d uncles=0 txs=0 gas=0 fees=0 elapsed="534.288µs"
+INFO [12-17|00:09:38.756] Successfully sealed new block            number=3   sealhash=370991..9c78ad hash=eba6b8..d68c0e elapsed=671.898ms
+INFO [12-17|00:09:38.758] "🔨 mined potential block"                number=3   hash=eba6b8..d68c0e
+INFO [12-17|00:09:38.758] Commit new sealing work                  number=4   sealhash=761eba..22f70d uncles=0 txs=0 gas=0 fees=0 elapsed=1.282ms
+INFO [12-17|00:09:41.014] Successfully sealed new block            number=4   sealhash=761eba..22f70d hash=3576bb..1fa2b0 elapsed=2.256s
+INFO [12-17|00:09:41.014] "🔨 mined potential block"                number=4   hash=3576bb..1fa2b0
+INFO [12-17|00:09:41.016] Commit new sealing work                  number=5   sealhash=7e9d5a..09b799 uncles=0 txs=0 gas=0 fees=0 elapsed="810.117µs"
+INFO [12-17|00:09:41.016] Commit new sealing work                  number=5   sealhash=7e9d5a..09b799 uncles=0 txs=0 gas=0 fees=0 elapsed=1.701ms
+INFO [12-17|00:09:42.793] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:09:44.019] Commit new sealing work                  number=6   sealhash=33b187..959732 uncles=0 txs=0 gas=0 fees=0 elapsed="649.249µs"
+INFO [12-17|00:09:44.019] Commit new sealing work                  number=6   sealhash=33b187..959732 uncles=0 txs=0 gas=0 fees=0 elapsed=1.019ms
+INFO [12-17|00:09:44.018] Successfully sealed new block            number=5   sealhash=7e9d5a..09b799 hash=564c5e..137a5a elapsed=3.002s
+INFO [12-17|00:09:44.020] "🔨 mined potential block"                number=5   hash=564c5e..137a5a
+INFO [12-17|00:09:50.010] Mining aborted due to sync 
+INFO [12-17|00:09:50.031] Syncing: state healing in progress       accounts=84@3.85KiB slots=0@0.00B codes=0@0.00B nodes=131@13.32KiB pending=1
+INFO [12-17|00:09:50.052] Syncing: state healing in progress       accounts=86@3.95KiB slots=0@0.00B codes=0@0.00B nodes=134@13.63KiB pending=0
+WARN [12-17|00:09:51.751] Invalid header encountered               number=370 hash=7a4d14..467c18 parent=bdf8fe..60d456 err="block in the future"
+WARN [12-17|00:09:51.752] Rewinding blockchain to block            target=0
+INFO [12-17|00:09:51.762] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:09:51.762] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:09:51.762] Rolled back chain segment                header=5->0   snap=5->0   block=5->0   reason="block in the future"
+WARN [12-17|00:09:51.762] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:09:51.763] Commit new sealing work                  number=1   sealhash=fd73cd..ff5326 uncles=0 txs=0 gas=0 fees=0 elapsed="373.198µs"
+INFO [12-17|00:09:51.763] Commit new sealing work                  number=1   sealhash=fd73cd..ff5326 uncles=0 txs=0 gas=0 fees=0 elapsed="673.157µs"
+INFO [12-17|00:09:51.764] Commit new sealing work                  number=1   sealhash=a01b72..8aee99 uncles=0 txs=0 gas=0 fees=0 elapsed="460.03µs"
+INFO [12-17|00:09:51.764] Commit new sealing work                  number=1   sealhash=a01b72..8aee99 uncles=0 txs=0 gas=0 fees=0 elapsed="785.581µs"
+INFO [12-17|00:09:53.568] Successfully sealed new block            number=1   sealhash=a01b72..8aee99 hash=4f98b7..6feedf elapsed=1.804s
+INFO [12-17|00:09:53.568] "🔨 mined potential block"                number=1   hash=4f98b7..6feedf
+INFO [12-17|00:09:53.569] Commit new sealing work                  number=2   sealhash=0ac2e5..146ba1 uncles=0 txs=0 gas=0 fees=0 elapsed="621.768µs"
+INFO [12-17|00:09:53.570] Commit new sealing work                  number=2   sealhash=0ac2e5..146ba1 uncles=0 txs=0 gas=0 fees=0 elapsed=1.245ms
+INFO [12-17|00:10:01.764] Mining aborted due to sync 
+INFO [12-17|00:10:02.090] Successfully sealed new block            number=2   sealhash=0ac2e5..146ba1 hash=ef3443..6c32ca elapsed=8.521s
+INFO [12-17|00:10:02.091] "🔨 mined potential block"                number=2   hash=ef3443..6c32ca
+WARN [12-17|00:10:03.282] Invalid header encountered               number=375 hash=385216..43d3a1 parent=a05ceb..2c6b63 err="block in the future"
+WARN [12-17|00:10:03.283] Rewinding blockchain to block            target=0
+INFO [12-17|00:10:03.286] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:10:03.286] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:10:03.287] Rolled back chain segment                header=2->0   snap=2->0   block=2->0   reason="block in the future"
+WARN [12-17|00:10:03.288] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:10:03.289] Commit new sealing work                  number=1   sealhash=3d2cbe..92a4cc uncles=0 txs=0 gas=0 fees=0 elapsed="380.068µs"
+INFO [12-17|00:10:03.298] Looking for peers                        peercount=2 tried=2 static=4
+INFO [12-17|00:10:03.298] Commit new sealing work                  number=1   sealhash=3d2cbe..92a4cc uncles=0 txs=0 gas=0 fees=0 elapsed=9.738ms
+INFO [12-17|00:10:13.058] Successfully sealed new block            number=1   sealhash=3d2cbe..92a4cc hash=6d37a0..34ebff elapsed=9.769s
+INFO [12-17|00:10:13.059] "🔨 mined potential block"                number=1   hash=6d37a0..34ebff
+INFO [12-17|00:10:13.060] Commit new sealing work                  number=2   sealhash=7c3c21..f03d8c uncles=0 txs=0 gas=0 fees=0 elapsed="661.953µs"
+INFO [12-17|00:10:13.060] Commit new sealing work                  number=2   sealhash=7c3c21..f03d8c uncles=0 txs=0 gas=0 fees=0 elapsed=1.400ms
+INFO [12-17|00:10:17.794] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:10:25.011] Mining aborted due to sync 
+INFO [12-17|00:10:25.085] Syncing: chain download in progress      synced=0.30%   chain=18.00B headers=192@6.00B bodies=1@6.00B   receipts=1@6.00B   eta=133h32m44.029s
+INFO [12-17|00:10:25.756] Successfully sealed new block            number=2   sealhash=7c3c21..f03d8c hash=8136b9..00871c elapsed=12.696s
+INFO [12-17|00:10:25.756] "🔨 mined potential block"                number=2   hash=8136b9..00871c
+WARN [12-17|00:10:25.860] Invalid header encountered               number=379 hash=189071..135d91 parent=1d55f4..929235 err="block in the future"
+WARN [12-17|00:10:25.861] Rewinding blockchain to block            target=0
+INFO [12-17|00:10:25.961] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:10:25.962] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:10:25.963] Rolled back chain segment                header=2->0   snap=2->0   block=2->0   reason="block in the future"
+WARN [12-17|00:10:25.966] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:10:25.967] Commit new sealing work                  number=1   sealhash=95ab60..f3e2a3 uncles=0 txs=0 gas=0 fees=0 elapsed="611.787µs"
+INFO [12-17|00:10:25.968] Commit new sealing work                  number=1   sealhash=95ab60..f3e2a3 uncles=0 txs=0 gas=0 fees=0 elapsed=1.785ms
+INFO [12-17|00:10:34.171] Successfully sealed new block            number=1   sealhash=95ab60..f3e2a3 hash=4ba807..ed7344 elapsed=8.204s
+INFO [12-17|00:10:34.172] "🔨 mined potential block"                number=1   hash=4ba807..ed7344
+INFO [12-17|00:10:34.172] Commit new sealing work                  number=2   sealhash=b7abd9..24e200 uncles=0 txs=0 gas=0 fees=0 elapsed="578.213µs"
+INFO [12-17|00:10:34.173] Commit new sealing work                  number=2   sealhash=b7abd9..24e200 uncles=0 txs=0 gas=0 fees=0 elapsed="978.836µs"
+INFO [12-17|00:10:35.969] Mining aborted due to sync 
+INFO [12-17|00:10:36.048] Syncing: chain download in progress      synced=0.30%   chain=18.00B headers=192@6.00B bodies=1@6.00B   receipts=1@6.00B   eta=134h33m56.656s
+WARN [12-17|00:10:36.793] Invalid header encountered               number=382 hash=4c66b6..2908e4 parent=d0849b..2713d4 err="block in the future"
+WARN [12-17|00:10:36.793] Rewinding blockchain to block            target=0
+INFO [12-17|00:10:36.923] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:10:36.923] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:10:36.923] Rolled back chain segment                header=192->0 snap=192->0 block=1->0   reason="block in the future"
+WARN [12-17|00:10:36.924] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:10:36.925] Looking for peers                        peercount=3 tried=2 static=4
+INFO [12-17|00:10:36.925] Commit new sealing work                  number=1   sealhash=13045e..35e498 uncles=0 txs=0 gas=0 fees=0 elapsed="432.16µs"
+INFO [12-17|00:10:36.925] Commit new sealing work                  number=1   sealhash=13045e..35e498 uncles=0 txs=0 gas=0 fees=0 elapsed=1.039ms
+INFO [12-17|00:10:41.222] Successfully sealed new block            number=1   sealhash=13045e..35e498 hash=50c7c7..bfe8ed elapsed=4.297s
+INFO [12-17|00:10:41.222] "🔨 mined potential block"                number=1   hash=50c7c7..bfe8ed
+INFO [12-17|00:10:41.223] Commit new sealing work                  number=2   sealhash=b22135..fc99ce uncles=0 txs=0 gas=0 fees=0 elapsed="746.377µs"
+INFO [12-17|00:10:41.223] Commit new sealing work                  number=2   sealhash=b22135..fc99ce uncles=0 txs=0 gas=0 fees=0 elapsed=1.202ms
+INFO [12-17|00:10:51.071] Successfully sealed new block            number=2   sealhash=b22135..fc99ce hash=33e8bc..698e59 elapsed=9.848s
+INFO [12-17|00:10:51.071] "🔨 mined potential block"                number=2   hash=33e8bc..698e59
+INFO [12-17|00:10:51.073] Commit new sealing work                  number=3   sealhash=2ae7c6..70009c uncles=0 txs=0 gas=0 fees=0 elapsed="630.879µs"
+INFO [12-17|00:10:51.073] Commit new sealing work                  number=3   sealhash=2ae7c6..70009c uncles=0 txs=0 gas=0 fees=0 elapsed=1.253ms
+INFO [12-17|00:10:52.795] Looking for peers                        peercount=3 tried=0 static=4
+INFO [12-17|00:11:00.017] Mining aborted due to sync 
+WARN [12-17|00:11:01.598] Invalid header encountered               number=385 hash=44618c..cbade0 parent=e2c87e..46c6c3 err="block in the future"
+WARN [12-17|00:11:01.599] Rewinding blockchain to block            target=0
+INFO [12-17|00:11:01.600] Syncing: chain download in progress      synced=0.60%   chain=18.00B headers=365@6.00B bodies=2@6.00B   receipts=2@6.00B   eta=68h16m2.498s
+INFO [12-17|00:11:01.730] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:11:01.731] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:11:01.731] Rolled back chain segment                header=384->0 snap=2->0   block=2->0   reason="block in the future"
+WARN [12-17|00:11:01.734] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:11:01.735] Commit new sealing work                  number=1   sealhash=dca918..195f73 uncles=0 txs=0 gas=0 fees=0 elapsed="482.122µs"
+INFO [12-17|00:11:01.736] Commit new sealing work                  number=1   sealhash=dca918..195f73 uncles=0 txs=0 gas=0 fees=0 elapsed=1.251ms
+INFO [12-17|00:11:11.735] Mining aborted due to sync 
+INFO [12-17|00:11:13.192] Syncing: chain download in progress      synced=50.00%  chain=18.00B headers=384@6.00B bodies=168@6.00B receipts=168@6.00B eta=24m43.223s
+INFO [12-17|00:11:13.199] Rebuilding state snapshot 
+INFO [12-17|00:11:13.206] Committed new head block                 number=336 hash=340d17..5b8192
+INFO [12-17|00:11:13.207] Resuming state snapshot generation       root=4406aa..7028dc accounts=0          slots=0       storage=0.00B  dangling=0 elapsed=8.310ms
+INFO [12-17|00:11:13.209] Generated state snapshot                 accounts=2          slots=0       storage=96.00B dangling=0 elapsed=10.082ms
+WARN [12-17|00:11:13.209] Invalid header encountered               number=390 hash=2a7fa2..dc5fee parent=cd283d..bee1ae err="block in the future"
+INFO [12-17|00:11:13.360] Imported new chain segment               number=358 hash=838fec..05f61f blocks=22 txs=0 mgas=0.000 elapsed=153.007ms   mgasps=0.000 age=2m15s    dirty=10.23KiB
+WARN [12-17|00:11:13.375] Rewinding blockchain to block            target=0
+ERROR[12-17|00:11:13.517] Block found but no relative pending task number=1   sealhash=dca918..195f73 hash=2afcbd..029bfd
+INFO [12-17|00:11:13.602] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:11:13.602] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:11:13.603] Rolled back chain segment                header=384->0 snap=336->0 block=336->0 reason="block in the future"
+WARN [12-17|00:11:13.605] Failed to load old bad blocks            error="leveldb: not found"
+ERROR[12-17|00:11:13.605] 
+########## BAD BLOCK #########
+Block: 359 (0x0abe997aeca315b3c2fa0858e113c414c41a846d26f5186be44b49ccc9bc438e)
+Error: unknown ancestor
+Platform: geth (devel) go1.20.5 arm64 linux
+VCS: ea9e62ca-20230420
+Chain config: &params.ChainConfig{ChainID:4330, HomesteadBlock:0, DAOForkBlock:<nil>, DAOForkSupport:false, EIP150Block:0, EIP155Block:0, EIP158Block:0, ByzantiumBlock:0, ConstantinopleBlock:0, PetersburgBlock:0, IstanbulBlock:0, MuirGlacierBlock:<nil>, BerlinBlock:0, LondonBlock:<nil>, ArrowGlacierBlock:<nil>, GrayGlacierBlock:<nil>, MergeNetsplitBlock:<nil>, ShanghaiTime:(*uint64)(nil), CancunTime:(*uint64)(nil), PragueTime:(*uint64)(nil), TerminalTotalDifficulty:<nil>, TerminalTotalDifficultyPassed:false, Ethash:(*params.EthashConfig)(0x277f268), Clique:(*params.CliqueConfig)(nil)}
+Receipts: 
+##############################
+ 
+ERROR[12-17|00:11:13.606] Failed to retrieve beacon bounds for bad block reporting err="beacon sync not yet started"
+WARN [12-17|00:11:13.606] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:11:13.606] Commit new sealing work                  number=1   sealhash=703d74..791130 uncles=0 txs=0 gas=0 fees=0 elapsed="545.973µs"
+INFO [12-17|00:11:13.607] Commit new sealing work                  number=1   sealhash=703d74..791130 uncles=0 txs=0 gas=0 fees=0 elapsed=1.392ms
+INFO [12-17|00:11:13.608] Looking for peers                        peercount=3 tried=1 static=4
+INFO [12-17|00:11:14.520] Successfully sealed new block            number=1   sealhash=703d74..791130 hash=7af100..4154ec elapsed=913.658ms
+INFO [12-17|00:11:14.521] "🔨 mined potential block"                number=1   hash=7af100..4154ec
+INFO [12-17|00:11:14.521] Commit new sealing work                  number=2   sealhash=194524..f0491e uncles=0 txs=0 gas=0 fees=0 elapsed="789.321µs"
+INFO [12-17|00:11:14.522] Commit new sealing work                  number=2   sealhash=194524..f0491e uncles=0 txs=0 gas=0 fees=0 elapsed=1.476ms
+INFO [12-17|00:11:14.965] Commit new sealing work                  number=3   sealhash=ed6ad1..c3f445 uncles=0 txs=0 gas=0 fees=0 elapsed="561.473µs"
+INFO [12-17|00:11:14.965] Commit new sealing work                  number=3   sealhash=ed6ad1..c3f445 uncles=0 txs=0 gas=0 fees=0 elapsed="876.098µs"
+INFO [12-17|00:11:14.964] Successfully sealed new block            number=2   sealhash=194524..f0491e hash=af2c21..923ccc elapsed=443.201ms
+INFO [12-17|00:11:14.966] "🔨 mined potential block"                number=2   hash=af2c21..923ccc
+INFO [12-17|00:11:20.622] Successfully sealed new block            number=3   sealhash=ed6ad1..c3f445 hash=250eba..744ce5 elapsed=5.656s
+INFO [12-17|00:11:20.622] "🔨 mined potential block"                number=3   hash=250eba..744ce5
+INFO [12-17|00:11:20.623] Commit new sealing work                  number=4   sealhash=cce038..e4dc74 uncles=0 txs=0 gas=0 fees=0 elapsed="628.805µs"
+INFO [12-17|00:11:20.623] Commit new sealing work                  number=4   sealhash=cce038..e4dc74 uncles=0 txs=0 gas=0 fees=0 elapsed=1.063ms
+INFO [12-17|00:11:20.696] Commit new sealing work                  number=5   sealhash=ea35d5..4d0cb3 uncles=0 txs=0 gas=0 fees=0 elapsed="617.99µs"
+INFO [12-17|00:11:20.696] Commit new sealing work                  number=5   sealhash=ea35d5..4d0cb3 uncles=0 txs=0 gas=0 fees=0 elapsed=1.137ms
+INFO [12-17|00:11:20.695] Successfully sealed new block            number=4   sealhash=cce038..e4dc74 hash=6a5bcd..58e964 elapsed=71.668ms
+INFO [12-17|00:11:20.710] "🔨 mined potential block"                number=4   hash=6a5bcd..58e964
+INFO [12-17|00:11:24.555] Successfully sealed new block            number=5   sealhash=ea35d5..4d0cb3 hash=a61a82..6db30d elapsed=3.859s
+INFO [12-17|00:11:24.555] "🔨 mined potential block"                number=5   hash=a61a82..6db30d
+INFO [12-17|00:11:24.556] Commit new sealing work                  number=6   sealhash=00550d..b529d0 uncles=0 txs=0 gas=0 fees=0 elapsed="585.139µs"
+INFO [12-17|00:11:24.557] Commit new sealing work                  number=6   sealhash=00550d..b529d0 uncles=0 txs=0 gas=0 fees=0 elapsed=1.105ms
+INFO [12-17|00:11:24.923] Successfully sealed new block            number=6   sealhash=00550d..b529d0 hash=c572f4..ee599e elapsed=366.951ms
+INFO [12-17|00:11:24.923] "🔨 mined potential block"                number=6   hash=c572f4..ee599e
+INFO [12-17|00:11:24.924] Commit new sealing work                  number=7   sealhash=33c02c..a6658e uncles=0 txs=0 gas=0 fees=0 elapsed="449.4µs"
+INFO [12-17|00:11:24.924] Commit new sealing work                  number=7   sealhash=33c02c..a6658e uncles=0 txs=0 gas=0 fees=0 elapsed="994.78µs"
+INFO [12-17|00:11:28.224] Successfully sealed new block            number=7   sealhash=33c02c..a6658e hash=99aaae..1289c4 elapsed=3.300s
+INFO [12-17|00:11:28.225] "🔨 mined potential block"                number=7   hash=99aaae..1289c4
+INFO [12-17|00:11:28.225] Commit new sealing work                  number=8   sealhash=4eaa02..cbe82b uncles=0 txs=0 gas=0 fees=0 elapsed="399.179µs"
+INFO [12-17|00:11:28.225] Commit new sealing work                  number=8   sealhash=4eaa02..cbe82b uncles=0 txs=0 gas=0 fees=0 elapsed="751.784µs"
+INFO [12-17|00:11:29.827] Successfully sealed new block            number=8   sealhash=4eaa02..cbe82b hash=1f4d57..0a975e elapsed=1.602s
+INFO [12-17|00:11:29.827] "🔨 mined potential block"                number=8   hash=1f4d57..0a975e
+INFO [12-17|00:11:29.828] Commit new sealing work                  number=9   sealhash=409d18..1a4511 uncles=0 txs=0 gas=0 fees=0 elapsed="558.825µs"
+INFO [12-17|00:11:29.828] Commit new sealing work                  number=9   sealhash=409d18..1a4511 uncles=0 txs=0 gas=0 fees=0 elapsed=1.177ms
+INFO [12-17|00:11:31.053] Successfully sealed new block            number=9   sealhash=409d18..1a4511 hash=0de48f..64fe3f elapsed=1.225s
+INFO [12-17|00:11:31.066] "😱 block lost"                           number=2   hash=79c31f..3ab2dd
+INFO [12-17|00:11:31.067] "😱 block lost"                           number=1   hash=b4d122..e26fb9
+INFO [12-17|00:11:31.067] "😱 block lost"                           number=2   hash=68b9b1..ec7f32
+INFO [12-17|00:11:31.068] "🔨 mined potential block"                number=9   hash=0de48f..64fe3f
+INFO [12-17|00:11:31.069] Commit new sealing work                  number=10  sealhash=60ffff..900ef7 uncles=0 txs=0 gas=0 fees=0 elapsed=15.099ms
+INFO [12-17|00:11:31.070] Commit new sealing work                  number=10  sealhash=60ffff..900ef7 uncles=0 txs=0 gas=0 fees=0 elapsed=16.420ms
+INFO [12-17|00:11:33.262] Looking for peers                        peercount=2 tried=0 static=4
+INFO [12-17|00:11:33.723] Successfully sealed new block            number=10  sealhash=60ffff..900ef7 hash=584502..8c786c elapsed=2.668s
+INFO [12-17|00:11:33.724] "😱 block lost"                           number=3   hash=176007..92e342
+INFO [12-17|00:11:33.724] "🔨 mined potential block"                number=10  hash=584502..8c786c
+INFO [12-17|00:11:33.724] Commit new sealing work                  number=11  sealhash=a5f0a7..74995d uncles=0 txs=0 gas=0 fees=0 elapsed="740.748µs"
+INFO [12-17|00:11:33.725] Commit new sealing work                  number=11  sealhash=a5f0a7..74995d uncles=0 txs=0 gas=0 fees=0 elapsed=1.290ms
+INFO [12-17|00:11:35.012] Mining aborted due to sync 
+INFO [12-17|00:11:36.609] Syncing: chain download in progress      synced=2.98%   chain=18.00B headers=384@6.00B bodies=10@6.00B  receipts=10@6.00B  eta=13h38m36.475s
+WARN [12-17|00:11:36.669] Invalid header encountered               number=397 hash=8d7cbd..e6af05 parent=410487..eae79e err="block in the future"
+WARN [12-17|00:11:36.670] Rewinding blockchain to block            target=0
+INFO [12-17|00:11:36.950] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:11:36.951] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:11:36.953] Rolled back chain segment                header=384->0 snap=246->0 block=10->0  reason="block in the future"
+WARN [12-17|00:11:36.954] Synchronisation failed, retrying         err="containing header #336 [340d1700..] unknown"
+INFO [12-17|00:11:36.956] Commit new sealing work                  number=1   sealhash=318ae6..113483 uncles=0 txs=0 gas=0 fees=0 elapsed="615.231µs"
+INFO [12-17|00:11:36.966] Commit new sealing work                  number=1   sealhash=318ae6..113483 uncles=0 txs=0 gas=0 fees=0 elapsed=10.860ms
+INFO [12-17|00:11:39.302] Successfully sealed new block            number=1   sealhash=318ae6..113483 hash=fc02ca..32556d elapsed=2.346s
+INFO [12-17|00:11:39.302] "🔨 mined potential block"                number=1   hash=fc02ca..32556d
+INFO [12-17|00:11:39.303] Commit new sealing work                  number=2   sealhash=fbbd22..bffac1 uncles=0 txs=0 gas=0 fees=0 elapsed="535.566µs"
+INFO [12-17|00:11:39.304] Commit new sealing work                  number=2   sealhash=fbbd22..bffac1 uncles=0 txs=0 gas=0 fees=0 elapsed=1.301ms
+INFO [12-17|00:11:39.790] Successfully sealed new block            number=2   sealhash=fbbd22..bffac1 hash=ccf641..4d9be0 elapsed=486.917ms
+INFO [12-17|00:11:39.791] "🔨 mined potential block"                number=2   hash=ccf641..4d9be0
+INFO [12-17|00:11:39.792] Commit new sealing work                  number=3   sealhash=f6f2e8..b9fd13 uncles=0 txs=0 gas=0 fees=0 elapsed=1.478ms
+INFO [12-17|00:11:39.793] Commit new sealing work                  number=3   sealhash=f6f2e8..b9fd13 uncles=0 txs=0 gas=0 fees=0 elapsed=2.152ms
+INFO [12-17|00:11:41.394] Successfully sealed new block            number=3   sealhash=f6f2e8..b9fd13 hash=548351..f818c3 elapsed=1.603s
+INFO [12-17|00:11:41.394] "🔨 mined potential block"                number=3   hash=548351..f818c3
+INFO [12-17|00:11:41.395] Commit new sealing work                  number=4   sealhash=469183..258f2f uncles=0 txs=0 gas=0 fees=0 elapsed="902.356µs"
+INFO [12-17|00:11:41.396] Commit new sealing work                  number=4   sealhash=469183..258f2f uncles=0 txs=0 gas=0 fees=0 elapsed=1.501ms
+INFO [12-17|00:11:45.373] Successfully sealed new block            number=4   sealhash=469183..258f2f hash=4159ec..540bbf elapsed=3.977s
+INFO [12-17|00:11:45.373] "🔨 mined potential block"                number=4   hash=4159ec..540bbf
+INFO [12-17|00:11:45.375] Commit new sealing work                  number=5   sealhash=aac5ec..a36669 uncles=0 txs=0 gas=0 fees=0 elapsed="819.246µs"
+INFO [12-17|00:11:45.377] Commit new sealing work                  number=5   sealhash=aac5ec..a36669 uncles=0 txs=0 gas=0 fees=0 elapsed=3.054ms
+INFO [12-17|00:11:46.957] Mining aborted due to sync 
+INFO [12-17|00:11:47.025] Syncing: chain download in progress      synced=1.19%   chain=18.00B headers=192@6.00B bodies=4@6.00B   receipts=4@6.00B   eta=34h58m35.671s
+INFO [12-17|00:11:47.885] Rebuilding state snapshot 
+INFO [12-17|00:11:47.914] Committed new head block                 number=336 hash=340d17..5b8192
+INFO [12-17|00:11:47.916] Resuming state snapshot generation       root=4406aa..7028dc accounts=0          slots=0       storage=0.00B  dangling=0 elapsed=10.733ms
+INFO [12-17|00:11:47.917] Generated state snapshot                 accounts=2          slots=0       storage=96.00B dangling=0 elapsed=12.265ms
+WARN [12-17|00:11:47.976] Invalid header encountered               number=398 hash=dd0830..809e08 parent=8d7cbd..e6af05 err="block in the future"
+INFO [12-17|00:11:48.413] Imported new chain segment               number=384 hash=e2c87e..46c6c3 blocks=48 txs=0 mgas=0.000 elapsed=497.619ms   mgasps=0.000 dirty=21.99KiB
+WARN [12-17|00:11:48.414] Rewinding blockchain to block            target=0
+INFO [12-17|00:11:48.809] Loaded most recent local block           number=0   hash=15e889..fbdc3a td=30 age=54y8mo3w
+INFO [12-17|00:11:48.811] Loaded last fast-sync pivot marker       number=336
+WARN [12-17|00:11:48.812] Rolled back chain segment                header=384->0 snap=336->0 block=336->0 reason="block in the future"
+WARN [12-17|00:11:48.814] Synchronisation failed, dropping peer    peer=fb3438e0e200705691bcaaeabb84534fc65bceee3960e056e18b0a71a30dc94c err="retrieved hash chain is invalid: block in the future"
+INFO [12-17|00:11:48.815] Commit new sealing work                  number=1   sealhash=80da0b..141a86 uncles=0 txs=0 gas=0 fees=0 elapsed="742.322µs"
+INFO [12-17|00:11:48.816] Commit new sealing work                  number=1   sealhash=80da0b..141a86 uncles=0 txs=0 gas=0 fees=0 elapsed=1.865ms
+INFO [12-17|00:11:51.342] Successfully sealed new block            number=1   sealhash=80da0b..141a86 hash=d27989..a4310e elapsed=2.527s
+INFO [12-17|00:11:51.342] "🔨 mined potential block"                number=1   hash=d27989..a4310e
+INFO [12-17|00:11:51.344] Commit new sealing work                  number=2   sealhash=3214bf..0a0edf uncles=0 txs=0 gas=0 fees=0 elapsed=1.055ms
+INFO [12-17|00:11:51.345] Commit new sealing work                  number=2   sealhash=3214bf..0a0edf uncles=0 txs=0 gas=0 fees=0 elapsed=1.502ms
+INFO [12-17|00:11:58.820] Mining aborted due to sync 
+INFO [12-17|00:12:00.568] Syncing: chain download in progress      synced=0.30%   chain=18.00B headers=384@6.00B bodies=1@6.00B   receipts=1@6.00B   eta=142h25m50.755s
+INFO [12-17|00:12:00.618] Rebuilding state snapshot 
+INFO [12-17|00:12:00.620] Committed new head block                 number=336 hash=340d17..5b8192
+INFO [12-17|00:12:00.620] Resuming state snapshot generation       root=4406aa..7028dc accounts=0          slots=0       storage=0.00B  dangling=0 elapsed="811.154µs"
+INFO [12-17|00:12:00.621] Generated state snapshot                 accounts=2          slots=0       storage=96.00B dangling=0 elapsed=2.198ms
+INFO [12-17|00:12:00.668] Imported new chain segment               number=344 hash=48d2fd..fb4502 blocks=8  txs=0 mgas=0.000 elapsed=48.133ms    mgasps=0.000 age=3m24s    dirty=21.99KiB
+INFO [12-17|00:12:01.135] Imported new chain segment               number=384 hash=e2c87e..46c6c3 blocks=40 txs=0 mgas=0.000 elapsed=458.098ms   mgasps=0.000 dirty=21.99KiB
+INFO [12-17|00:12:01.258] Imported new chain segment               number=398 hash=dd0830..809e08 blocks=14 txs=0 mgas=0.000 elapsed=121.108ms   mgasps=0.000 dirty=28.20KiB
+INFO [12-17|00:12:01.936] Imported new chain segment               number=400 hash=92ba38..25ffd7 blocks=2  txs=0 mgas=0.000 elapsed=21.079ms    mgasps=0.000 dirty=29.09KiB
+INFO [12-17|00:12:01.937] Syncing: chain download in progress      synced=119.05% chain=18.00B headers=400@6.00B bodies=400@6.00B receipts=400@6.00B eta=-4m5.114s
+INFO [12-17|00:12:01.937] Snap sync complete, auto disabling 
+INFO [12-17|00:12:01.938] "😱 block lost"                           number=4   hash=0616dc..3f815e
+INFO [12-17|00:12:01.938] "😱 block lost"                           number=5   hash=9efeb3..25ebdd
+INFO [12-17|00:12:01.938] "😱 block lost"                           number=6   hash=348fc1..e63144
+INFO [12-17|00:12:01.939] "😱 block lost"                           number=1   hash=8bf8a6..9cf600
+INFO [12-17|00:12:01.939] "😱 block lost"                           number=2   hash=4e675d..80d61a
+INFO [12-17|00:12:01.939] "😱 block lost"                           number=3   hash=98c1e7..870417
+INFO [12-17|00:12:01.940] "😱 block lost"                           number=4   hash=e7da62..8dd55a
+INFO [12-17|00:12:01.940] "😱 block lost"                           number=5   hash=09a972..5cc88c
+INFO [12-17|00:12:01.940] "😱 block lost"                           number=1   hash=68c8c6..95731d
+INFO [12-17|00:12:01.941] "😱 block lost"                           number=2   hash=ad84e0..a4ab06
+INFO [12-17|00:12:01.941] "😱 block lost"                           number=3   hash=d5bbe8..b7fdd2
+INFO [12-17|00:12:01.941] "😱 block lost"                           number=4   hash=bdb271..42fff1
+INFO [12-17|00:12:01.941] "😱 block lost"                           number=5   hash=f5559c..316962
+INFO [12-17|00:12:01.942] "😱 block lost"                           number=6   hash=9d162f..d72256
+INFO [12-17|00:12:01.942] "😱 block lost"                           number=7   hash=06e484..735288
+INFO [12-17|00:12:01.942] "😱 block lost"                           number=1   hash=fdf7de..d8b35f
+INFO [12-17|00:12:01.943] "😱 block lost"                           number=2   hash=b2b134..ddc2ab
+INFO [12-17|00:12:01.943] "😱 block lost"                           number=3   hash=7c398c..bd6170
+INFO [12-17|00:12:01.943] "😱 block lost"                           number=4   hash=ada667..a1f35a
+INFO [12-17|00:12:01.944] "😱 block lost"                           number=5   hash=ba9368..f8a1b0
+INFO [12-17|00:12:01.944] "😱 block lost"                           number=6   hash=8f0650..80b0a8
+INFO [12-17|00:12:01.944] "😱 block lost"                           number=1   hash=ab9642..a85834
+INFO [12-17|00:12:01.944] "😱 block lost"                           number=2   hash=1dc0fd..bbf1c8
+INFO [12-17|00:12:01.944] "😱 block lost"                           number=3   hash=5082c6..425d41
+INFO [12-17|00:12:01.945] "😱 block lost"                           number=1   hash=bf6e52..f5ff79
+INFO [12-17|00:12:01.945] "😱 block lost"                           number=2   hash=408e30..03d653
+INFO [12-17|00:12:01.946] "😱 block lost"                           number=3   hash=03ddf8..22b60a
+INFO [12-17|00:12:01.946] "😱 block lost"                           number=4   hash=a270ca..590bec
+INFO [12-17|00:12:01.946] "😱 block lost"                           number=5   hash=540a3b..fab23a
+INFO [12-17|00:12:01.947] "😱 block lost"                           number=6   hash=fd5814..3a9ce6
+INFO [12-17|00:12:01.947] "😱 block lost"                           number=1   hash=04dc96..f0a340
+INFO [12-17|00:12:01.947] "😱 block lost"                           number=2   hash=377c26..530cfa
+INFO [12-17|00:12:01.948] "😱 block lost"                           number=3   hash=2cc74b..2229ae
+INFO [12-17|00:12:01.948] "😱 block lost"                           number=4   hash=f589c6..e54e34
+INFO [12-17|00:12:01.948] "😱 block lost"                           number=5   hash=733d6a..adc494
+INFO [12-17|00:12:01.948] "😱 block lost"                           number=6   hash=37c017..cc7902
+INFO [12-17|00:12:01.950] "😱 block lost"                           number=1   hash=666ee4..e90271
+INFO [12-17|00:12:01.950] "😱 block lost"                           number=2   hash=20d166..c5a8cb
+INFO [12-17|00:12:01.951] "😱 block lost"                           number=1   hash=363977..ba4349
+INFO [12-17|00:12:01.951] "😱 block lost"                           number=2   hash=8dd950..9b7084
+INFO [12-17|00:12:01.952] "😱 block lost"                           number=3   hash=191e40..501994
+INFO [12-17|00:12:01.952] "😱 block lost"                           number=4   hash=62a08c..541d76
+INFO [12-17|00:12:01.953] "😱 block lost"                           number=5   hash=d246f0..518288
+INFO [12-17|00:12:01.953] "😱 block lost"                           number=1   hash=0cb577..bbec10
+INFO [12-17|00:12:01.953] "😱 block lost"                           number=2   hash=9ccc56..b46ce7
+INFO [12-17|00:12:01.954] "😱 block lost"                           number=1   hash=c98993..74b913
+INFO [12-17|00:12:01.954] "😱 block lost"                           number=2   hash=52f0fe..f10fdd
+INFO [12-17|00:12:01.955] "😱 block lost"                           number=3   hash=ade0e3..635b31
+INFO [12-17|00:12:01.955] "😱 block lost"                           number=4   hash=b506c1..dcc941
+INFO [12-17|00:12:01.955] "😱 block lost"                           number=5   hash=d05f2b..fb4ea1
+INFO [12-17|00:12:01.956] "😱 block lost"                           number=6   hash=47e415..d5a3af
+INFO [12-17|00:12:01.956] "😱 block lost"                           number=1   hash=e3b982..1b107c
+INFO [12-17|00:12:01.956] "😱 block lost"                           number=2   hash=f6393d..94769a
+INFO [12-17|00:12:01.957] "😱 block lost"                           number=3   hash=0a0f21..11686b
+INFO [12-17|00:12:01.957] "😱 block lost"                           number=4   hash=7a1c7d..e7b239
+INFO [12-17|00:12:01.958] "😱 block lost"                           number=5   hash=2050a6..7856d4
+INFO [12-17|00:12:01.958] "😱 block lost"                           number=1   hash=905899..407ab0
+INFO [12-17|00:12:01.959] "😱 block lost"                           number=2   hash=4e99d0..9c9afb
+INFO [12-17|00:12:01.959] "😱 block lost"                           number=1   hash=de8c0e..0d7f6a
+INFO [12-17|00:12:01.960] "😱 block lost"                           number=2   hash=ffd668..3bf4ac
+INFO [12-17|00:12:01.960] "😱 block lost"                           number=1   hash=112f4a..3dd77c
+INFO [12-17|00:12:01.960] "😱 block lost"                           number=2   hash=c3de1d..efd7bd
+INFO [12-17|00:12:01.961] "😱 block lost"                           number=3   hash=b90ae1..aa070a
+INFO [12-17|00:12:01.961] "😱 block lost"                           number=4   hash=a9c856..3881b6
+INFO [12-17|00:12:01.962] "😱 block lost"                           number=5   hash=b15afc..824489
+INFO [12-17|00:12:01.962] "😱 block lost"                           number=6   hash=4f5947..963bd7
+INFO [12-17|00:12:01.962] "😱 block lost"                           number=1   hash=60d8fb..ae1f75
+INFO [12-17|00:12:01.963] "😱 block lost"                           number=2   hash=05f131..106e2b
+INFO [12-17|00:12:01.963] "😱 block lost"                           number=3   hash=9c5092..ba685a
+INFO [12-17|00:12:01.963] "😱 block lost"                           number=1   hash=a3faa0..0c755a
+INFO [12-17|00:12:01.964] "😱 block lost"                           number=1   hash=661de6..9023d6
+INFO [12-17|00:12:01.964] "😱 block lost"                           number=2   hash=430eef..2dc0bb
+INFO [12-17|00:12:01.964] "😱 block lost"                           number=3   hash=3dbc8b..f3141e
+INFO [12-17|00:12:01.964] "😱 block lost"                           number=4   hash=8a189d..b6a5ef
+INFO [12-17|00:12:01.965] "😱 block lost"                           number=5   hash=e3821b..8615a5
+INFO [12-17|00:12:01.965] "😱 block lost"                           number=6   hash=9c5a72..694828
+INFO [12-17|00:12:01.965] "😱 block lost"                           number=7   hash=7f9d09..64878a
+INFO [12-17|00:12:01.966] "😱 block lost"                           number=8   hash=031c7c..de735c
+INFO [12-17|00:12:01.966] "😱 block lost"                           number=1   hash=020d32..c415f3
+INFO [12-17|00:12:01.966] "😱 block lost"                           number=2   hash=3ca29e..f62d9d
+INFO [12-17|00:12:01.967] "😱 block lost"                           number=3   hash=eba6b8..d68c0e
+INFO [12-17|00:12:01.967] "😱 block lost"                           number=4   hash=3576bb..1fa2b0
+INFO [12-17|00:12:01.967] "😱 block lost"                           number=5   hash=564c5e..137a5a
+INFO [12-17|00:12:01.967] "😱 block lost"                           number=1   hash=4f98b7..6feedf
+INFO [12-17|00:12:01.968] "😱 block lost"                           number=2   hash=ef3443..6c32ca
+INFO [12-17|00:12:01.968] "😱 block lost"                           number=1   hash=6d37a0..34ebff
+INFO [12-17|00:12:01.969] "😱 block lost"                           number=2   hash=8136b9..00871c
+INFO [12-17|00:12:01.969] "😱 block lost"                           number=1   hash=4ba807..ed7344
+INFO [12-17|00:12:01.969] "😱 block lost"                           number=1   hash=50c7c7..bfe8ed
+INFO [12-17|00:12:01.976] "😱 block lost"                           number=2   hash=33e8bc..698e59
+INFO [12-17|00:12:01.976] "😱 block lost"                           number=1   hash=7af100..4154ec
+INFO [12-17|00:12:01.977] "😱 block lost"                           number=2   hash=af2c21..923ccc
+INFO [12-17|00:12:01.977] "😱 block lost"                           number=3   hash=250eba..744ce5
+INFO [12-17|00:12:01.977] "😱 block lost"                           number=4   hash=6a5bcd..58e964
+INFO [12-17|00:12:01.978] "😱 block lost"                           number=5   hash=a61a82..6db30d
+INFO [12-17|00:12:01.978] "😱 block lost"                           number=6   hash=c572f4..ee599e
+INFO [12-17|00:12:01.979] "😱 block lost"                           number=7   hash=99aaae..1289c4
+INFO [12-17|00:12:01.979] "😱 block lost"                           number=8   hash=1f4d57..0a975e
+INFO [12-17|00:12:01.980] "😱 block lost"                           number=9   hash=0de48f..64fe3f
+INFO [12-17|00:12:01.980] "😱 block lost"                           number=10  hash=584502..8c786c
+INFO [12-17|00:12:01.980] "😱 block lost"                           number=1   hash=fc02ca..32556d
+INFO [12-17|00:12:01.981] "😱 block lost"                           number=2   hash=ccf641..4d9be0
+INFO [12-17|00:12:01.982] "😱 block lost"                           number=3   hash=548351..f818c3
+INFO [12-17|00:12:01.982] "😱 block lost"                           number=4   hash=4159ec..540bbf
+INFO [12-17|00:12:01.983] "😱 block lost"                           number=1   hash=d27989..a4310e
+INFO [12-17|00:12:01.983] Commit new sealing work                  number=401 sealhash=7faf5d..737ca2 uncles=0 txs=0 gas=0 fees=0 elapsed=46.229ms
+INFO [12-17|00:12:01.984] Commit new sealing work                  number=401 sealhash=390c84..5b1300 uncles=0 txs=0 gas=0 fees=0 elapsed=1.288ms
+INFO [12-17|00:12:01.985] Commit new sealing work                  number=401 sealhash=390c84..5b1300 uncles=0 txs=0 gas=0 fees=0 elapsed=2.185ms
+INFO [12-17|00:12:03.342] Looking for peers                        peercount=2 tried=1 static=4
+INFO [12-17|00:12:13.372] Looking for peers                        peercount=3 tried=2 static=4

@@ -1,0 +1,9 @@
+[
+  {
+    "block_number": 42,
+    "block_id": "0x4a1fe5ccaeb3f6276681fb9a0b36c5a1ef41740e2e178949872f715b1ed5b544",
+    "block_timestamp": "2023-12-13 18:50:39",
+    "miner_id": "0x87270CE1598e289DaBfB574E146174467562F147",
+    "block_parentHash": "0xb5e38f8743dcda5ad94b62be869e78e900cdeab176abf8aa22b0b80104d207a8"
+  }
+]
